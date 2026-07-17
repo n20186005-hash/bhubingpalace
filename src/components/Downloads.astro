@@ -1,0 +1,26 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const dl = messages.downloads;
+---
+
+{dl && (
+  <section id="downloads" class="section-padding" style="background: var(--bg-tertiary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-10">
+        <h2 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{dl.title}</h2>
+      </div>
+
+      <div class="grid sm:grid-cols-3 gap-4">
+        {dl.items.map((it: any) => (
+          <a href={it.url || '#'} class="group block rounded-2xl p-6 border relative overflow-hidden transition-all hover:-translate-y-1 hover:shadow-lg" style="background: var(--card-bg); border-color: var(--border-color);">
+            <div class="absolute inset-x-0 top-0 h-1 transition-all group-hover:h-2" style="background: color-mix(in srgb, var(--accent) 70%, transparent);"></div>
+            <div class="text-4xl mb-4 opacity-80 group-hover:opacity-100 transition-opacity" aria-hidden="true">{it.icon}</div>
+            <h3 class="font-semibold text-lg mb-2 leading-snug group-hover:text-[var(--accent)] transition-colors" style="color: var(--text-primary);">{it.name}</h3>
+            <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{it.desc}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

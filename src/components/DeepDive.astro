@@ -1,0 +1,121 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const edu = messages.education;
+const eduPoints = edu.points ?? [];
+const plantGuide = messages.plantGuide;
+const plantCompare = plantGuide?.comparison ?? [];
+const plantSeasons = plantGuide?.seasons ?? [];
+const aud = messages.audience;
+const audItems = aud.items ?? [];
+---
+
+<section id="deep-dive" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{edu.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{edu.subtitle}</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-16">
+      {eduPoints.map((p) => (
+        <div class="rounded-2xl p-6 border h-full" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+          <h3 class="font-semibold text-lg mb-3" style="color: var(--accent);">{p.title}</h3>
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{p.text}</p>
+          {p.items && (
+            <ul class="mt-4 space-y-2 text-sm" style="color: var(--text-secondary);">
+              {p.items.map((item) => (
+                <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{item}</span></li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+
+    {plantGuide && (
+      <div class="mb-16">
+        <div class="max-w-3xl mx-auto text-center mb-10">
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{plantGuide.title}</h2>
+          <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{plantGuide.subtitle}</p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-6 mb-8">
+          {plantCompare.map((item) => (
+            <article class="rounded-3xl p-6 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+              <div class="flex items-center gap-3 mb-4">
+                {item.icon && <span class="text-2xl" aria-hidden="true">{item.icon}</span>}
+                <div>
+                  <p class="text-xs uppercase tracking-[0.18em]" style="color: var(--text-muted);">{item.badge}</p>
+                  <h3 class="font-semibold text-xl" style="color: var(--text-primary);">{item.name}</h3>
+                </div>
+              </div>
+              <p class="text-sm leading-relaxed mb-3" style="color: var(--text-secondary);">{item.summary}</p>
+              <ul class="space-y-2 text-sm" style="color: var(--text-secondary);">
+                {item.points.map((point) => (
+                  <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{point}</span></li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
+
+        <div class="rounded-3xl p-6 md:p-8 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+          <h3 class="font-semibold text-2xl mb-2" style="color: var(--text-primary);">{plantGuide.seasonTitle}</h3>
+          <p class="text-base leading-relaxed mb-6" style="color: var(--text-secondary);">{plantGuide.seasonSubtitle}</p>
+          <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {plantSeasons.map((season) => (
+              <article class="rounded-2xl p-5 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+                <div class="flex items-center gap-3 mb-3">
+                  {season.icon && <span class="text-2xl" aria-hidden="true">{season.icon}</span>}
+                  <div>
+                    <p class="text-xs uppercase tracking-[0.18em]" style="color: var(--text-muted);">{season.badge}</p>
+                    <h4 class="font-semibold text-lg" style="color: var(--text-primary);">{season.name}</h4>
+                  </div>
+                </div>
+                <p class="text-sm leading-relaxed mb-3" style="color: var(--text-secondary);">{season.summary}</p>
+                <ul class="space-y-2 text-sm" style="color: var(--text-secondary);">
+                  {season.highlights.map((highlight) => (
+                    <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{highlight}</span></li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </div>
+      </div>
+    )}
+
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{aud.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{aud.subtitle}</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-5">
+      {audItems.map((item) => (
+        <div class="rounded-2xl p-6 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-2xl" aria-hidden="true">{item.icon}</span>
+            <h3 class="font-semibold text-lg" style="color: var(--text-primary);">{item.group}</h3>
+          </div>
+          <p class="text-sm leading-relaxed mb-3" style="color: var(--text-secondary);"><span class="font-medium" style="color: var(--text-primary);">{aud.resonanceLabel}</span>{item.resonance}</p>
+          {item.routeTitle ? (
+            <div class="space-y-3">
+              <p class="text-sm leading-relaxed" style="color: var(--text-secondary);"><span class="font-medium" style="color: var(--text-primary);">{aud.routeLabel}</span>{item.routeTitle}</p>
+              {item.stops && (
+                <ul class="space-y-2 text-sm" style="color: var(--text-secondary);">
+                  {item.stops.map((stop) => (
+                    <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{stop}</span></li>
+                  ))}
+                </ul>
+              )}
+              <p class="text-sm leading-relaxed" style="color: var(--text-secondary);"><span class="font-medium" style="color: var(--text-primary);">{aud.tipLabel}</span>{item.tip}</p>
+            </div>
+          ) : (
+            <p class="text-sm leading-relaxed" style="color: var(--text-secondary);"><span class="font-medium" style="color: var(--text-primary);">{aud.tipLabel}</span>{item.tip}</p>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

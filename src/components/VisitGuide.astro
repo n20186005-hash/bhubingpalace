@@ -1,0 +1,26 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const guide = messages.intro.visitGuide;
+---
+
+<section class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="rounded-3xl p-6 md:p-8 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <div class="grid lg:grid-cols-[0.7fr_1.3fr] gap-8 items-start">
+        <div>
+          <p class="text-xs uppercase tracking-[0.2em] mb-3" style="color: var(--text-muted);">{guide.eyebrow}</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4" style="color: var(--text-primary);">{guide.title}</h2>
+          <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{guide.description}</p>
+        </div>
+        <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <ul class="space-y-4 text-base" style="color: var(--text-secondary);">
+            {guide.items.map((item) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">✓</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+---
+import { getI18n } from '../i18n/ui';
+const { lang, messages } = getI18n(Astro.url);
+const b = messages.breadcrumb;
+---
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <div class="max-w-6xl mx-auto px-4">
+    <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href={`/${lang}`} itemprop="item"><span itemprop="name">{b.home}</span></a>
+        <meta itemprop="position" content="1" />
+      </li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href={`/${lang}#overview`} itemprop="item"><span itemprop="name">{b.region}</span></a>
+        <meta itemprop="position" content="2" />
+      </li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href={`/${lang}#transport`} itemprop="item"><span itemprop="name">{b.city}</span></a>
+        <meta itemprop="position" content="3" />
+      </li>
+      <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{b.current}</span>
+        <meta itemprop="position" content="4" />
+      </li>
+    </ol>
+  </div>
+</nav>

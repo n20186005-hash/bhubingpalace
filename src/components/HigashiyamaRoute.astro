@@ -1,0 +1,43 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const rt = messages.higashiyamaRoute;
+const steps = rt.steps ?? [];
+---
+
+<section id="route" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{rt.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{rt.subtitle}</p>
+    </div>
+
+    <div class="max-w-4xl mx-auto rounded-3xl p-6 md:p-8 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <ol class="space-y-5">
+        {steps.map((s, i) => (
+          <li class="flex gap-4 items-start">
+            <div class="shrink-0 w-10 h-10 rounded-2xl flex items-center justify-center text-sm font-semibold" style="background: var(--accent); color: #fff;">
+              {String(i + 1).padStart(2, '0')}
+            </div>
+            <div class="min-w-0">
+              <p class="font-semibold text-lg leading-snug" style="color: var(--text-primary);">{s.title}</p>
+              {s.meta && <p class="text-xs uppercase tracking-[0.18em] mt-1" style="color: var(--text-muted);">{s.meta}</p>}
+              {s.text && <p class="text-base leading-relaxed mt-2" style="color: var(--text-secondary);">{s.text}</p>}
+              {s.tips && (
+                <ul class="mt-3 space-y-2 text-sm" style="color: var(--text-secondary);">
+                  {s.tips.map((t) => (
+                    <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{t}</span></li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    {rt.disclaimer && (
+      <p class="max-w-4xl mx-auto mt-6 text-xs leading-relaxed" style="color: var(--text-muted);">{rt.disclaimer}</p>
+    )}
+  </div>
+</section>

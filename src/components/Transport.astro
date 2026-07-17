@@ -1,0 +1,137 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const section = messages.transportSection;
+---
+
+<section id="transport" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{section.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{section.subtitle}</p>
+    </div>
+
+    <!-- Overview + Quick facts -->
+    <div class="rounded-2xl p-6 md:p-8 border mb-8" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <div class="grid lg:grid-cols-[1.25fr_0.75fr] gap-6 items-start">
+        <div>
+          <h3 class="font-semibold text-xl mb-3" style="color: var(--text-primary);">{section.overviewTitle}</h3>
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{section.overviewText}</p>
+          <p class="text-base leading-relaxed mt-3" style="color: var(--text-secondary);">{section.overviewText2}</p>
+        </div>
+        <div class="rounded-2xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h3 class="font-semibold mb-3" style="color: var(--text-primary);">{section.arrivalTitle}</h3>
+          <ul class="space-y-3 text-sm" style="color: var(--text-secondary);">
+            {section.arrivalItems.map((item) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode cards -->
+    <div class="grid md:grid-cols-2 gap-6">
+      {section.modes.map((mode, index) => (
+        <article class="rounded-2xl p-6 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-xl font-semibold" style="background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent);">
+              {mode.icon ?? String(index + 1).padStart(2, '0')}
+            </div>
+            <div>
+              <p class="text-xs uppercase tracking-[0.18em]" style="color: var(--text-muted);">{mode.label}</p>
+              <h3 class="font-semibold text-xl" style="color: var(--text-primary);">{mode.title}</h3>
+            </div>
+          </div>
+          <p class="text-base leading-relaxed mb-4" style="color: var(--text-secondary);">{mode.description}</p>
+          <ul class="space-y-3 text-sm" style="color: var(--text-secondary);">
+            {mode.details.map((detail) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">-</span><span>{detail}</span></li>
+            ))}
+          </ul>
+          {mode.steps && mode.steps.length > 0 && (
+            <ol class="mt-4 space-y-2 text-sm" style="color: var(--text-secondary); counter-reset: step;">
+              {mode.steps.map((step) => (
+                <li class="flex gap-3"><span class="shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs font-semibold" style="background: var(--accent); color: #fff;">{step.n}</span><span>{step.t}</span></li>
+              ))}
+            </ol>
+          )}
+        </article>
+      ))}
+    </div>
+
+    <!-- Parking table (driver & guide) -->
+    {section.parking && (
+      <div class="mt-10 rounded-2xl p-6 md:p-8 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <h3 class="font-semibold text-xl mb-1" style="color: var(--text-primary);">{section.parking.title}</h3>
+        <p class="text-sm mb-5" style="color: var(--text-secondary);">{section.parking.note}</p>
+        <div class="overflow-x-auto -mx-2 px-2">
+          <table class="w-full text-sm border-collapse" style="color: var(--text-secondary);">
+            <thead>
+              <tr style="border-bottom: 1px solid var(--border-color);">
+                <th class="text-left py-3 pr-4 font-semibold" style="color: var(--text-primary);">{section.parking.colOption}</th>
+                <th class="text-left py-3 px-4 font-semibold" style="color: var(--text-primary);">{section.parking.colDistance}</th>
+                <th class="text-left py-3 pl-4 font-semibold" style="color: var(--text-primary);">{section.parking.colPrice}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {section.parking.options.map((opt) => (
+                <tr style="border-bottom: 1px solid var(--border-color);">
+                  <td class="py-3 pr-4">{opt.name}</td>
+                  <td class="py-3 px-4">{opt.distance}</td>
+                  <td class="py-3 pl-4">{opt.price}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs mt-4" style="color: var(--text-muted);">{section.parking.disclaimer}</p>
+      </div>
+    )}
+
+    <!-- Local tips + CTA -->
+    <div class="grid lg:grid-cols-[1fr_auto] gap-6 items-center mt-10 rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <div>
+        <h3 class="font-semibold text-xl mb-3" style="color: var(--text-primary);">{section.localTipsTitle}</h3>
+        <ul class="space-y-3 text-base" style="color: var(--text-secondary);">
+          {section.localTips.map((item) => (
+            <li class="flex gap-3"><span style="color: var(--accent);">✓</span><span>{item}</span></li>
+          ))}
+        </ul>
+      </div>
+      <div class="text-left lg:text-right">
+        <a href={section.mapsUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">
+          {section.mapsCta}
+        </a>
+      </div>
+    </div>
+
+    <!-- Best time to arrive -->
+    <div class="mt-8 rounded-2xl p-6 md:p-8 border flex flex-col sm:flex-row gap-5 items-start" style="background: color-mix(in srgb, var(--accent) 12%, transparent); border-color: color-mix(in srgb, var(--accent) 35%, transparent);">
+      <div class="shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl" style="background: var(--accent); color:#fff;" aria-hidden="true">⏰</div>
+      <div>
+        <h3 class="font-semibold text-xl mb-2" style="color: var(--text-primary);">{section.bestTime.title}</h3>
+        <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{section.bestTime.text}</p>
+      </div>
+    </div>
+
+    {section.driverFaq && section.driverFaq.length > 0 && (
+      <div class="mt-8 rounded-2xl p-6 md:p-8 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <h3 class="font-semibold text-xl mb-5" style="color: var(--text-primary);">{section.driverFaqTitle}</h3>
+        <div class="space-y-3">
+          {section.driverFaq.map((item) => (
+            <details class="group rounded-2xl border overflow-hidden" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+              <summary class="flex items-start justify-between gap-4 cursor-pointer list-none p-5 font-semibold" style="color: var(--text-primary);">
+                <span>{item.q}</span>
+                <span class="shrink-0 text-xl transition-transform group-open:rotate-180" style="color: var(--accent);" aria-hidden="true">⌄</span>
+              </summary>
+              <div class="px-5 pb-5">
+                <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{item.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</section>

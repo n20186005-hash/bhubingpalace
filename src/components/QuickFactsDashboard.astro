@@ -1,0 +1,65 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const q = messages.quickFactsDashboard;
+const items = q.items ?? [];
+const arch = q.architectureCard;
+---
+
+<section id="quick-facts" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{q.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{q.subtitle}</p>
+    </div>
+
+    {arch && (
+      <div class="mb-8 rounded-3xl p-6 sm:p-8 border relative overflow-hidden" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <div class="absolute top-0 left-0 w-full h-1" style="background: var(--accent);"></div>
+        <h3 class="text-xl font-semibold mb-6" style="color: var(--text-primary);">{arch.title}</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 divide-y sm:divide-y-0 sm:divide-x" style="border-color: var(--border-color);">
+          <div class="pt-4 sm:pt-0 sm:px-6 first:pl-0 flex flex-col justify-center">
+            <p class="text-4xl font-bold font-display mb-1" style="color: var(--text-primary);">{arch.height}</p>
+            <p class="text-sm" style="color: var(--text-secondary);">{arch.heightLabel}</p>
+          </div>
+          <div class="pt-4 sm:pt-0 sm:px-6 flex flex-col justify-center">
+            <p class="text-4xl font-bold font-display mb-1" style="color: var(--text-primary);">{arch.shape}</p>
+            <p class="text-sm" style="color: var(--text-secondary);">{arch.shapeLabel}</p>
+          </div>
+          <div class="pt-4 sm:pt-0 sm:px-6 flex flex-col justify-center">
+            <p class="text-4xl font-bold font-display mb-1" style="color: var(--text-primary);">{arch.gold}</p>
+            <p class="text-sm" style="color: var(--text-secondary);">{arch.goldLabel}</p>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {items.map((it) => (
+        <div class="rounded-3xl p-6 border h-full overflow-hidden relative group hover:shadow-lg transition-shadow" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="absolute inset-x-0 top-0 h-1 transition-all group-hover:h-2" style="background: color-mix(in srgb, var(--accent) 70%, transparent);"></div>
+          
+          <!-- Decorative Background SVG -->
+          <div class="absolute bottom-0 right-0 left-0 h-24 opacity-10 pointer-events-none" aria-hidden="true">
+            <svg viewBox="0 0 400 100" preserveAspectRatio="none" class="w-full h-full text-[var(--accent)]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M0,50 Q100,0 200,50 T400,50" />
+            </svg>
+          </div>
+
+          <div class="flex items-start justify-between gap-4 mb-4 relative z-10">
+            <div>
+              <p class="text-xs uppercase tracking-[0.18em] mb-2" style="color: var(--text-muted);">{it.label}</p>
+              <p class="text-3xl sm:text-4xl font-semibold leading-none tracking-tight" style="color: var(--text-primary);">{it.value}</p>
+            </div>
+            {it.icon && (
+              <div class="w-12 h-12 rounded-full flex items-center justify-center shrink-0" style="background: color-mix(in srgb, var(--accent) 15%, transparent);">
+                <span class="text-2xl opacity-90" aria-hidden="true">{it.icon}</span>
+              </div>
+            )}
+          </div>
+          {it.note && <p class="text-sm leading-relaxed relative z-10" style="color: var(--text-secondary);">{it.note}</p>}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

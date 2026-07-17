@@ -1,0 +1,24 @@
+# Build artifacts and local dependencies
+.astro
+dist
+.next
+out
+coverage
+node_modules
+
+# Local environment and editor files
+.env*.local
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+*.log
+
+# One-off QA, migration, and cleanup files that should not be uploaded
+check-website.js
+check-website.ps1
+check-report.txt
+update*.js
+update*.txt
+rename_*.js
+rename_*.txt

@@ -1,0 +1,83 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const l = messages.lodging;
+const options = l.options ?? [];
+---
+
+<section id="lodging" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{l.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{l.subtitle}</p>
+    </div>
+
+    <h3 class="font-semibold text-xl mb-5 text-center" style="color: var(--text-primary);">{l.scenarioTitle}</h3>
+    <div class="grid lg:grid-cols-2 gap-6 mb-10">
+      {options.map((v) => (
+        <article class="rounded-3xl p-7 md:p-9 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shrink-0" style="background: color-mix(in srgb, var(--accent) 14%, transparent);">
+              {v.icon}
+            </div>
+            <div>
+              <p class="text-xs uppercase tracking-[0.18em]" style="color: var(--text-muted);">{v.role}</p>
+              <h3 class="font-display text-xl font-semibold" style="color: var(--text-primary);">{v.name}</h3>
+            </div>
+          </div>
+          <p class="text-base leading-relaxed mb-5" style="color: var(--text-secondary);">{v.highlight}</p>
+          
+          {(v.noiseIndex !== undefined || v.trafficIndex !== undefined) && (
+            <div class="mb-5 grid grid-cols-2 gap-4 border-y py-4" style="border-color: var(--border-color);">
+              {v.noiseIndex !== undefined && (
+                <div>
+                  <div class="text-xs mb-1" style="color: var(--text-muted);">{l.noiseIndexLabel || 'Noise'}</div>
+                  <div class="flex gap-1">
+                    {[1,2,3,4,5].map(i => (
+                      <div class={`h-1.5 flex-1 rounded-full ${i <= v.noiseIndex ? 'bg-[var(--accent)] opacity-80' : 'bg-gray-200 dark:bg-gray-700'}`}></div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {v.trafficIndex !== undefined && (
+                <div>
+                  <div class="text-xs mb-1" style="color: var(--text-muted);">{l.trafficIndexLabel || 'Traffic'}</div>
+                  <div class="flex gap-1">
+                    {[1,2,3,4,5].map(i => (
+                      <div class={`h-1.5 flex-1 rounded-full ${i <= v.trafficIndex ? 'bg-[var(--accent)] opacity-80' : 'bg-gray-200 dark:bg-gray-700'}`}></div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {v.commute && (
+            <p class="text-sm leading-relaxed mb-5 px-4 py-3 rounded-xl border-l-4" style="background: color-mix(in srgb, var(--accent) 9%, transparent); border-color: var(--accent); color: var(--text-secondary);">
+              {v.commute}
+            </p>
+          )}
+          <ul class="space-y-3 text-sm mt-auto" style="color: var(--text-secondary);">
+            {v.points.map((point) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">✦</span><span>{point}</span></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+
+    <div class="rounded-2xl p-6 md:p-8 border mb-8" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <h3 class="font-semibold text-xl mb-2" style="color: var(--accent);">{l.peakTitle}</h3>
+      <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{l.peak}</p>
+    </div>
+
+    <div class="rounded-2xl p-6 md:p-8 border" style="background: color-mix(in srgb, var(--accent) 12%, transparent); border-color: color-mix(in srgb, var(--accent) 35%, transparent);">
+      <h3 class="font-semibold text-xl mb-3" style="color: var(--text-primary);">{l.tipsTitle}</h3>
+      <ul class="space-y-3 text-base" style="color: var(--text-secondary);">
+        {l.tips.map((item) => (
+          <li class="flex gap-3"><span style="color: var(--accent);">✓</span><span>{item}</span></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

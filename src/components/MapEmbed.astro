@@ -1,0 +1,42 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const m = messages.mapSection;
+const embedUrl = 'https://www.google.com/maps?q=Bhubing%20Palace%20Chiang%20Mai&output=embed';
+---
+
+<section id="map" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{m.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-8" style="color: var(--text-secondary);">{m.subtitle}</p>
+
+    <div class="map-container overflow-hidden border" style="border-color: var(--map-border);">
+      <iframe
+        src={embedUrl}
+        class="w-full h-[320px] sm:h-[420px]"
+        width="100%"
+        height="420"
+        style="border:0;"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title={m.title}
+      ></iframe>
+    </div>
+
+    <div class="text-center mt-8 flex flex-wrap justify-center gap-3">
+      <a href={m.mapsUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">
+        📍 {m.openMaps}
+      </a>
+      {m.naverUrl && (
+        <a href={m.naverUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: #03C75A;">
+          📍 {m.openNaver}
+        </a>
+      )}
+      {m.kakaoUrl && (
+        <a href={m.kakaoUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-[#3a1d1d]" style="background: #FEE500;">
+          📍 {m.openKakao}
+        </a>
+      )}
+    </div>
+  </div>
+</section>

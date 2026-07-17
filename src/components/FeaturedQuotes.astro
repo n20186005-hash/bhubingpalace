@@ -1,0 +1,60 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const reviews = messages.reviews;
+const featured = reviews.featured ?? [];
+const bg = '/gallery/bhubing-palace-2.jpg';
+---
+
+{featured.length > 0 && (
+  <section class="section-padding relative overflow-hidden" style="background: linear-gradient(rgba(15,32,21,0.74), rgba(15,32,21,0.74)), url('{bg}'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p class="text-xs uppercase tracking-[0.24em] mb-8 text-white/70">{reviews.featuredTitle}</p>
+
+      <div class="relative min-h-[10rem]">
+        {featured.map((item, i) => (
+          <blockquote
+            class="quote-slide absolute inset-0 flex flex-col items-center justify-center transition-opacity duration-700"
+            style={`opacity: ${i === 0 ? '1' : '0'}; pointer-events: ${i === 0 ? 'auto' : 'none'};`}
+            data-quote-index={i}
+          >
+            <p class="font-display text-2xl sm:text-3xl font-medium leading-relaxed text-white max-w-3xl">“{item.text}”</p>
+            <footer class="mt-6 text-sm text-white/75">{item.source}</footer>
+          </blockquote>
+        ))}
+      </div>
+
+      <div class="mt-8 flex items-center justify-center gap-2" data-quote-dots>
+        {featured.map((_, i) => (
+          <button type="button" class="w-2.5 h-2.5 rounded-full transition" data-quote-dot={i} aria-label={`Quote ${i + 1}`} style={`background: ${i === 0 ? '#fff' : 'rgba(255,255,255,0.4)'};`}></button>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<script is:inline>
+  (function () {
+    var slides = Array.from(document.querySelectorAll('[data-quote-index]'));
+    var dots = Array.from(document.querySelectorAll('[data-quote-dot]'));
+    if (slides.length <= 1) return;
+    var current = 0;
+    var timer;
+    function show(next) {
+      slides[current].style.opacity = '0';
+      slides[current].style.pointerEvents = 'none';
+      dots[current].style.background = 'rgba(255,255,255,0.4)';
+      current = next;
+      slides[current].style.opacity = '1';
+      slides[current].style.pointerEvents = 'auto';
+      dots[current].style.background = '#fff';
+    }
+    function next() { show((current + 1) % slides.length); }
+    function start() { timer = setInterval(next, 5000); }
+    function stop() { clearInterval(timer); }
+    dots.forEach(function (d, i) {
+      d.addEventListener('click', function () { stop(); show(i); start(); });
+    });
+    start();
+  })();
+</script>

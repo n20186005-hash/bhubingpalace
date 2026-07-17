@@ -1,0 +1,45 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const faq = messages.faq;
+const categories = faq.categories;
+const amenities = faq.amenities?.items ?? [];
+---
+
+<section id="faq" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{faq.title}</h2>
+    <p class="text-center text-lg mb-10" style="color: var(--text-secondary);">{faq.subtitle}</p>
+
+    {amenities.length > 0 && (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        {amenities.map((a) => (
+          <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center">
+            <div class="text-3xl mb-2" aria-hidden="true">{a.icon}</div>
+            <div class="text-xs uppercase tracking-wide mb-1" style="color: var(--text-secondary);">{a.label}</div>
+            <div class="text-sm font-semibold" style="color: var(--text-primary);">{a.value}</div>
+          </div>
+        ))}
+      </div>
+    )}
+
+    <div class="space-y-10">
+      {categories.map((cat) => (
+        <div>
+          <h3 class="font-display text-xl font-semibold mb-4 pb-2 border-b border-white/10" style="color: var(--accent);">{cat.title}</h3>
+          <div class="space-y-3">
+            {cat.items.map((item) => (
+              <details class="group bg-white/5 rounded-xl border border-white/10 overflow-hidden">
+                <summary class="flex items-start justify-between gap-4 cursor-pointer list-none p-4 font-medium" style="color: var(--text-primary);">
+                  <span>{item.q}</span>
+                  <span class="shrink-0 text-xl transition-transform group-open:rotate-180" style="color: var(--accent);" aria-hidden="true">⌄</span>
+                </summary>
+                <p class="px-4 pb-4 text-base leading-relaxed" style="color: var(--text-secondary);">{item.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

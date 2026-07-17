@@ -1,0 +1,90 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const g = messages.gallery;
+const totalImages = 22;
+const images = Array.from({ length: totalImages }, (_, i) => {
+  const n = String(i + 1);
+  return `/gallery/bhubing-palace-${n}.jpg`;
+});
+const photoAlts = g.photoAlts ?? images.map(() => g.photoAlt);
+---
+
+<section id="gallery" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{g.title}</h2>
+    <p class="text-center text-lg mb-10" style="color: var(--text-secondary);">{g.subtitle}</p>
+
+    <div class="gallery-grid" id="gallery-grid">
+      {images.map((src, index) => (
+        <button type="button" class="gallery-item" data-index={index} aria-label={photoAlts[index] ?? g.photoAlt}>
+          <img src={src} alt={photoAlts[index] ?? g.photoAlt} loading="lazy" />
+        </button>
+      ))}
+    </div>
+
+    <div class="text-center mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+      <a href={g.mapsUrl} target="_blank" rel="noopener noreferrer" class="btn-cta btn-cta-primary">
+        📍 {g.viewAll}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+  <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous">‹</button>
+  <figure class="lightbox-figure">
+    <img id="lightbox-img" src="" alt="" />
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next">›</button>
+</div>
+
+<script is:inline>
+  (function () {
+    var grid = document.getElementById('gallery-grid');
+    var box = document.getElementById('lightbox');
+    var img = document.getElementById('lightbox-img');
+    var cap = document.getElementById('lightbox-caption');
+    if (!grid || !box) return;
+    var items = Array.from(grid.querySelectorAll('.gallery-item'));
+    var current = 0;
+
+    function show(i) {
+      current = (i + items.length) % items.length;
+      var el = items[current];
+      var src = el.querySelector('img').getAttribute('src');
+      var alt = el.querySelector('img').getAttribute('alt');
+      img.setAttribute('src', src);
+      img.setAttribute('alt', alt);
+      cap.textContent = alt;
+    }
+    function open(i) {
+      show(i);
+      box.classList.add('is-open');
+      box.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function close() {
+      box.classList.remove('is-open');
+      box.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    items.forEach(function (el, i) {
+      el.addEventListener('click', function () { open(i); });
+    });
+    document.getElementById('lightbox-close').addEventListener('click', close);
+    document.getElementById('lightbox-prev').addEventListener('click', function () { show(current - 1); });
+    document.getElementById('lightbox-next').addEventListener('click', function () { show(current + 1); });
+    box.addEventListener('click', function (e) { if (e.target === box) close(); });
+    document.addEventListener('keydown', function (e) {
+      if (!box.classList.contains('is-open')) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowLeft') show(current - 1);
+      else if (e.key === 'ArrowRight') show(current + 1);
+    });
+  })();
+</script>

@@ -1,0 +1,35 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const intro = messages.intro;
+const om = messages.officialManagement;
+---
+
+<section id="about" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid lg:grid-cols-[1.2fr_0.8fr] gap-12 items-start">
+      <div>
+        <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-5" style="color: var(--text-primary);">{intro.title}</h2>
+        <p class="text-lg leading-relaxed mb-8" style="color: var(--text-secondary);">{intro.description}</p>
+
+        {om.title && (
+          <div class="rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+            <h3 class="font-semibold mb-3" style="color: var(--text-primary);">{om.title}</h3>
+            <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{om.text}</p>
+          </div>
+        )}
+      </div>
+
+      <div class="space-y-6">
+        <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h3 class="font-semibold mb-4" style="color: var(--text-primary);">{intro.alsoKnownAs.title}</h3>
+          <ul class="space-y-3 text-base" style="color: var(--text-secondary);">
+            {intro.alsoKnownAs.items.map((item) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">✦</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

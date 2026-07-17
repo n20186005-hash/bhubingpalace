@@ -1,0 +1,135 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const t = messages.knowledge;
+const sections = t.sections;
+const dyk = t.didYouKnow;
+const { embedded = false } = Astro.props;
+---
+
+{embedded ? (
+  <div>
+    <div class="space-y-12">
+      {sections.map((section, index) => (
+        <div class={`flex flex-col md:flex-row gap-6 items-start ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
+          <div class="flex-1 w-full bg-white/5 p-8 rounded-2xl border border-white/10 shadow-sm">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg" style="background: var(--accent); color: white;">
+                {index + 1}
+              </div>
+              <h3 class="font-display text-2xl font-semibold" style="color: var(--text-primary);">{section.title}</h3>
+            </div>
+            <div class="ml-14 mt-4">
+              <p class="text-lg leading-relaxed" style="color: var(--text-secondary);">{section.content}</p>
+
+              {section.cards && section.cards.length > 0 && (
+                <div class="mt-6 space-y-6">
+                  <div class="grid gap-4 md:grid-cols-3">
+                    {section.cards.map((card: any) => (
+                      <article class="rounded-2xl p-5 border h-full bg-white shadow-sm" style="border-color: var(--border-color);">
+                        <h4 class="font-semibold text-lg mb-3" style="color: var(--text-primary);">{card.title}</h4>
+                        <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{card.text}</p>
+                      </article>
+                    ))}
+                  </div>
+
+                  {(section.fieldNote || section.academicNote) && (
+                    <div class="grid gap-4 md:grid-cols-2">
+                      {section.fieldNote && (
+                        <div class="rounded-2xl p-5 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+                          <h4 class="font-semibold text-base mb-2" style="color: var(--text-primary);">{section.fieldNote.title}</h4>
+                          <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{section.fieldNote.text}</p>
+                        </div>
+                      )}
+                      {section.academicNote && (
+                        <div class="rounded-2xl p-5 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+                          <h4 class="font-semibold text-base mb-2" style="color: var(--text-primary);">{section.academicNote.title}</h4>
+                          <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{section.academicNote.text}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {dyk && (
+      <div class="mt-12 rounded-2xl p-7 border flex gap-4 items-start" style="background: color-mix(in srgb, var(--accent) 10%, transparent); border-color: color-mix(in srgb, var(--accent) 30%, transparent);">
+        <span class="text-2xl" aria-hidden="true">💡</span>
+        <div>
+          <h3 class="font-semibold text-lg mb-2" style="color: var(--accent);">{dyk.title}</h3>
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{dyk.text}</p>
+        </div>
+      </div>
+    )}
+  </div>
+) : (
+  <section id="history" class="section-padding" style="background: var(--bg-primary);">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-6 text-center" style="color: var(--text-primary);">{t.title}</h2>
+      <div class="w-12 h-0.5 mb-12 mx-auto" style="background: var(--accent);"></div>
+
+      <div class="space-y-12">
+        {sections.map((section, index) => (
+          <div class={`flex flex-col md:flex-row gap-6 items-start ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
+            <div class="flex-1 w-full bg-white/5 p-8 rounded-2xl border border-white/10 shadow-sm">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg" style="background: var(--accent); color: white;">
+                  {index + 1}
+                </div>
+                <h3 class="font-display text-2xl font-semibold" style="color: var(--text-primary);">{section.title}</h3>
+              </div>
+              <div class="ml-14">
+                <p class="text-lg leading-relaxed" style="color: var(--text-secondary);">{section.content}</p>
+
+                {section.cards && section.cards.length > 0 && (
+                  <div class="mt-6 space-y-6">
+                    <div class="grid gap-4 md:grid-cols-3">
+                      {section.cards.map((card) => (
+                        <article class="rounded-2xl p-5 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+                          <h4 class="font-semibold text-lg mb-3" style="color: var(--text-primary);">{card.title}</h4>
+                          <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{card.text}</p>
+                        </article>
+                      ))}
+                    </div>
+
+                    {(section.fieldNote || section.academicNote) && (
+                      <div class="grid gap-4 md:grid-cols-2">
+                        {section.fieldNote && (
+                          <div class="rounded-2xl p-5 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+                            <h4 class="font-semibold text-base mb-2" style="color: var(--text-primary);">{section.fieldNote.title}</h4>
+                            <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{section.fieldNote.text}</p>
+                          </div>
+                        )}
+                        {section.academicNote && (
+                          <div class="rounded-2xl p-5 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+                            <h4 class="font-semibold text-base mb-2" style="color: var(--text-primary);">{section.academicNote.title}</h4>
+                            <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{section.academicNote.text}</p>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {dyk && (
+        <div class="mt-12 rounded-2xl p-7 border flex gap-4 items-start" style="background: color-mix(in srgb, var(--accent) 10%, transparent); border-color: color-mix(in srgb, var(--accent) 30%, transparent);">
+          <span class="text-2xl" aria-hidden="true">💡</span>
+          <div>
+            <h3 class="font-semibold text-lg mb-2" style="color: var(--accent);">{dyk.title}</h3>
+            <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{dyk.text}</p>
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+)}

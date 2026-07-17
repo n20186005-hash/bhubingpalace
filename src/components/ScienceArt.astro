@@ -1,0 +1,85 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.scienceArt;
+const venues = [s.scienceMuseum, s.artMuseum];
+const { embedded = false } = Astro.props;
+---
+
+{embedded ? (
+  <div id="science-art">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h3 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h3>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-8">
+      {venues.map((v, index) => (
+        <article class="rounded-3xl p-7 md:p-9 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-xl font-semibold" style="background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent);">
+              {index === 0 ? '🛕' : '📜'}
+            </div>
+            <div>
+              <p class="text-xs uppercase tracking-[0.18em]" style="color: var(--text-muted);">{v.role}</p>
+              <h4 class="font-display text-2xl font-semibold" style="color: var(--text-primary);">{v.name}</h4>
+            </div>
+          </div>
+
+          <p class="text-base leading-relaxed mb-5" style="color: var(--text-secondary);">{v.highlight}</p>
+
+          <ul class="space-y-3 text-sm mb-7" style="color: var(--text-secondary);">
+            {v.points.map((point) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">✦</span><span>{point}</span></li>
+            ))}
+          </ul>
+
+          <div class="mt-auto">
+            <a href={v.ctaUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-5 py-2.5 rounded-full font-semibold text-sm" style="background: var(--accent); color: #fff;">
+              {v.ctaLabel}
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+) : (
+  <section id="science-art" class="section-padding" style="background: var(--bg-primary);">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-12">
+        <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h2>
+        <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8">
+        {venues.map((v, index) => (
+          <article class="rounded-3xl p-7 md:p-9 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+            <div class="flex items-center gap-4 mb-5">
+              <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-xl font-semibold" style="background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent);">
+                {index === 0 ? '🛕' : '📜'}
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.18em]" style="color: var(--text-muted);">{v.role}</p>
+                <h3 class="font-display text-2xl font-semibold" style="color: var(--text-primary);">{v.name}</h3>
+              </div>
+            </div>
+
+            <p class="text-base leading-relaxed mb-5" style="color: var(--text-secondary);">{v.highlight}</p>
+
+            <ul class="space-y-3 text-sm mb-7" style="color: var(--text-secondary);">
+              {v.points.map((point) => (
+                <li class="flex gap-3"><span style="color: var(--accent);">✦</span><span>{point}</span></li>
+              ))}
+            </ul>
+
+            <div class="mt-auto">
+              <a href={v.ctaUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-5 py-2.5 rounded-full font-semibold text-sm" style="background: var(--accent); color: #fff;">
+                {v.ctaLabel}
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

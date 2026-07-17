@@ -1,0 +1,124 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages, lang } = getI18n(Astro.url);
+const sp = messages.sitePlaques;
+const items = sp.items ?? [];
+const { embedded = false } = Astro.props;
+---
+
+<style>
+  .flip-card {
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+  }
+  .flip-card.is-flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  .flip-card-front {
+    z-index: 2;
+  }
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+</style>
+
+{embedded ? (
+  <div id="plaques">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h3 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{sp.title}</h3>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{sp.subtitle}</p>
+      <p class="text-sm mt-3" style="color: var(--text-tertiary);">{sp.intro}</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-6">
+      {items.map((it) => (
+        <div class="flip-card min-h-[280px]" onclick="this.classList.toggle('is-flipped')">
+          <div class="flip-card-inner shadow-sm hover:shadow-md transition-shadow rounded-2xl">
+            <!-- Front: Korean Plaque Visual -->
+            <article class="flip-card-front p-6 sm:p-8 border flex flex-col justify-center items-center text-center" style="background: var(--bg-primary); border-color: var(--border-color);">
+              <span class="absolute top-2.5 right-3 text-[10px] tracking-[0.22em] uppercase opacity-30" aria-hidden="true">PLAQUE</span>
+              <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-4" style="background: var(--accent); color: #fff;">{it.badge}</span>
+              <h4 class="font-semibold text-2xl mb-2" style="color: var(--text-primary);">{lang === 'my' ? it.myTitle : it.title}</h4>
+              <p class="text-sm" style="color: var(--text-tertiary);">{lang === 'my' ? it.myTitleZh : ''}</p>
+              <div class="absolute bottom-6 flex items-center gap-4 text-[11px] opacity-50 uppercase tracking-widest">
+                <div class="flex items-center gap-1" title="现场原图对照">
+                  <span>📷</span> 现场原图对照
+                </div>
+                <div class="flex items-center gap-1">
+                  <span>🔄</span> Click to translate
+                </div>
+              </div>
+            </article>
+
+            <!-- Back: Chinese Translation & Explanation -->
+            <article class="flip-card-back p-6 sm:p-8 border overflow-y-auto" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+              <h4 class="font-semibold text-lg mb-3" style="color: var(--text-primary);">{it.title}</h4>
+              {it.location && (
+                <p class="inline-flex items-center gap-1.5 text-xs mb-3 px-3 py-1.5 rounded-full" style="background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--text-secondary);">
+                  📍 <span><span class="opacity-60">{sp.locationLabel} · </span>{it.location}</span>
+                </p>
+              )}
+              <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{it.body}</p>
+            </article>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+) : (
+  <section id="plaques" class="section-padding" style="background: var(--bg-secondary);">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center mb-10">
+        <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{sp.title}</h2>
+        <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{sp.subtitle}</p>
+        <p class="text-sm mt-3" style="color: var(--text-tertiary);">{sp.intro}</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6">
+      {items.map((it) => (
+        <div class="flip-card min-h-[280px]" onclick="this.classList.toggle('is-flipped')">
+          <div class="flip-card-inner shadow-sm hover:shadow-md transition-shadow rounded-2xl">
+            <article class="flip-card-front p-6 sm:p-8 border flex flex-col justify-center items-center text-center" style="background: var(--bg-primary); border-color: var(--border-color);">
+              <span class="absolute top-2.5 right-3 text-[10px] tracking-[0.22em] uppercase opacity-30" aria-hidden="true">PLAQUE</span>
+              <span class="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-4" style="background: var(--accent); color: #fff;">{it.badge}</span>
+              <h4 class="font-semibold text-2xl mb-2" style="color: var(--text-primary);">{lang === 'my' ? it.myTitle : it.title}</h4>
+              <p class="text-sm" style="color: var(--text-tertiary);">{lang === 'my' ? it.myTitleZh : ''}</p>
+              <div class="absolute bottom-6 flex items-center gap-4 text-[11px] opacity-50 uppercase tracking-widest">
+                <div class="flex items-center gap-1" title="现场原图对照">
+                  <span>📷</span> 现场原图对照
+                </div>
+                <div class="flex items-center gap-1">
+                  <span>🔄</span> Click to translate
+                </div>
+              </div>
+            </article>
+
+            <article class="flip-card-back p-6 sm:p-8 border overflow-y-auto" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+              <h4 class="font-semibold text-lg mb-3" style="color: var(--text-primary);">{it.title}</h4>
+              {it.location && (
+                <p class="inline-flex items-center gap-1.5 text-xs mb-3 px-3 py-1.5 rounded-full" style="background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--text-secondary);">
+                  📍 <span><span class="opacity-60">{sp.locationLabel} · </span>{it.location}</span>
+                </p>
+              )}
+              <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{it.body}</p>
+            </article>
+          </div>
+        </div>
+      ))}
+      </div>
+    </div>
+  </section>
+)}

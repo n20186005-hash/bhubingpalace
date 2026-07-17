@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getI18n, languagesList } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return languagesList.map((lang) => ({ params: { lang } }));
+}
+
+const { messages } = getI18n(Astro.url);
+const tm = messages.terms;
+const homeHref = `/${getI18n(Astro.url).lang}`;
+---
+
+<BaseLayout title={tm.title} description={tm.title} path="terms-of-service">
+  <section class="section-padding" style="background: var(--bg-secondary);">
+    <div class="max-w-3xl mx-auto px-4">
+      <a href={homeHref} class="text-sm hover:opacity-70" style="color: var(--accent);">← {messages.header.backToHome}</a>
+      <h1 class="font-display text-3xl sm:text-4xl font-semibold mt-4 mb-2" style="color: var(--text-primary);">{tm.title}</h1>
+      <p class="text-sm mb-10" style="color: var(--text-muted);">{tm.lastUpdated}</p>
+      <div class="space-y-8">
+        {tm.sections.map((s) => (
+          <div>
+            <h2 class="font-display text-xl sm:text-2xl font-semibold mb-3" style="color: var(--text-primary);">{s.heading}</h2>
+            <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.content}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

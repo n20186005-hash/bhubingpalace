@@ -1,0 +1,36 @@
+---
+import { getI18n } from '../i18n/ui';
+const { lang, messages } = getI18n(Astro.url);
+const n = messages.stickyNav;
+const h = messages.header;
+const items = [
+  { label: n.facts, href: '#quick-facts' },
+  { label: h.history, href: '#history' },
+  { label: n.transport, href: '#transport' },
+  { label: n.route, href: '#route' },
+  { label: n.visit, href: '#visit' },
+  { label: n.faq, href: '#faq' },
+];
+---
+
+<div class="section-nav" id="section-nav" aria-label="Section navigation">
+  <div class="max-w-6xl mx-auto px-4 flex items-center gap-1 overflow-x-auto">
+    <span class="shrink-0 text-sm font-semibold mr-1" style="color: var(--text-primary);" aria-hidden="true">🛕</span>
+    {items.map((it) => (
+      <a href={`/${lang}${it.href}`} class="section-nav-link">{it.label}</a>
+    ))}
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var nav = document.getElementById('section-nav');
+    if (!nav) return;
+    function onScroll() {
+      if (window.scrollY > 480) nav.classList.add('is-visible');
+      else nav.classList.remove('is-visible');
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+</script>

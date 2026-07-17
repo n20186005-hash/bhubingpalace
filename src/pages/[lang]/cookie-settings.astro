@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getI18n, languagesList } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return languagesList.map((lang) => ({ params: { lang } }));
+}
+
+const { messages } = getI18n(Astro.url);
+const c = messages.cookieSettings;
+const homeHref = `/${getI18n(Astro.url).lang}`;
+
+const toggles = [
+  { id: 'essential', title: c.essential.title, desc: c.essential.description, badge: c.essential.badge, locked: true },
+  { id: 'analytics', title: c.analytics.title, desc: c.analytics.description, locked: false },
+  { id: 'marketing', title: c.marketing.title, desc: c.marketing.description, locked: false },
+];
+---
+
+<BaseLayout title={c.title} description={c.description} path="cookie-settings">
+  <section class="section-padding" style="background: var(--bg-secondary);">
+    <div class="max-w-3xl mx-auto px-4">
+      <a href={homeHref} class="text-sm hover:opacity-70" style="color: var(--accent);">← {messages.header.backToHome}</a>
+      <h1 class="font-display text-3xl sm:text-4xl font-semibold mt-4 mb-2" style="color: var(--text-primary);">{c.title}</h1>
+      <p class="text-base mb-10" style="color: var(--text-secondary);">{c.description}</p>
+
+      <div class="space-y-4">
+        {toggles.map((t) => (
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 rounded-xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color);">
+            <div class="min-w-0">
+              <div class="font-semibold" style="color: var(--text-primary);">
+                {t.title}
+                {t.badge && <span class="ml-2 text-xs px-2 py-0.5 rounded-full" style="background: var(--tag-bg); color: var(--tag-text);">{t.badge}</span>}
+              </div>
+              <div class="text-sm mt-1" style="color: var(--text-secondary);">{t.desc}</div>
+            </div>
+            <button type="button" class={`cookie-toggle ${t.locked ? 'active' : ''}`} data-locked={t.locked ? '1' : '0'} aria-label={t.title}></button>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+        <button type="button" id="save-cookies" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">{c.save}</button>
+        <span id="saved-msg" class="text-sm hidden" style="color: var(--accent);">{c.saved}</span>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    var toggles = document.querySelectorAll('.cookie-toggle');
+    toggles.forEach(function (el) {
+      if (el.getAttribute('data-locked') === '1') return;
+      el.addEventListener('click', function () { el.classList.toggle('active'); });
+    });
+    var save = document.getElementById('save-cookies');
+    var msg = document.getElementById('saved-msg');
+    if (save && msg) {
+      save.addEventListener('click', function () { msg.classList.remove('hidden'); });
+    }
+  })();
+</script>

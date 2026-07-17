@@ -1,0 +1,53 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const m = messages.outdoorMuseum;
+const items = m.items ?? [];
+---
+
+<section id="outdoor-museum" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{m.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{m.subtitle}</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {items.map((item) => (
+        <article class="rounded-2xl p-6 md:p-7 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-start gap-4 mb-4">
+            <div class="w-12 h-12 shrink-0 rounded-2xl flex items-center justify-center text-2xl" style="background: color-mix(in srgb, var(--accent) 14%, transparent);">
+              {item.icon}
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center justify-between gap-3 flex-wrap">
+                <h3 class="font-display text-xl font-semibold" style="color: var(--text-primary);">{item.name}</h3>
+                {item.badge && (
+                  <span class="inline-flex items-baseline gap-1 px-3 py-1 rounded-full text-xs font-semibold" style="background: var(--accent); color: #fff;">
+                    <span class="text-sm">{item.badge.value}</span>
+                    <span class="opacity-90">{item.badge.label}</span>
+                  </span>
+                )}
+              </div>
+              <p class="text-xs uppercase tracking-[0.14em] mt-1" style="color: var(--text-muted);">📍 {item.location}</p>
+            </div>
+          </div>
+
+          <p class="text-base leading-relaxed mb-4" style="color: var(--text-secondary);">{item.background}</p>
+          
+          {item.historicalLight && (
+            <div class="mb-5 p-4 rounded-xl text-sm leading-relaxed" style="background: color-mix(in srgb, var(--accent) 8%, transparent); border-left: 3px solid var(--accent); color: var(--text-secondary);">
+              {item.historicalLight}
+            </div>
+          )}
+
+          <ul class="space-y-2.5 text-sm mt-auto" style="color: var(--text-secondary);">
+            {item.points.map((point) => (
+              <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{point}</span></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

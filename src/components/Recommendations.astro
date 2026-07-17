@@ -1,0 +1,35 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const rec = messages.recommendations;
+---
+
+<section class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-10 text-center" style="color: var(--text-primary);">{rec.title}</h2>
+
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <h3 class="font-semibold mb-5 flex items-center gap-2" style="color: var(--accent);">📌 {rec.attractionsTitle}</h3>
+        <div class="space-y-3">
+          {rec.attractions.map((a) => (
+            <a href={a.url} target="_blank" rel="noopener noreferrer" class="block rounded-xl p-4 border hover:shadow-md transition" style="background: var(--card-bg); border-color: var(--border-color); color: var(--text-primary);">
+              {a.name} <span style="color: var(--accent);">↗</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-5 flex items-center gap-2" style="color: var(--accent);">🎟️ {rec.toursTitle}</h3>
+        <div class="space-y-3">
+          {rec.tours.map((a) => (
+            <a href={a.url} target="_blank" rel="noopener noreferrer" class="block rounded-xl p-4 border hover:shadow-md transition" style="background: var(--card-bg); border-color: var(--border-color); color: var(--text-primary);">
+              {a.name} <span style="color: var(--accent);">↗</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

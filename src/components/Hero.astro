@@ -1,0 +1,312 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const h = messages.hero;
+const facts = h.quickFacts ?? [];
+const factsSource = h.factsSource ?? {};
+const live = h.liveInfo ?? {};
+const planner = h.sunsetPlanner ?? {};
+---
+
+<section id="overview" class="relative min-h-[84vh] sm:min-h-[90vh] flex items-center justify-center text-center overflow-hidden">
+  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.62)), url('/gallery/bhubing-palace-1.jpg'); background-size: cover; background-position: center;`}></div>
+  <div class="relative z-10 px-4 sm:px-6 py-16 sm:py-20 max-w-4xl w-full animate-fade-in-up">
+    <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-5 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
+      ⭐ {h.rating} · {h.reviewCount}
+    </span>
+
+    <p class="text-xl sm:text-2xl text-yellow-400/90 mb-2 font-medium tracking-wide drop-shadow-sm" style="font-family: 'Padauk', sans-serif;">
+      ဘူဘင်းနန်းတော် - ချီယန်မိုင် တောင်တန်းပေါ်ရှိ တော်ဝင် နန်းတော်
+    </p>
+    <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4">
+      {h.title}
+    </h1>
+
+    <p class="text-sm sm:text-lg text-white/90 mb-7 max-w-2xl mx-auto leading-relaxed">
+      {h.subtitle}
+    </p>
+
+    <!-- Key facts as icon cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl mx-auto mb-6">
+      {facts.map((f) => (
+        <div class="hero-fact">
+          <span class="hero-fact-icon" aria-hidden="true">{f.icon}</span>
+          <span class="hero-fact-label">{f.label}</span>
+          <span class="hero-fact-value">{f.value}</span>
+        </div>
+      ))}
+    </div>
+
+    {factsSource.url && (
+      <p class="mt-3 text-xs text-white/70">
+        🔗 <a href={factsSource.url} target="_blank" rel="noopener noreferrer" class="underline decoration-white/40 underline-offset-2 hover:text-white">{factsSource.label}</a>
+      </p>
+    )}
+
+    <!-- Live data widget -->
+    <div class="flex justify-center mb-6">
+      <div class="inline-flex items-center gap-4 px-5 py-2.5 rounded-full" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(8px);">
+        <div class="flex items-center gap-2 text-sm text-white/90">
+          <span class="text-base">🌤️</span> 
+          <span>{live.weather}</span>
+          <span id="current-weather" class="font-medium">—</span>
+        </div>
+        <div class="w-px h-4 bg-white/20"></div>
+        <div class="flex items-center gap-2 text-sm text-white/90">
+          <span class="text-base">🌅</span> 
+          <span>{live.sunset}</span>
+          <span id="sunset-time" class="font-medium">—</span>
+        </div>
+      </div>
+    </div>
+
+    {h.legend && h.legend.quote && (
+      <blockquote class="hero-legend" aria-label={h.legend.attribution}>
+        <span class="hero-legend-mark" aria-hidden="true">“</span>
+        <p class="hero-legend-text">{h.legend.quote}</p>
+        <cite class="hero-legend-cite">{h.legend.attribution}</cite>
+      </blockquote>
+    )}
+
+    {planner.title && (
+      <div class="max-w-3xl mx-auto mb-7 rounded-3xl border p-4 sm:p-5 text-left" style="background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+        <div class="flex flex-col lg:flex-row gap-4 lg:items-center lg:justify-between">
+          <div class="min-w-0">
+            {planner.eyebrow && (
+              <p class="text-xs uppercase tracking-[0.22em] mb-2 text-white/70">{planner.eyebrow}</p>
+            )}
+            <p class="text-base sm:text-lg font-semibold text-white">{planner.title}</p>
+            {planner.note && <p class="text-sm sm:text-base mt-2 text-white/80 leading-relaxed">{planner.note}</p>}
+            {planner.seaGlare && (
+              <p class="text-xs sm:text-sm mt-3 pt-3 text-white/75 leading-relaxed border-t" style="border-color: rgba(255,255,255,0.18);">
+                🌊 {planner.seaGlare}
+              </p>
+            )}
+            {planner.tideTip && (
+              <p class="text-xs sm:text-sm mt-2 text-white/75 leading-relaxed">
+                ⚠️ {planner.tideTip}
+                {planner.tideUrl && (
+                  <a href={planner.tideUrl} target="_blank" rel="noopener noreferrer" class="underline decoration-white/40 underline-offset-2 hover:text-white ml-1">KHOA 潮汐表 ↗</a>
+                )}
+              </p>
+            )}
+            <svg class="mt-3 w-full h-10" viewBox="0 0 320 40" preserveAspectRatio="none" aria-hidden="true" style="display:block;">
+              <defs>
+                <linearGradient id="lightWave" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#7fb2d6"/>
+                  <stop offset="35%" stop-color="#f4d58a"/>
+                  <stop offset="60%" stop-color="#f0a85a"/>
+                  <stop offset="80%" stop-color="#9a6ddb"/>
+                  <stop offset="100%" stop-color="#2b3a6b"/>
+                </linearGradient>
+              </defs>
+              <path d="M0,34 C40,34 60,30 110,18 C150,9 175,7 200,12 C230,18 260,30 320,33" fill="none" stroke="url(#lightWave)" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="200" cy="12" r="3.5" fill="#fff"/>
+            </svg>
+            {planner.lightCaption && <p class="text-[10px] uppercase tracking-[0.18em] mt-1 text-white/55">{planner.lightCaption}</p>}
+          </div>
+          <div class="grid grid-cols-2 gap-3 shrink-0">
+            <div class="rounded-2xl px-4 py-3" style="background: rgba(15,32,21,0.28);">
+              <p class="text-xs uppercase tracking-[0.18em] text-white/65">{planner.arriveLabel}</p>
+              <p id="sunset-arrive-time" class="text-xl font-semibold text-white mt-1">—</p>
+            </div>
+            <div class="rounded-2xl px-4 py-3" style="background: rgba(15,32,21,0.28);">
+              <p class="text-xs uppercase tracking-[0.18em] text-white/65">{planner.blueHourLabel}</p>
+              <p id="blue-hour-window" class="text-xl font-semibold text-white mt-1">—</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Strong contrasting CTAs -->
+    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+      <a href={h.navCta.href} class="btn-cta btn-cta-primary">
+        {h.navCta.label}
+      </a>
+      <a href={h.photoCta.href} class="btn-cta btn-cta-secondary">
+        {h.photoCta.label}
+      </a>
+    </div>
+
+    <div class="mt-5 flex flex-wrap justify-center gap-3">
+      <a href={h.mapsUrl} target="_blank" rel="noopener noreferrer" class="hero-maps-link">
+        {h.openMaps}
+      </a>
+      {h.naverUrl && (
+        <a href={h.naverUrl} target="_blank" rel="noopener noreferrer" class="hero-maps-link">
+          {h.openNaver}
+        </a>
+      )}
+      {h.kakaoUrl && (
+        <a href={h.kakaoUrl} target="_blank" rel="noopener noreferrer" class="hero-maps-link">
+          {h.openKakao}
+        </a>
+      )}
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var weatherEl = document.getElementById('current-weather');
+      var sunsetEl = document.getElementById('sunset-time');
+      var arriveEl = document.getElementById('sunset-arrive-time');
+      var blueHourEl = document.getElementById('blue-hour-window');
+      if (!weatherEl || !sunsetEl) return;
+
+      var url =
+        'https://api.open-meteo.com/v1/forecast?latitude=18.8058&longitude=98.9225&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Bangkok';
+
+      function weatherText(code, lang) {
+        if (lang === 'ja') {
+          if (code === 0) return '晴れ';
+          if (code === 1) return '晴れ時々';
+          if (code === 2) return 'くもり';
+          if (code === 3) return '曇り';
+          if (code === 45 || code === 48) return '霧';
+          if (code === 51 || code === 53 || code === 55) return '霧雨';
+          if (code === 56 || code === 57) return '凍雨（霧雨）';
+          if (code === 61 || code === 63 || code === 65) return '雨';
+          if (code === 66 || code === 67) return '凍雨';
+          if (code === 71 || code === 73 || code === 75) return '雪';
+          if (code === 77) return '霰';
+          if (code === 80 || code === 81 || code === 82) return 'にわか雨';
+          if (code === 85 || code === 86) return 'にわか雪';
+          if (code === 95) return '雷雨';
+          if (code === 96 || code === 99) return '激しい雷雨';
+          return '不明';
+        }
+        if (lang === 'ko') {
+          if (code === 0) return '맑음';
+          if (code === 1) return '대체로 맑음';
+          if (code === 2) return '구름 많음';
+          if (code === 3) return '흐림';
+          if (code === 45 || code === 48) return '안개';
+          if (code === 51 || code === 53 || code === 55) return '이슬비';
+          if (code === 56 || code === 57) return '어는 이슬비';
+          if (code === 61 || code === 63 || code === 65) return '비';
+          if (code === 66 || code === 67) return '어는 비';
+          if (code === 71 || code === 73 || code === 75) return '눈';
+          if (code === 77) return '싸락눈';
+          if (code === 80 || code === 81 || code === 82) return '소나기';
+          if (code === 85 || code === 86) return '소낙눈';
+          if (code === 95) return '뇌우';
+          if (code === 96 || code === 99) return '강한 뇌우';
+          return '알 수 없음';
+        }
+        if (lang === 'en') {
+          if (code === 0) return 'Clear';
+          if (code === 1) return 'Mainly clear';
+          if (code === 2) return 'Partly cloudy';
+          if (code === 3) return 'Overcast';
+          if (code === 45 || code === 48) return 'Fog';
+          if (code === 51 || code === 53 || code === 55) return 'Drizzle';
+          if (code === 56 || code === 57) return 'Freezing drizzle';
+          if (code === 61 || code === 63 || code === 65) return 'Rain';
+          if (code === 66 || code === 67) return 'Freezing rain';
+          if (code === 71 || code === 73 || code === 75) return 'Snow';
+          if (code === 77) return 'Snow grains';
+          if (code === 80 || code === 81 || code === 82) return 'Rain showers';
+          if (code === 85 || code === 86) return 'Snow showers';
+          if (code === 95) return 'Thunderstorm';
+          if (code === 96 || code === 99) return 'Severe thunderstorm';
+          return 'Unknown';
+        }
+        if (code === 0) return '晴';
+        if (code === 1) return '大部晴朗';
+        if (code === 2) return '多云';
+        if (code === 3) return '阴';
+        if (code === 45 || code === 48) return '雾';
+        if (code === 51 || code === 53 || code === 55) return '毛毛雨';
+        if (code === 56 || code === 57) return '冻毛毛雨';
+        if (code === 61 || code === 63 || code === 65) return '雨';
+        if (code === 66 || code === 67) return '冻雨';
+        if (code === 71 || code === 73 || code === 75) return '雪';
+        if (code === 77) return '米雪';
+        if (code === 80 || code === 81 || code === 82) return '阵雨';
+        if (code === 85 || code === 86) return '阵雪';
+        if (code === 95) return '雷暴';
+        if (code === 96 || code === 99) return '强雷暴';
+        return '未知天气';
+      }
+
+      function formatSunsetHHMM(isoLike) {
+        if (!isoLike || typeof isoLike !== 'string') return '—';
+        var tIndex = isoLike.indexOf('T');
+        if (tIndex === -1) return '—';
+        return isoLike.slice(tIndex + 1, tIndex + 6) || '—';
+      }
+
+      function formatClock(date) {
+        if (!(date instanceof Date) || isNaN(date.getTime())) return '—';
+        var hours = String(date.getHours()).padStart(2, '0');
+        var minutes = String(date.getMinutes()).padStart(2, '0');
+        return hours + ':' + minutes;
+      }
+
+      function parseIsoLike(isoLike) {
+        if (!isoLike || typeof isoLike !== 'string') return null;
+        var parsed = new Date(isoLike);
+        return isNaN(parsed.getTime()) ? null : parsed;
+      }
+
+      function setPlannerFallback() {
+        if (arriveEl) arriveEl.textContent = '—';
+        if (blueHourEl) blueHourEl.textContent = '—';
+      }
+
+      function setLoading() {
+        var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+        var msg = '数据获取中...';
+        if (lang.indexOf('ja') === 0) msg = '取得中...';
+        else if (lang.indexOf('ko') === 0) msg = '불러오는 중...';
+        else if (lang.indexOf('en') === 0) msg = 'Loading...';
+        weatherEl.textContent = msg;
+        sunsetEl.textContent = msg;
+      }
+
+      function setFallback() {
+        weatherEl.textContent = '—';
+        sunsetEl.textContent = '—';
+        setPlannerFallback();
+      }
+
+      setLoading();
+      fetch(url, { cache: 'no-store' })
+        .then(function (res) {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        })
+        .then(function (data) {
+          var temp = data && data.current ? data.current.temperature_2m : undefined;
+          var code = data && data.current ? data.current.weather_code : undefined;
+          var sunset = data && data.daily && data.daily.sunset ? data.daily.sunset[0] : undefined;
+
+          if (typeof temp === 'number' && typeof code === 'number') {
+            var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+            var shortLang = lang.indexOf('zh') === 0 ? 'zh' : lang.slice(0, 2);
+            weatherEl.textContent = weatherText(code, shortLang) + ' ' + Math.round(temp) + '°C';
+          } else {
+            weatherEl.textContent = '—';
+          }
+          sunsetEl.textContent = formatSunsetHHMM(sunset);
+          var sunsetDate = parseIsoLike(sunset);
+          if (sunsetDate) {
+            if (arriveEl) {
+              var arriveDate = new Date(sunsetDate.getTime() - 60 * 60 * 1000);
+              arriveEl.textContent = formatClock(arriveDate);
+            }
+            if (blueHourEl) {
+              var blueHourEnd = new Date(sunsetDate.getTime() + 30 * 60 * 1000);
+              blueHourEl.textContent = formatClock(sunsetDate) + '–' + formatClock(blueHourEnd);
+            }
+          } else {
+            setPlannerFallback();
+          }
+        })
+        .catch(function () {
+          setFallback();
+        });
+    })();
+  </script>
+</section>

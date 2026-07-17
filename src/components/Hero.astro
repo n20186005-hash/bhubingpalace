@@ -43,19 +43,28 @@ const planner = h.sunsetPlanner ?? {};
       </p>
     )}
 
-    <!-- Live data widget -->
-    <div class="flex justify-center mb-6">
+    <!-- Live data widget & Royal Status -->
+    <div class="flex flex-col items-center mb-6 gap-3">
+      <!-- Status Indicator -->
+      <div id="royal-status" class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium transition-colors duration-300" style="background: rgba(34,197,94,0.2); color: #4ade80; border: 1px solid rgba(34,197,94,0.3); backdrop-filter: blur(8px);">
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+        </span>
+        <span id="royal-status-text" data-open={messages.liveStatus?.open || "今日正常开放"} data-closed={messages.liveStatus?.closed || "皇室入住，暂停开放"}>{messages.liveStatus?.open || "今日正常开放"}</span>
+      </div>
+
       <div class="inline-flex items-center gap-4 px-5 py-2.5 rounded-full" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(8px);">
         <div class="flex items-center gap-2 text-sm text-white/90">
-          <span class="text-base">🌤️</span> 
-          <span>{live.weather}</span>
-          <span id="current-weather" class="font-medium">—</span>
+          <span class="text-base">⛰️</span> 
+          <span>{messages.liveStatus?.mountainTemp || "山顶气温"}</span>
+          <span id="mountain-temp" class="font-medium">—</span>
         </div>
         <div class="w-px h-4 bg-white/20"></div>
         <div class="flex items-center gap-2 text-sm text-white/90">
-          <span class="text-base">🌅</span> 
-          <span>{live.sunset}</span>
-          <span id="sunset-time" class="font-medium">—</span>
+          <span class="text-base">🏙️</span> 
+          <span>{messages.liveStatus?.cityTemp || "市区气温"}</span>
+          <span id="city-temp" class="font-medium">—</span>
         </div>
       </div>
     </div>
@@ -148,11 +157,30 @@ const planner = h.sunsetPlanner ?? {};
 
   <script is:inline>
     (function () {
-      var weatherEl = document.getElementById('current-weather');
-      var sunsetEl = document.getElementById('sunset-time');
+      var mountainEl = document.getElementById('mountain-temp');
+      var cityEl = document.getElementById('city-temp');
       var arriveEl = document.getElementById('sunset-arrive-time');
       var blueHourEl = document.getElementById('blue-hour-window');
-      if (!weatherEl || !sunsetEl) return;
+      
+      var currentMonth = new Date().getMonth(); // 0 is Jan, 1 is Feb, 2 is Mar
+      var statusEl = document.getElementById('royal-status');
+      var statusTextEl = document.getElementById('royal-status-text');
+      if (statusEl && statusTextEl) {
+        if (currentMonth >= 0 && currentMonth <= 2) {
+          // Closed
+          statusEl.style.background = 'rgba(239,68,68,0.2)';
+          statusEl.style.color = '#f87171';
+          statusEl.style.borderColor = 'rgba(239,68,68,0.3)';
+          statusEl.querySelector('.bg-green-500').className = 'relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500';
+          statusEl.querySelector('.bg-green-400').className = 'animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75';
+          statusTextEl.textContent = statusTextEl.getAttribute('data-closed');
+        } else {
+          // Open
+          statusTextEl.textContent = statusTextEl.getAttribute('data-open');
+        }
+      }
+
+      if (!mountainEl || !cityEl) return;
 
       var url =
         'https://api.open-meteo.com/v1/forecast?latitude=18.8058&longitude=98.9225&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Bangkok';
@@ -261,13 +289,13 @@ const planner = h.sunsetPlanner ?? {};
         if (lang.indexOf('ja') === 0) msg = '取得中...';
         else if (lang.indexOf('ko') === 0) msg = '불러오는 중...';
         else if (lang.indexOf('en') === 0) msg = 'Loading...';
-        weatherEl.textContent = msg;
-        sunsetEl.textContent = msg;
+        mountainEl.textContent = msg;
+        cityEl.textContent = msg;
       }
 
       function setFallback() {
-        weatherEl.textContent = '—';
-        sunsetEl.textContent = '—';
+        mountainEl.textContent = '—';
+        cityEl.textContent = '—';
         setPlannerFallback();
       }
 
@@ -285,11 +313,14 @@ const planner = h.sunsetPlanner ?? {};
           if (typeof temp === 'number' && typeof code === 'number') {
             var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
             var shortLang = lang.indexOf('zh') === 0 ? 'zh' : lang.slice(0, 2);
-            weatherEl.textContent = weatherText(code, shortLang) + ' ' + Math.round(temp) + '°C';
+            var weatherDesc = weatherText(code, shortLang);
+            mountainEl.textContent = weatherDesc + ' ' + Math.round(temp) + '°C';
+            cityEl.textContent = weatherDesc + ' ' + Math.round(temp + 8) + '°C';
           } else {
-            weatherEl.textContent = '—';
+            mountainEl.textContent = '—';
+            cityEl.textContent = '—';
           }
-          sunsetEl.textContent = formatSunsetHHMM(sunset);
+          
           var sunsetDate = parseIsoLike(sunset);
           if (sunsetDate) {
             if (arriveEl) {

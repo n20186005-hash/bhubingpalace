@@ -24,7 +24,35 @@ const rules = c.rules ?? [];
           </summary>
           <div class="px-5 pb-5">
             {r.text && <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{r.text}</p>}
-            {r.items && (
+            
+            {r.visualEtiquette && (
+              <div class="mt-5 grid grid-cols-2 gap-4">
+                <div class="rounded-xl p-4" style="background: rgba(34,197,94,0.05); border: 1px solid rgba(34,197,94,0.2);">
+                  <p class="font-semibold text-green-600 mb-3 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    {r.visualEtiquette.allowedTitle || "Allowed"}
+                  </p>
+                  <ul class="space-y-2 text-sm" style="color: var(--text-secondary);">
+                    {r.visualEtiquette.allowed.map((item) => (
+                      <li class="flex items-center gap-2"><span class="text-xl">✅</span> {item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div class="rounded-xl p-4" style="background: rgba(239,68,68,0.05); border: 1px solid rgba(239,68,68,0.2);">
+                  <p class="font-semibold text-red-500 mb-3 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    {r.visualEtiquette.prohibitedTitle || "Prohibited"}
+                  </p>
+                  <ul class="space-y-2 text-sm" style="color: var(--text-secondary);">
+                    {r.visualEtiquette.prohibited.map((item) => (
+                      <li class="flex items-center gap-2"><span class="text-xl">❌</span> {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {r.items && !r.visualEtiquette && (
               <ul class="mt-4 space-y-3 text-sm" style="color: var(--text-secondary);">
                 {r.items.map((it) => (
                   <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{it}</span></li>

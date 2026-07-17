@@ -1,0 +1,40 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const rt = messages.royalTimeline;
+---
+
+<section id="royal-timeline" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">
+        {rt.title}
+      </h2>
+      <p class="text-base sm:text-lg" style="color: var(--text-secondary);">
+        {rt.subtitle}
+      </p>
+    </div>
+
+    <div class="relative border-l-2 ml-4 sm:ml-8" style="border-color: var(--border-color);">
+      {rt.events.map((event, index) => (
+        <div class="mb-10 ml-8 relative group">
+          <div class="absolute -left-[41px] top-1 h-5 w-5 rounded-full border-4" style="background: var(--bg-secondary); border-color: var(--accent); box-shadow: 0 0 0 4px var(--bg-secondary);"></div>
+          
+          <div class="mb-1">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-2" style="background: var(--accent); color: white;">
+              {event.year}
+            </span>
+          </div>
+          
+          <h3 class="text-xl font-semibold mb-2" style="color: var(--text-primary);">
+            {event.title}
+          </h3>
+          
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">
+            {event.desc}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

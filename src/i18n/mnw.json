@@ -207,7 +207,22 @@
       {
         "badge": "🪞",
         "title": "Platform manners",
-        "text": "dress modestly and dress modestly on the platform. Don't point at sacred objects with a finger during exploreer. Check whether photography is allowed and don't photograph practitioners up close."
+        "text": "Thai royal buildings have extremely strict dress codes. If your attire is non-compliant, you must rent clothing at the entrance.",
+        "visualEtiquette": {
+          "allowedTitle": "Allowed",
+          "prohibitedTitle": "Strictly Prohibited",
+          "allowed": [
+            "Long pants or skirts below knee",
+            "Shirts with sleeves",
+            "Modest attire"
+          ],
+          "prohibited": [
+            "Sleeveless shirts or tank tops",
+            "Shorts or torn pants",
+            "Tight leggings",
+            "Short skirts or sheer clothing"
+          ]
+        }
       },
       {
         "badge": "🚮",
@@ -452,7 +467,7 @@
     "driverFaq": [
       {
         "q": "Is there parking near Bhubing Palace?",
-        "a": "The palace has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes."
+        "a": "There is limited parking near the palace entrance. It is highly recommended to take a Rod Daeng (Red Truck) to avoid mountain parking issues."
       },
       {
         "q": "What is the nearest parking?",
@@ -676,7 +691,7 @@
       {
         "name": "Ko",
         "date": "Mar 2026",
-        "rating": 4,
+        "rating": 4.3,
         "text": "Worth it as a city landmark; weekends are crowded — weekdays or mornings are more comfortable."
       },
       {
@@ -689,7 +704,7 @@
   },
   "mapSection": {
     "title": "How to Get There",
-    "subtitle": "Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand (Plus Code: Q5F5+WG) · Tel +95 1 371 561",
+    "subtitle": "1 หมู่ที่ 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200 Thailand (Plus Code: RW42+45) · Tel +66 53 294 555",
     "openMaps": "Open in Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
@@ -831,7 +846,7 @@
         "items": [
           {
             "q": "Is there parking near Bhubing Palace?",
-            "a": "The palace has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes."
+            "a": "There is limited parking near the palace entrance. It is highly recommended to take a Rod Daeng (Red Truck) to avoid mountain parking issues."
           },
           {
             "q": "Are wheelchairs or strollers allowed?",
@@ -839,11 +854,11 @@
           },
           {
             "q": "Are there restrooms or food inside?",
-            "a": "As an open religious site, restrooms and snacks concentrate at the entrance shops and nearby; resupply water and food there before entering the platform."
+            "a": "There are restrooms inside the palace grounds. Small cafes and snack stalls are available near the entrance, but picnicking inside the royal gardens is prohibited."
           },
           {
             "q": "Is there exchange or an ATM nearby?",
-            "a": "The palace is in the Doi Suthep commercial core; banks, exchange counters, and ATMs are dense — visitors can get cash on the way in."
+            "a": "The palace is located high on Doi Suthep mountain. There are NO ATMs or exchange counters nearby. Please prepare sufficient Thai Baht cash in Chiang Mai city before heading up."
           }
         ]
       },
@@ -853,11 +868,11 @@
         "items": [
           {
             "q": "What does the name 'Bhubing Palace' mean?",
-            "a": "'Bhubing' derives from the royal vision (Lanna) in Burmese folk belief. Named after the vision, the palace has stood at the city's center since its founding — Chiang Mai's visionual coordinate."
+            "a": "Bhubing Palace (Phra Tamnak Phu Phing) was named by King Bhumibol Adulyadej when it was built in 1961 as a royal winter residence and state guesthouse."
           },
           {
             "q": "What is its special natural and cultural value?",
-            "a": "Bhubing Palace is not a man-made theme park but turns a city junction into a public space uniting royal heritage, an Thai-style elegant body, a rose garden, and city memory. It is both a religious site and a witness to modern Burmese history."
+            "a": "It showcases beautiful Lanna-style architecture integrated with nature. Its famous Suan Suwaree rose garden, planted by Queen Sirikit, features rare temperate climate flowers that bloom year-round in the cool mountain air."
           }
         ]
       },
@@ -867,11 +882,11 @@
         "items": [
           {
             "q": "Is a ticket required?",
-            "a": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), platform exploreer is free — visit anytime (please respect the religious site and avoid late-night noise)."
+            "a": "Foreign visitors must purchase a ticket (approx. 50 THB). The palace is open 08:30–16:30. Note that it is usually closed from January to March when the Royal Family is in residence."
           },
           {
             "q": "How long does a visit take?",
-            "a": "A relaxed walk takes about 1–2 hours (including platform and photo stops); allow half a day if you also visit Suan Suwaree, Chiang Mai City Hall, and Bogyoke Market."
+            "a": "A relaxed walk through the gardens takes about 1.5 to 2 hours. We recommend combining it with a visit to the nearby Wat Phra That Doi Suthep for a perfect half-day trip."
           },
           {
             "q": "Can I go in bad weather?",
@@ -1241,5 +1256,71 @@
   "audioPlayer": {
     "cta": "Click here to hear the warm sound that has accompanied Burmese people for generations",
     "title": "သီချင်း (Thaching · Burmese folk song)"
+  },
+  "botanicalGuide": {
+    "title": "Suan Suwaree Botanical Guide",
+    "subtitle": "Rare alpine roses and temperate flowers introduced by Queen Sirikit",
+    "items": [
+      {
+        "name": "Juliet Rose",
+        "latin": "Rosa 'Ausjameson'",
+        "bloom": "Year-round",
+        "img": "/gallery/bhubing-palace-1.jpg",
+        "desc": "Known for its magnificent form and light tea fragrance, one of the most popular varieties."
+      },
+      {
+        "name": "Peace Rose",
+        "latin": "Rosa 'Madame A. Meilland'",
+        "bloom": "Nov - Feb",
+        "img": "/gallery/bhubing-palace-5.jpg",
+        "desc": "A classic hybrid tea rose with pale yellow petals edged in pink."
+      },
+      {
+        "name": "Highland Orchids",
+        "latin": "Orchidaceae",
+        "bloom": "Dec - Mar",
+        "img": "/gallery/bhubing-palace-10.jpg",
+        "desc": "Endemic orchid species of Northern Thailand carefully cultivated in the glasshouses."
+      },
+      {
+        "name": "Giant Tree Ferns",
+        "latin": "Cyatheales",
+        "bloom": "Evergreen",
+        "img": "/gallery/bhubing-palace-12.jpg",
+        "desc": "Ancient and massive ferns lining the shaded pathways of the royal gardens."
+      }
+    ]
+  },
+  "royalTimeline": {
+    "title": "Royal Timeline",
+    "subtitle": "Half a century of royal heritage",
+    "events": [
+      {
+        "year": "1961",
+        "title": "Foundation",
+        "desc": "King Bhumibol Adulyadej (Rama IX) ordered the construction of a winter retreat on Doi Suthep."
+      },
+      {
+        "year": "1962",
+        "title": "First State Guests",
+        "desc": "Hosted King Frederick IX and Queen Ingrid of Denmark, beginning its role as a state guesthouse."
+      },
+      {
+        "year": "1990s",
+        "title": "Suan Suwaree Rose Garden",
+        "desc": "Queen Sirikit led the introduction of hundreds of rare roses, creating the magnificent garden seen today."
+      },
+      {
+        "year": "Present",
+        "title": "Botanical Conservation",
+        "desc": "Open to the public as a highland botanical treasure when the Royal Family is not in residence."
+      }
+    ]
+  },
+  "liveStatus": {
+    "mountainTemp": "Mountain",
+    "cityTemp": "City",
+    "open": "Open Today",
+    "closed": "Closed for Royal Visit"
   }
 }

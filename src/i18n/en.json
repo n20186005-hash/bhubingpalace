@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Bhubing Palace (Chiang Mai, Thailand) | The royal winter residence at the heart of the city, over half a century old",
-    "description": "The complete guide to Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์): a royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a royal winter retreat and a place for receiving state guests. Surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep, it is the starting point for understanding Chiang Mai's history and urban fabric."
+    "description": "The complete guide to Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์): The royal winter residence located on Doi Suthep mountain in Chiang Mai, Thailand, at an altitude of ~1,373m. Built in 1961 by King Bhumibol, it is famous for its Suan Suwaree rose gardens and Lanna-style architecture. This guide covers transport (Rod Daeng), strict dress codes, and opening hours."
   },
   "header": {
     "siteName": "Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์)",
@@ -45,17 +45,21 @@
   },
   "hero": {
     "title": "Bhubing Palace (Chiang Mai, Thailand)",
-    "subtitle": "A royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a rallying point for state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep.",
+    "subtitle": "Located high up in the mist of Doi Suthep mountain in Chiang Mai at an altitude of about 1,300 meters, Bhubing Palace was built in 1961 as a royal winter retreat. Far from the city heat, it features traditional Northern Thai Lanna-style (Ruen Mu) architecture integrated with lush highland gardens. As a favored retreat of King Rama IX and Queen Sirikit, it is famous for the 'Suan Suwaree' rose garden and serves as a royal guesthouse for foreign dignitaries.",
     "rating": "4.4 (6,531)",
     "reviewCount": "6,531 reviews",
-    "hours": "04:00–23:00 (free hours; foreign visitors pay a ticket)",
+    "hours": "08:30–16:30 (Tickets until 15:30. Usually closed Jan-Mar during royal visits)",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "legend": {
       "quote": "'Bhubing' is named after the royal vision (Lanna) of this place. Standing at the exact center of the city, the palace is like Chiang Mai's beating heart — for over half a century it has quietly gathered the city's noise and exploreers.",
       "attribution": "— The origin of Bhubing Palace"
     },
-    "tags": ["Doi Suthep royal winter residence", "beautiful rose gardens", "Over 60 years old"],
+    "tags": [
+      "Royal Winter Palace",
+      "Lanna Architecture",
+      "Suan Suwaree Rose Garden"
+    ],
     "routeCta": {
       "label": "Plan your route",
       "href": "#transport"
@@ -65,14 +69,38 @@
       "href": "#history"
     },
     "quickFacts": [
-      { "icon": "🛕", "label": "Highlight", "value": "Thai-style elegant spire" },
-      { "icon": "🎟️", "label": "Foreign visitors", "value": "Ticket required" },
-      { "icon": "🕓", "label": "Hours", "value": "04:00–23:00" }
+      {
+        "icon": "🌸",
+        "label": "Highlight",
+        "value": "Rose Gardens"
+      },
+      {
+        "icon": "🎟️",
+        "label": "Foreign visitors",
+        "value": "Ticket required (50 THB)"
+      },
+      {
+        "icon": "🕓",
+        "label": "Hours",
+        "value": "08:30–16:30"
+      }
     ],
-    "navCta": { "label": "📍 Get directions", "href": "#transport" },
-    "photoCta": { "label": "📸 Photo spots", "href": "#gallery" },
-    "factsSource": { "label": "Hours & tickets per Chiang Mai City / on-site info", "url": "https://www.tourism.gov.mm" },
-    "liveInfo": { "weather": "Current weather", "sunset": "Today's sunset" },
+    "navCta": {
+      "label": "📍 Get directions",
+      "href": "#transport"
+    },
+    "photoCta": {
+      "label": "📸 Photo spots",
+      "href": "#gallery"
+    },
+    "factsSource": {
+      "label": "Hours & tickets per Chiang Mai City / on-site info",
+      "url": "https://www.tourism.gov.mm"
+    },
+    "liveInfo": {
+      "weather": "Current weather",
+      "sunset": "Today's sunset"
+    },
     "sunsetPlanner": {
       "eyebrow": "Golden Hour Calculator · Light Tool",
       "title": "Based on today's sunset, we recommend arriving about 60 minutes earlier to catch the softest diffuse city light and the blue hour on the elegant spire — ideal for photographing Bhubing Palace and the surrounding colonial buildings.",
@@ -87,36 +115,84 @@
     "title": "Bhubing Palace at a Glance · Data Board",
     "subtitle": "A few numbers to read this royal winter residence at the heart of Chiang Mai at a glance.",
     "architectureCard": {
-      "title": "Architecture at a glance",
-      "height": "high in the mountains",
-      "heightLabel": "Main stupa height ($\\approx 151$ ft)",
-      "shape": "Thai-style",
-      "shapeLabel": "Body structure ($Thai-style$)",
-      "gold": "Gold leaf",
-      "goldLabel": "Surface material"
+      "title": "Architecture",
+      "height": "1,373 m",
+      "heightLabel": "Elevation",
+      "shape": "Lanna",
+      "shapeLabel": "Style (Ruen Mu)",
+      "gold": "Teak & Concrete",
+      "goldLabel": "Materials"
     },
     "items": [
-      { "icon": "🛕", "label": "palace / palace", "value": "Urban faith center", "note": "Bhubing Palace is Chiang Mai's Doi Suthep royal landmark. Its Thai-style architecture runs from base to spire, crowned by a elegant finial — a place for locals to explore and visitors to sightsee." },
-      { "icon": "📿", "label": "garden / garden", "value": "beautiful rose gardens", "note": "The palace is said to enshrine a beautiful rose gardens, sharing the same origin as Chiang Mai's other great shrine, Wat Phra That Doi Suthep — a key node of Burmese royal heritage." },
-      { "icon": "🏛️", "label": "History / History", "value": "Over 60 years", "note": "Believed founded during the 1961, over half a century old; in modern times it became a rallying point for the royal family's winter visits and state receptions, carrying the city's collective memory." },
-      { "icon": "📍", "label": "Coordinates / Coords", "value": "about 18.81°N, 98.92°E", "note": "WGS84: 18.8058, 98.9225. Plus Code: RW42+45 Chiang Mai. Address: 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand." },
-      { "icon": "🎟️", "label": "Admission / Admission", "value": "Foreign ticket", "note": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice." },
-      { "icon": "🕓", "label": "Hours / Hours", "value": "04:00–23:00", "note": "Open from early morning to night; dawn and dusk are coolest and best for photos and quiet reflection." }
+      {
+        "icon": "🏛️",
+        "label": "Palace",
+        "value": "Royal Winter Retreat",
+        "note": "Built in 1961 to accommodate the royal family and host foreign dignitaries."
+      },
+      {
+        "icon": "🌸",
+        "label": "Garden",
+        "value": "Suan Suwaree",
+        "note": "Famous for hundreds of varieties of temperate roses planted by Queen Sirikit."
+      },
+      {
+        "icon": "🏡",
+        "label": "Architecture",
+        "value": "Northern Lanna",
+        "note": "Traditional Thai Lanna-style wooden stilt houses (Ruen Mu) adapted for the mountains."
+      },
+      {
+        "icon": "📍",
+        "label": "Coordinates",
+        "value": "Doi Suthep Mountain",
+        "note": "Located ~1,373m above sea level, about 22km from downtown Chiang Mai."
+      },
+      {
+        "icon": "🎟️",
+        "label": "Admission",
+        "value": "Foreign ticket (50 THB)",
+        "note": "Strict dress code applies (no shorts/sleeveless). Clothes rental available at entrance."
+      },
+      {
+        "icon": "🕓",
+        "label": "Hours",
+        "value": "08:30–16:30",
+        "note": "Ticket office closes at 15:30. Often closed Jan-Mar when the royal family is in residence."
+      }
     ]
   },
   "hiddenRules": {
     "title": "palace Visiting Tips",
     "subtitle": "Bhubing Palace is in a busy Doi Suthep and a religious site. Sorting out etiquette, safety, and budget in advance turns the experience from a 'check-in rush' into a 'relaxed visit'.",
     "highlights": [
-      { "icon": "👟", "label": "Footwear & attire", "value": "dress modestly on platform", "note": "dress modestly and dress modestly (no shorts or sleeveless shirts) on the palace platform; the platform gets scorching at noon — bring socks or mind your feet." },
-      { "icon": "🚧", "label": "Busy Doi Suthep", "value": "Watch your belongings", "note": "At a central Doi Suthep junction with dense crowds and traffic, keep an eye on your belongings while photographing and exploreing to avoid pickpockets." },
-      { "icon": "🌡️", "label": "Weather & habits", "value": "Sun protection & water", "note": "Chiang Mai is hot and humid year-round with strong sun on open platforms; visit at dawn or dusk and bring water and sun protection." }
+      {
+        "icon": "👗",
+        "label": "Strict Dress Code",
+        "value": "Modest attire only",
+        "note": "No sleeveless shirts, shorts, torn pants, or short skirts. Rentals are available at the entrance."
+      },
+      {
+        "icon": "🚧",
+        "label": "Seasonal Closure",
+        "value": "Usually closed Jan-Mar",
+        "note": "The palace is closed to the public when the royal family is in residence (typically Jan-Mar)."
+      },
+      {
+        "icon": "🚐",
+        "label": "Mountain Road",
+        "value": "Winding 13km drive",
+        "note": "The road up Doi Suthep has many sharp curves. Prepare motion sickness pills if needed."
+      }
     ],
     "panels": [
       {
         "q": "Is a ticket needed for Bhubing Palace?",
         "a": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice. exploreing on the platform is free.",
-        "items": ["Foreign visitors buy at the entrance ticket booth.", "The platform and base area are free; daytime visits recommended."]
+        "items": [
+          "Foreign visitors buy at the entrance ticket booth.",
+          "The platform and base area are free; daytime visits recommended."
+        ]
       },
       {
         "q": "Is it convenient with kids or seniors?",
@@ -140,7 +216,22 @@
       {
         "badge": "🪞",
         "title": "Platform manners",
-        "text": "dress modestly and dress modestly on the platform. Don't point at sacred objects with a finger during exploreer. Check whether photography is allowed and don't photograph practitioners up close."
+        "text": "Thai royal buildings have extremely strict dress codes. If your attire is non-compliant, you must rent clothing at the entrance.",
+        "visualEtiquette": {
+          "allowedTitle": "Allowed",
+          "prohibitedTitle": "Strictly Prohibited",
+          "allowed": [
+            "Long pants or skirts below knee",
+            "Shirts with sleeves",
+            "Modest attire"
+          ],
+          "prohibited": [
+            "Sleeveless shirts or tank tops",
+            "Shorts or torn pants",
+            "Tight leggings",
+            "Short skirts or sheer clothing"
+          ]
+        }
       },
       {
         "badge": "🚮",
@@ -158,11 +249,46 @@
     "title": "Custom Itinerary: Bhubing Palace Half-Day Route",
     "subtitle": "Not just 'who it's for,' but a walkable half-day route you can follow directly. Centered on the Doi Suthep palace and colonial landmarks, linking city history and faith.",
     "steps": [
-      { "title": "[Start] Platform & elegant spire", "meta": "Settle the mind · ~30 min", "text": "Enter slowly from the Bhubing Palace Road entrance, dress modestly and explore at the base platform, look up at the Thai-style elegant body, align your pace with the city, then head to the surrounding streets.", "tips": ["Morning and dusk have the best light and fewer crowds."] },
-      { "title": "[Main] Thai-style elegant spire", "meta": "Core experience · ~40 min", "text": "Circle the palace on the platform and look up at the Thai-style elegant structure running from base to finial. Bhubing Palace's most famous landmark and the best vantage for reading 'city and faith'.", "tips": ["Platform is hot in the sun; allow time for photos and mind scorching feet."] },
-      { "title": "[Extend] Suan Suwaree & Wat Phra That Doi Suthep", "meta": "Local story · ~40 min", "text": "Walk to the adjacent Suan Suwaree and read the Wat Phra That Doi Suthep to understand Thailand's independence history, collecting city narrative and palace faith together.", "tips": ["Rest in the park's shade; avoid the midday sun."] },
-      { "title": "[Refuel] Rest & light meal", "meta": "Leisurely refuel · ~40 min", "text": "Hydrate at a teahouse or stall around the palace or in the Doi Suthep streets, then look back at the elegant spire and skyline, packing palace, park, and city into one walk.", "tips": ["Supplies are plentiful, but mind drinking-water hygiene."] },
-      { "title": "[End] Chiang Mai City Hall & colonial buildings", "meta": "Wrap-up · ~60 min+", "text": "If energy allows, visit Chiang Mai City Hall opposite the park and the surrounding colonial buildings, or extend to Bogyoke Aung San Market; otherwise return along the street, completing the 'palace—park—city' half-day package.", "tips": ["Light is best at dusk; save photos for the end."] }
+      {
+        "title": "[Start] Platform & elegant spire",
+        "meta": "Settle the mind · ~30 min",
+        "text": "Enter slowly from the Bhubing Palace Road entrance, dress modestly and explore at the base platform, look up at the Thai-style elegant body, align your pace with the city, then head to the surrounding streets.",
+        "tips": [
+          "Morning and dusk have the best light and fewer crowds."
+        ]
+      },
+      {
+        "title": "[Main] Thai-style elegant spire",
+        "meta": "Core experience · ~40 min",
+        "text": "Circle the palace on the platform and look up at the Thai-style elegant structure running from base to finial. Bhubing Palace's most famous landmark and the best vantage for reading 'city and faith'.",
+        "tips": [
+          "Platform is hot in the sun; allow time for photos and mind scorching feet."
+        ]
+      },
+      {
+        "title": "[Extend] Suan Suwaree & Wat Phra That Doi Suthep",
+        "meta": "Local story · ~40 min",
+        "text": "Walk to the adjacent Suan Suwaree and read the Wat Phra That Doi Suthep to understand Thailand's independence history, collecting city narrative and palace faith together.",
+        "tips": [
+          "Rest in the park's shade; avoid the midday sun."
+        ]
+      },
+      {
+        "title": "[Refuel] Rest & light meal",
+        "meta": "Leisurely refuel · ~40 min",
+        "text": "Hydrate at a teahouse or stall around the palace or in the Doi Suthep streets, then look back at the elegant spire and skyline, packing palace, park, and city into one walk.",
+        "tips": [
+          "Supplies are plentiful, but mind drinking-water hygiene."
+        ]
+      },
+      {
+        "title": "[End] Chiang Mai City Hall & colonial buildings",
+        "meta": "Wrap-up · ~60 min+",
+        "text": "If energy allows, visit Chiang Mai City Hall opposite the park and the surrounding colonial buildings, or extend to Bogyoke Aung San Market; otherwise return along the street, completing the 'palace—park—city' half-day package.",
+        "tips": [
+          "Light is best at dusk; save photos for the end."
+        ]
+      }
     ],
     "disclaimer": "The route above emphasizes a self-contained loop you can follow as-is. If you only want the palace, keep the first two segments and treat the park and buildings as optional add-ons."
   },
@@ -183,10 +309,10 @@
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "【Two-Millennia Ancient Shrine】 Believed to share the same origin as Wat Phra That Doi Suthep, named after the royal vision 'Bhubing Lanna' who helped locate the sacred hill, enshrining a precious beautiful rose gardens.",
-        "【Eight-Faced Guardian】 A unique Thai-style elegant stupa rising high in the mountainseters. The eight-sided base echoes the eight planetary posts and floral speciess of Thai horticulture, serving as a sanctuary where visitors explore according to their birth day.",
-        "【Geometric Origin】 In the mid-19th century, it was selected as the absolute geometric center of Chiang Mai's urban planning. This palace is not only a religious sanctuary but a miraculous intersection of the Western colonial grid and ancient Eastern faith.",
-        "【City Memory】 The rallying point for the royal family's winter visits and state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep."
+        "【Royal Winter Palace】 Built in 1961 by King Bhumibol (Rama IX), it serves as a winter retreat and a guesthouse for state visitors, such as King Frederick IX of Denmark in 1962.",
+        "【Suan Suwaree Rose Garden】 Famous for hundreds of rose varieties introduced by Queen Sirikit, blooming year-round in the cool mountain climate.",
+        "【Lanna Architecture】 The main buildings, like Phra Tamnak Phu Phing, feature traditional Northern Thai Lanna stilt-house (Ruen Mu) designs.",
+        "【Mountain Retreat】 Situated at ~1,373m elevation, the temperature here is consistently 5-10°C cooler than downtown Chiang Mai."
       ]
     }
   },
@@ -214,9 +340,18 @@
           "Use Grab or similar local apps for transparent pricing and easy communication."
         ],
         "steps": [
-          { "n": "1", "t": "Fly to Chiang Mai International Airport (CNX)." },
-          { "n": "2", "t": "Take a taxi or Grab to Doi Suthep." },
-          { "n": "3", "t": "Walk to the Bhubing Palace platform." }
+          {
+            "n": "1",
+            "t": "Fly to Chiang Mai International Airport (CNX)."
+          },
+          {
+            "n": "2",
+            "t": "Take a taxi or Grab to Doi Suthep."
+          },
+          {
+            "n": "3",
+            "t": "Walk to the Bhubing Palace platform."
+          }
         ]
       },
       {
@@ -230,9 +365,18 @@
           "Doi Suthep congests at peak; allow buffer time."
         ],
         "steps": [
-          { "n": "1", "t": "Call a car via Grab or similar." },
-          { "n": "2", "t": "Tell the driver 'Bhubing Palace'." },
-          { "n": "3", "t": "Get off at the junction, walk to the platform." }
+          {
+            "n": "1",
+            "t": "Call a car via Grab or similar."
+          },
+          {
+            "n": "2",
+            "t": "Tell the driver 'Bhubing Palace'."
+          },
+          {
+            "n": "3",
+            "t": "Get off at the junction, walk to the platform."
+          }
         ]
       },
       {
@@ -246,9 +390,18 @@
           "Mornings and weekdays are best to avoid crowds."
         ],
         "steps": [
-          { "n": "1", "t": "Take the Rod Daeng (Red Truck) to Chiang Mai University." },
-          { "n": "2", "t": "Walk along the street about 10 min." },
-          { "n": "3", "t": "Reach the elegant platform and park." }
+          {
+            "n": "1",
+            "t": "Take the Rod Daeng (Red Truck) to Chiang Mai University."
+          },
+          {
+            "n": "2",
+            "t": "Walk along the street about 10 min."
+          },
+          {
+            "n": "3",
+            "t": "Reach the elegant platform and park."
+          }
         ]
       },
       {
@@ -262,9 +415,18 @@
           "Doi Suthep is busy; drive slowly and park properly."
         ],
         "steps": [
-          { "n": "1", "t": "Navigate to 'Bhubing Palace'." },
-          { "n": "2", "t": "Park at a nearby mall, then walk in." },
-          { "n": "3", "t": "Avoid the 11:00–19:00 peak to save parking time." }
+          {
+            "n": "1",
+            "t": "Navigate to 'Bhubing Palace'."
+          },
+          {
+            "n": "2",
+            "t": "Park at a nearby mall, then walk in."
+          },
+          {
+            "n": "3",
+            "t": "Avoid the 11:00–19:00 peak to save parking time."
+          }
         ]
       },
       {
@@ -286,21 +448,55 @@
       "colDistance": "Distance",
       "colPrice": "Price",
       "options": [
-        { "name": "Nearby mall parking", "distance": "about 200–500 m (to platform)", "price": "Commercial, hourly" },
-        { "name": "Nearby hotel/office parking", "distance": "about 200–600 m", "price": "Public / commercial, more spaces but tight at peak" },
-        { "name": "Roadside temporary", "distance": "about 50–200 m", "price": "Short stop only, restricted and congested" },
-        { "name": "Chiang Mai Chiang Mai University parking", "distance": "about 500–800 m", "price": "Station parking, needs walk" }
+        {
+          "name": "Nearby mall parking",
+          "distance": "about 200–500 m (to platform)",
+          "price": "Commercial, hourly"
+        },
+        {
+          "name": "Nearby hotel/office parking",
+          "distance": "about 200–600 m",
+          "price": "Public / commercial, more spaces but tight at peak"
+        },
+        {
+          "name": "Roadside temporary",
+          "distance": "about 50–200 m",
+          "price": "Short stop only, restricted and congested"
+        },
+        {
+          "name": "Chiang Mai Chiang Mai University parking",
+          "distance": "about 500–800 m",
+          "price": "Station parking, needs walk"
+        }
       ],
       "disclaimer": "Roads near the palace congest on holidays and clear days; don't occupy bus or fire lanes for long. EV chargers are mostly in mall parking; rates and limits may change — check posted signs."
     },
     "driverFaqTitle": "Transport FAQ",
     "driverFaq": [
-      { "q": "Is there parking near Bhubing Palace?", "a": "The palace has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes." },
-      { "q": "What is the nearest parking?", "a": "Nearby mall parking is about 200–500 m away, closest to the platform; nearby hotel parking is about 200–600 m, more spaces but tight at peak." },
-      { "q": "Is there roadside parking nearby?", "a": "Little. Roads are narrow and congested; don't park roadside long — use proper parking." },
-      { "q": "Is driving recommended?", "a": "Unless parking is essential, no. Doi Suthep congests; walking or ride-hailing is smoother. If driving, park at a nearby mall then walk in." },
-      { "q": "Do you recommend public transport?", "a": "Strongly. After flying to Chiang Mai, take a taxi/Grab to Doi Suthep, then walk or short ride about 5–15 min to the platform. Address: Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand." },
-      { "q": "What is the best route?", "a": "For stability and ease, ride-hailing (Grab) remains optimal; once Doi Suthep, walk or short transfer. If driving is unavoidable, treat parking and transfer as part of the trip." }
+      {
+        "q": "Is there parking near Bhubing Palace?",
+        "a": "There is limited parking near the palace entrance. It is highly recommended to take a Rod Daeng (Red Truck) to avoid mountain parking issues."
+      },
+      {
+        "q": "What is the nearest parking?",
+        "a": "Nearby mall parking is about 200–500 m away, closest to the platform; nearby hotel parking is about 200–600 m, more spaces but tight at peak."
+      },
+      {
+        "q": "Is there roadside parking nearby?",
+        "a": "Little. Roads are narrow and congested; don't park roadside long — use proper parking."
+      },
+      {
+        "q": "Is driving recommended?",
+        "a": "Unless parking is essential, no. Doi Suthep congests; walking or ride-hailing is smoother. If driving, park at a nearby mall then walk in."
+      },
+      {
+        "q": "Do you recommend public transport?",
+        "a": "Strongly. After flying to Chiang Mai, take a taxi/Grab to Doi Suthep, then walk or short ride about 5–15 min to the platform. Address: Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand."
+      },
+      {
+        "q": "What is the best route?",
+        "a": "For stability and ease, ride-hailing (Grab) remains optimal; once Doi Suthep, walk or short transfer. If driving is unavoidable, treat parking and transfer as part of the trip."
+      }
     ],
     "localTipsTitle": "Practical visiting tips",
     "localTips": [
@@ -508,7 +704,7 @@
       {
         "name": "Ko",
         "date": "Mar 2026",
-        "rating": 4,
+        "rating": 4.3,
         "text": "Worth it as a city landmark; weekends are crowded — weekdays or mornings are more comfortable."
       },
       {
@@ -521,7 +717,7 @@
   },
   "mapSection": {
     "title": "How to Get There",
-    "subtitle": "Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand (Plus Code: Q5F5+WG) · Tel +95 1 371 561",
+    "subtitle": "1 หมู่ที่ 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200 Thailand (Plus Code: RW42+45) · Tel +66 53 294 555",
     "openMaps": "Open in Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
@@ -540,11 +736,26 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "officialLinksList": [
-      { "name": "Royal Office — Bhubing Palace Official Guide", "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/" },
-      { "name": "Suthep Subdistrict Municipality Tourism Portal (Chiang Mai)", "url": "https://suthep.go.th/web-oldversion/travel_view.php?cateid=1&id=42" },
-      { "name": "DASTA — Bhubing Palace Attraction Page", "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/" },
-      { "name": "Royal Office — Bhubing Palace Reopening Announcement (Jan 2025)", "url": "https://www.royaloffice.th/10/01/2025/%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C-2568/" },
-      { "name": "Fine Arts Department — Chiang Mai Lannaional Archives (Historical Record)", "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82" }
+      {
+        "name": "Royal Office — Bhubing Palace Official Guide",
+        "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/"
+      },
+      {
+        "name": "Suthep Subdistrict Municipality Tourism Portal (Chiang Mai)",
+        "url": "https://suthep.go.th/web-oldversion/travel_view.php?cateid=1&id=42"
+      },
+      {
+        "name": "DASTA — Bhubing Palace Attraction Page",
+        "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/"
+      },
+      {
+        "name": "Royal Office — Bhubing Palace Reopening Announcement (Jan 2025)",
+        "url": "https://www.royaloffice.th/10/01/2025/%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C-2568/"
+      },
+      {
+        "name": "Fine Arts Department — Chiang Mai Lannaional Archives (Historical Record)",
+        "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82"
+      }
     ],
     "disclaimer": "This website is an independent non-profit visitor-information project. We are not affiliated with any government agency or official organization.",
     "dataSource": "Information cited on this site is cross-checked against public materials from the Ministry of Hotels and Tourism and the Chiang Mai Region Government, with no commercial endorsements.",
@@ -619,10 +830,26 @@
     "amenities": {
       "title": "Nearby Facilities",
       "items": [
-        { "icon": "🎟️", "label": "Tickets", "value": "Foreign visitor ticket" },
-        { "icon": "🚻", "label": "Restrooms", "value": "Platform entrance & nearby shops" },
-        { "icon": "🏧", "label": "Exchange / ATM", "value": "Dense in Doi Suthep" },
-        { "icon": "♿", "label": "Accessibility", "value": "Reachable via flat platform" }
+        {
+          "icon": "🎟️",
+          "label": "Tickets",
+          "value": "Foreign visitor ticket"
+        },
+        {
+          "icon": "🚻",
+          "label": "Restrooms",
+          "value": "Platform entrance & nearby shops"
+        },
+        {
+          "icon": "🏧",
+          "label": "Exchange / ATM",
+          "value": "Dense in Doi Suthep"
+        },
+        {
+          "icon": "♿",
+          "label": "Accessibility",
+          "value": "Reachable via flat platform"
+        }
       ]
     },
     "categories": [
@@ -632,7 +859,7 @@
         "items": [
           {
             "q": "Is there parking near Bhubing Palace?",
-            "a": "The palace has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes."
+            "a": "There is limited parking near the palace entrance. It is highly recommended to take a Rod Daeng (Red Truck) to avoid mountain parking issues."
           },
           {
             "q": "Are wheelchairs or strollers allowed?",
@@ -640,11 +867,11 @@
           },
           {
             "q": "Are there restrooms or food inside?",
-            "a": "As an open religious site, restrooms and snacks concentrate at the entrance shops and nearby; resupply water and food there before entering the platform."
+            "a": "There are restrooms inside the palace grounds. Small cafes and snack stalls are available near the entrance, but picnicking inside the royal gardens is prohibited."
           },
           {
             "q": "Is there exchange or an ATM nearby?",
-            "a": "The palace is in the Doi Suthep commercial core; banks, exchange counters, and ATMs are dense — visitors can get cash on the way in."
+            "a": "The palace is located high on Doi Suthep mountain. There are NO ATMs or exchange counters nearby. Please prepare sufficient Thai Baht cash in Chiang Mai city before heading up."
           }
         ]
       },
@@ -654,11 +881,11 @@
         "items": [
           {
             "q": "What does the name 'Bhubing Palace' mean?",
-            "a": "'Bhubing' derives from the royal vision (Lanna) in Burmese folk belief. Named after the vision, the palace has stood at the city's center since its founding — Chiang Mai's visionual coordinate."
+            "a": "Bhubing Palace (Phra Tamnak Phu Phing) was named by King Bhumibol Adulyadej when it was built in 1961 as a royal winter residence and state guesthouse."
           },
           {
             "q": "What is its special natural and cultural value?",
-            "a": "Bhubing Palace is not a man-made theme park but turns a city junction into a public space uniting royal heritage, an Thai-style elegant body, a rose garden, and city memory. It is both a religious site and a witness to modern Burmese history."
+            "a": "It showcases beautiful Lanna-style architecture integrated with nature. Its famous Suan Suwaree rose garden, planted by Queen Sirikit, features rare temperate climate flowers that bloom year-round in the cool mountain air."
           }
         ]
       },
@@ -668,11 +895,11 @@
         "items": [
           {
             "q": "Is a ticket required?",
-            "a": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), platform exploreer is free — visit anytime (please respect the religious site and avoid late-night noise)."
+            "a": "Foreign visitors must purchase a ticket (approx. 50 THB). The palace is open 08:30–16:30. Note that it is usually closed from January to March when the Royal Family is in residence."
           },
           {
             "q": "How long does a visit take?",
-            "a": "A relaxed walk takes about 1–2 hours (including platform and photo stops); allow half a day if you also visit Suan Suwaree, Chiang Mai City Hall, and Bogyoke Market."
+            "a": "A relaxed walk through the gardens takes about 1.5 to 2 hours. We recommend combining it with a visit to the nearby Wat Phra That Doi Suthep for a perfect half-day trip."
           },
           {
             "q": "Can I go in bad weather?",
@@ -697,15 +924,36 @@
     "attractionsTitle": "Official & Reference Resources",
     "toursTitle": "Recommended Experiences",
     "attractions": [
-      { "name": "Royal Office — Bhubing Palace Official Guide", "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/" },
-      { "name": "Suthep Subdistrict Municipality Tourism Portal (Chiang Mai)", "url": "https://suthep.go.th/web-oldversion/travel_view.php?cateid=1&id=42" },
-      { "name": "DASTA — Bhubing Palace Attraction Page", "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/" },
-      { "name": "Royal Office — Bhubing Palace Reopening Announcement (Jan 2025)", "url": "https://www.royaloffice.th/10/01/2025/%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C-2568/" },
-      { "name": "Fine Arts Department — Chiang Mai Lannaional Archives (Historical Record)", "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82" }
+      {
+        "name": "Royal Office — Bhubing Palace Official Guide",
+        "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/"
+      },
+      {
+        "name": "Suthep Subdistrict Municipality Tourism Portal (Chiang Mai)",
+        "url": "https://suthep.go.th/web-oldversion/travel_view.php?cateid=1&id=42"
+      },
+      {
+        "name": "DASTA — Bhubing Palace Attraction Page",
+        "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/"
+      },
+      {
+        "name": "Royal Office — Bhubing Palace Reopening Announcement (Jan 2025)",
+        "url": "https://www.royaloffice.th/10/01/2025/%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C-2568/"
+      },
+      {
+        "name": "Fine Arts Department — Chiang Mai Lannaional Archives (Historical Record)",
+        "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82"
+      }
     ],
     "tours": [
-      { "name": "Royal Office — Bhubing Palace Official Guide", "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/" },
-      { "name": "DASTA — Bhubing Palace Attraction Page", "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/" }
+      {
+        "name": "Royal Office — Bhubing Palace Official Guide",
+        "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/"
+      },
+      {
+        "name": "DASTA — Bhubing Palace Attraction Page",
+        "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/"
+      }
     ]
   },
   "scienceArt": {
@@ -752,7 +1000,10 @@
           "Use the path to lead the eye to the spire.",
           "Crouch low to layer body and sky for a steadier frame."
         ],
-        "badge": { "value": "Dawn", "label": "Best shot" }
+        "badge": {
+          "value": "Dawn",
+          "label": "Best shot"
+        }
       },
       {
         "id": "bridge",
@@ -766,7 +1017,10 @@
           "Side light on the body at dawn is softest.",
           "Watch your step and crowds; don't enter the roadway for composition."
         ],
-        "badge": { "value": "All day", "label": "Most accessible" }
+        "badge": {
+          "value": "All day",
+          "label": "Most accessible"
+        }
       },
       {
         "id": "sea",
@@ -779,7 +1033,10 @@
           "Shoot in blue hour; sky and body colors balance best.",
           "Leave large warm sky with the body silhouettes."
         ],
-        "badge": { "value": "Dawn/Dusk", "label": "Most atmospheric" }
+        "badge": {
+          "value": "Dawn/Dusk",
+          "label": "Most atmospheric"
+        }
       },
       {
         "id": "night",
@@ -792,7 +1049,10 @@
           "Use lights as a leading line toward the distance.",
           "Raise ISO or use stabilization for night frames."
         ],
-        "badge": { "value": "Night", "label": "Best layers" }
+        "badge": {
+          "value": "Night",
+          "label": "Best layers"
+        }
       }
     ]
   },
@@ -990,13 +1250,94 @@
   "downloads": {
     "title": "Academic & Practical Resource Downloads",
     "items": [
-      { "icon": "📥", "name": "Chiang Mai Doi Suthep Travel Map (EN).pdf", "desc": "Bhubing Palace and surrounding transport & supply points", "url": "#" },
-      { "icon": "📥", "name": "Chiang Mai City Walking Route Guide.pdf", "desc": "Hardcore walking routes and viewpoints", "url": "#" },
-      { "icon": "🗺️", "name": "GPX track download", "desc": "For walking and trail-running navigation", "url": "#" }
+      {
+        "icon": "📥",
+        "name": "Chiang Mai Doi Suthep Travel Map (EN).pdf",
+        "desc": "Bhubing Palace and surrounding transport & supply points",
+        "url": "#"
+      },
+      {
+        "icon": "📥",
+        "name": "Chiang Mai City Walking Route Guide.pdf",
+        "desc": "Hardcore walking routes and viewpoints",
+        "url": "#"
+      },
+      {
+        "icon": "🗺️",
+        "name": "GPX track download",
+        "desc": "For walking and trail-running navigation",
+        "url": "#"
+      }
     ]
   },
   "audioPlayer": {
     "cta": "Click here to hear the warm sound that has accompanied Burmese people for generations",
     "title": "သီချင်း (Thaching · Burmese folk song)"
+  },
+  "botanicalGuide": {
+    "title": "Suan Suwaree Botanical Guide",
+    "subtitle": "Rare alpine roses and temperate flowers introduced by Queen Sirikit",
+    "items": [
+      {
+        "name": "Juliet Rose",
+        "latin": "Rosa 'Ausjameson'",
+        "bloom": "Year-round",
+        "img": "/gallery/bhubing-palace-1.jpg",
+        "desc": "Known for its magnificent form and light tea fragrance, one of the most popular varieties."
+      },
+      {
+        "name": "Peace Rose",
+        "latin": "Rosa 'Madame A. Meilland'",
+        "bloom": "Nov - Feb",
+        "img": "/gallery/bhubing-palace-5.jpg",
+        "desc": "A classic hybrid tea rose with pale yellow petals edged in pink."
+      },
+      {
+        "name": "Highland Orchids",
+        "latin": "Orchidaceae",
+        "bloom": "Dec - Mar",
+        "img": "/gallery/bhubing-palace-10.jpg",
+        "desc": "Endemic orchid species of Northern Thailand carefully cultivated in the glasshouses."
+      },
+      {
+        "name": "Giant Tree Ferns",
+        "latin": "Cyatheales",
+        "bloom": "Evergreen",
+        "img": "/gallery/bhubing-palace-12.jpg",
+        "desc": "Ancient and massive ferns lining the shaded pathways of the royal gardens."
+      }
+    ]
+  },
+  "royalTimeline": {
+    "title": "Royal Timeline",
+    "subtitle": "Half a century of royal heritage",
+    "events": [
+      {
+        "year": "1961",
+        "title": "Foundation",
+        "desc": "King Bhumibol Adulyadej (Rama IX) ordered the construction of a winter retreat on Doi Suthep."
+      },
+      {
+        "year": "1962",
+        "title": "First State Guests",
+        "desc": "Hosted King Frederick IX and Queen Ingrid of Denmark, beginning its role as a state guesthouse."
+      },
+      {
+        "year": "1990s",
+        "title": "Suan Suwaree Rose Garden",
+        "desc": "Queen Sirikit led the introduction of hundreds of rare roses, creating the magnificent garden seen today."
+      },
+      {
+        "year": "Present",
+        "title": "Botanical Conservation",
+        "desc": "Open to the public as a highland botanical treasure when the Royal Family is not in residence."
+      }
+    ]
+  },
+  "liveStatus": {
+    "mountainTemp": "Mountain",
+    "cityTemp": "City",
+    "open": "Open Today",
+    "closed": "Closed for Royal Visit"
   }
 }

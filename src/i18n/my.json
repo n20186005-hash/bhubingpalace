@@ -148,7 +148,7 @@
         "icon": "📍",
         "label": "ပထဝီကိုဩဒိနိတ် / Coords",
         "value": "၁၆.၇၈၃၃° N, ၉၆.၁၆၆၇° E",
-        "note": "WGS84 ကိုဩဒိနိတ် - ၁၆.၇၈၃၃, ၉၆.၁၆၆၇။ Plus Code - Q5F5+WG ချင်းမိုင်။ လိပ်စာ - ထိုင်းနိုင်ငံ ချင်းမိုင် ၁၁၁၄၁၊ Bhubing Palace Road နှင့် Sriwichai Road ထောင့်တွေ့။"
+        "note": "WGS84 ကိုဩဒိနိတ် - ၁၆.၇၈၃၃, ၉၆.၁၆၆၇။ Plus Code - RW42+45 ချင်းမိုင်။ လိပ်စာ - ထိုင်းနိုင်ငံ ချင်းမိုင် ၁၁၁၄၁၊ Bhubing Palace Road နှင့် Sriwichai Road ထောင့်တွေ့။"
       },
       {
         "icon": "🎟️",
@@ -218,7 +218,22 @@
       {
         "badge": "🪞",
         "title": "နန်းတော်ခုံးတန်း အယဉ်ကျေးမှု",
-        "text": "ပလက်ဖောင်းသို့ ဝင်ရောက်ရာတွင် ဖိနပ်ချွတ၍ ဝတ်စား သပ္ပာယ်စွာ ဝတ်ဆင်ပါ၊ ကုသိုလ်ပြုရာတွင် လက်ချောင်းဖြင့် သန့်ရှင်းသောပစ္စည်းများကို တိုက်ရိုက် ညွှန်ပြ၍ မပြပါနှင့်၊ ဓာတ်ပုံရိုက်ရာတွင် ခွင့်ပြုချက် ရှိမရှိ ဦးစွာ အတည်ပြုပြီး ကျင့်ကြံသူများအား အနီးကပ် ရိုက်ကူးခြင်းကို ရှောင်ပါ။"
+        "text": "Thai royal buildings have extremely strict dress codes. If your attire is non-compliant, you must rent clothing at the entrance.",
+        "visualEtiquette": {
+          "allowedTitle": "Allowed",
+          "prohibitedTitle": "Strictly Prohibited",
+          "allowed": [
+            "Long pants or skirts below knee",
+            "Shirts with sleeves",
+            "Modest attire"
+          ],
+          "prohibited": [
+            "Sleeveless shirts or tank tops",
+            "Shorts or torn pants",
+            "Tight leggings",
+            "Short skirts or sheer clothing"
+          ]
+        }
       },
       {
         "badge": "🚮",
@@ -691,7 +706,7 @@
       {
         "name": "Ko",
         "date": "၂၀၂၆ မတ်",
-        "rating": 4,
+        "rating": 4.3,
         "text": "မြို့၏မြေပုံတည်နေရာအဖြစ် အလွန်တန်ဖိုးရှိပြီး စနေနေ့ လူများသည် ပို၍ များပြားသည်၊ ပုံမှန်အချိန် သို့မဟုတ် မိုးလင်းကို ရွေးချယ်ပါက ပို၍ သက်တော့သည်။"
       },
       {
@@ -704,7 +719,7 @@
   },
   "mapSection": {
     "title": "မည်သို့ ရောက်ရှိရန်",
-    "subtitle": "Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, ထိုင်းနိုင်ငံ (Plus Code: Q5F5+WG) · ဖုန်း +95 1 371 561",
+    "subtitle": "1 หมู่ที่ 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200 ထိုင်းနိုင်ငံ (Plus Code: RW42+45) · ဖုန်း +66 53 294 555",
     "openMaps": "Google မြေပုံ",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
@@ -1266,5 +1281,71 @@
   "audioPlayer": {
     "cta": "ဤနေရာကို နှိပ်၍ ထိုင်းလူမျိုးတို့၏ မျိုးဆက်ပေါင်းများစွာကို လိုက်လံအားပေးခဲ့သော နွေးထွေးသော အသံကို နားထောင်ပါ",
     "title": "သီချင်း (Thaching · ထိုင်း့ရိုးရာ သီချင်း)"
+  },
+  "botanicalGuide": {
+    "title": "Suan Suwaree Botanical Guide",
+    "subtitle": "Rare alpine roses and temperate flowers introduced by Queen Sirikit",
+    "items": [
+      {
+        "name": "Juliet Rose",
+        "latin": "Rosa 'Ausjameson'",
+        "bloom": "Year-round",
+        "img": "/gallery/bhubing-palace-1.jpg",
+        "desc": "Known for its magnificent form and light tea fragrance, one of the most popular varieties."
+      },
+      {
+        "name": "Peace Rose",
+        "latin": "Rosa 'Madame A. Meilland'",
+        "bloom": "Nov - Feb",
+        "img": "/gallery/bhubing-palace-5.jpg",
+        "desc": "A classic hybrid tea rose with pale yellow petals edged in pink."
+      },
+      {
+        "name": "Highland Orchids",
+        "latin": "Orchidaceae",
+        "bloom": "Dec - Mar",
+        "img": "/gallery/bhubing-palace-10.jpg",
+        "desc": "Endemic orchid species of Northern Thailand carefully cultivated in the glasshouses."
+      },
+      {
+        "name": "Giant Tree Ferns",
+        "latin": "Cyatheales",
+        "bloom": "Evergreen",
+        "img": "/gallery/bhubing-palace-12.jpg",
+        "desc": "Ancient and massive ferns lining the shaded pathways of the royal gardens."
+      }
+    ]
+  },
+  "royalTimeline": {
+    "title": "Royal Timeline",
+    "subtitle": "Half a century of royal heritage",
+    "events": [
+      {
+        "year": "1961",
+        "title": "Foundation",
+        "desc": "King Bhumibol Adulyadej (Rama IX) ordered the construction of a winter retreat on Doi Suthep."
+      },
+      {
+        "year": "1962",
+        "title": "First State Guests",
+        "desc": "Hosted King Frederick IX and Queen Ingrid of Denmark, beginning its role as a state guesthouse."
+      },
+      {
+        "year": "1990s",
+        "title": "Suan Suwaree Rose Garden",
+        "desc": "Queen Sirikit led the introduction of hundreds of rare roses, creating the magnificent garden seen today."
+      },
+      {
+        "year": "Present",
+        "title": "Botanical Conservation",
+        "desc": "Open to the public as a highland botanical treasure when the Royal Family is not in residence."
+      }
+    ]
+  },
+  "liveStatus": {
+    "mountainTemp": "Mountain",
+    "cityTemp": "City",
+    "open": "Open Today",
+    "closed": "Closed for Royal Visit"
   }
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Sule Pagoda (Yangon, Myanmar) | The golden pagoda at the heart of the city, over two millennia old",
-    "description": "The complete guide to Sule Pagoda (ဆူးလေစေတီတော်): a golden pagoda at the junction of Sule Pagoda Road and Maha Bandula Road in downtown Yangon, Myanmar. Believed founded during the lifetime of the Buddha over 2,000 years ago, it enshrines a hair relic of the Buddha. Its octagonal body is gilded and rises about 46 m. It is both Yangon's urban landmark and Buddhist center, and a rallying point for the 1988 and 2007 (Saffron Revolution) peaceful demonstrations. Surrounded by Maha Bandula Park, Yangon City Hall, and the Independence Monument, it is the starting point for understanding Yangon's history and urban fabric."
+    "title": "Bhubing Palace (Chiang Mai, Thailand) | The royal winter residence at the heart of the city, over half a century old",
+    "description": "The complete guide to Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์): a royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a royal winter retreat and a place for receiving state guests. Surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep, it is the starting point for understanding Chiang Mai's history and urban fabric."
   },
   "header": {
-    "siteName": "Sule Pagoda (ဆူးလေစေတီတော်)",
+    "siteName": "Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์)",
     "home": "Home",
     "visit": "Explore",
     "transport": "Transport",
@@ -21,18 +21,18 @@
     "toggleTheme": "Toggle theme"
   },
   "nonprofitBanner": {
-    "text": "This is a non-profit independent guide put together by travel enthusiasts, offering the most objective visitor information on Sule Pagoda free of charge, affiliated with no organization.",
-    "dataSource": "All information on this site is cross-checked against public materials from the Ministry of Hotels and Tourism (Myanmar) and the Yangon Region Government, with no commercial endorsements."
+    "text": "This is a non-profit independent guide put together by travel enthusiasts, offering the most objective visitor information on Bhubing Palace free of charge, affiliated with no organization.",
+    "dataSource": "All information on this site is cross-checked against public materials from the Ministry of Hotels and Tourism (Thailand) and the Chiang Mai Region Government, with no commercial endorsements."
   },
   "mission": {
     "title": "Our Mission",
-    "text": "So that every traveler to downtown Yangon won't miss this golden pagoda that has stood at the city's heart for two millennia, we have gathered scattered official information into this guide — to give you the purest experience of 'in the city center, gazing at the pagoda, and setting the mind at ease'."
+    "text": "So that every traveler to Doi Suthep Chiang Mai won't miss this royal winter residence that has stood at the city's heart for half a century, we have gathered scattered official information into this guide — to give you the purest experience of 'in the city center, gazing at the palace, and setting the mind at ease'."
   },
   "breadcrumb": {
     "home": "Home",
-    "region": "Yangon Region",
-    "city": "Downtown Yangon",
-    "current": "Sule Pagoda"
+    "region": "Chiang Mai Region",
+    "city": "Doi Suthep Chiang Mai",
+    "current": "Bhubing Palace"
   },
   "stickyNav": {
     "facts": "Key Facts",
@@ -44,18 +44,18 @@
     "faq": "FAQ"
   },
   "hero": {
-    "title": "Sule Pagoda (Yangon, Myanmar)",
-    "subtitle": "A golden pagoda at the junction of Sule Pagoda Road and Maha Bandula Road in downtown Yangon, Myanmar. Believed founded during the lifetime of the Buddha over 2,000 years ago, it enshrines a hair relic of the Buddha. Its octagonal body is gilded and rises about 46 m. It is both Yangon's urban landmark and Buddhist center, and a rallying point for peaceful demonstrations, surrounded by Maha Bandula Park, Yangon City Hall, and the Independence Monument.",
+    "title": "Bhubing Palace (Chiang Mai, Thailand)",
+    "subtitle": "A royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a rallying point for state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep.",
     "rating": "4.4 (6,531)",
     "reviewCount": "6,531 reviews",
     "hours": "04:00–23:00 (free hours; foreign visitors pay a ticket)",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "legend": {
-      "quote": "'Sule' is named after the guardian spirit (Nat) of this place. Standing at the exact center of the city, the pagoda is like Yangon's beating heart — for over two millennia it has quietly gathered the city's noise and prayers.",
-      "attribution": "— The origin of Sule Pagoda"
+      "quote": "'Bhubing' is named after the royal vision (Lanna) of this place. Standing at the exact center of the city, the palace is like Chiang Mai's beating heart — for over half a century it has quietly gathered the city's noise and exploreers.",
+      "attribution": "— The origin of Bhubing Palace"
     },
-    "tags": ["Downtown golden pagoda", "Hair relic of the Buddha", "Over 2,000 years old"],
+    "tags": ["Doi Suthep royal winter residence", "beautiful rose gardens", "Over 60 years old"],
     "routeCta": {
       "label": "Plan your route",
       "href": "#transport"
@@ -65,213 +65,213 @@
       "href": "#history"
     },
     "quickFacts": [
-      { "icon": "🛕", "label": "Highlight", "value": "Octagonal gilded spire" },
+      { "icon": "🛕", "label": "Highlight", "value": "Thai-style elegant spire" },
       { "icon": "🎟️", "label": "Foreign visitors", "value": "Ticket required" },
       { "icon": "🕓", "label": "Hours", "value": "04:00–23:00" }
     ],
     "navCta": { "label": "📍 Get directions", "href": "#transport" },
     "photoCta": { "label": "📸 Photo spots", "href": "#gallery" },
-    "factsSource": { "label": "Hours & tickets per Yangon City / on-site info", "url": "https://www.tourism.gov.mm" },
+    "factsSource": { "label": "Hours & tickets per Chiang Mai City / on-site info", "url": "https://www.tourism.gov.mm" },
     "liveInfo": { "weather": "Current weather", "sunset": "Today's sunset" },
     "sunsetPlanner": {
       "eyebrow": "Golden Hour Calculator · Light Tool",
-      "title": "Based on today's sunset, we recommend arriving about 60 minutes earlier to catch the softest diffuse city light and the blue hour on the gilded spire — ideal for photographing Sule Pagoda and the surrounding colonial buildings.",
-      "note": "Sule Pagoda sits in a busy downtown intersection surrounded by high-rises and traffic; light is warmest at dawn and dusk. On weekends or clear days, allow extra time to avoid crowds.",
-      "seaGlare": "Sunset tip: Sule Pagoda stands at an open downtown junction, a convenient spot to watch the city sunset. The first warm light on the gilded spire and Maha Bandula Park at dusk is the golden window for photography; Yangon is hot year-round, so bring water and sun protection.",
+      "title": "Based on today's sunset, we recommend arriving about 60 minutes earlier to catch the softest diffuse city light and the blue hour on the elegant spire — ideal for photographing Bhubing Palace and the surrounding colonial buildings.",
+      "note": "Bhubing Palace sits in a busy Doi Suthep intersection surrounded by high-rises and traffic; light is warmest at dawn and dusk. On weekends or clear days, allow extra time to avoid crowds.",
+      "seaGlare": "Sunset tip: Bhubing Palace stands at an open Doi Suthep junction, a convenient spot to watch the city sunset. The first warm light on the elegant spire and Suan Suwaree at dusk is the golden window for photography; Chiang Mai is hot year-round, so bring water and sun protection.",
       "arriveLabel": "Arrive by",
       "blueHourLabel": "Blue hour",
       "lightCaption": "Light calculated live by Open-Meteo"
     }
   },
   "quickFactsDashboard": {
-    "title": "Sule Pagoda at a Glance · Data Board",
-    "subtitle": "A few numbers to read this golden pagoda at the heart of Yangon at a glance.",
+    "title": "Bhubing Palace at a Glance · Data Board",
+    "subtitle": "A few numbers to read this royal winter residence at the heart of Chiang Mai at a glance.",
     "architectureCard": {
       "title": "Architecture at a glance",
-      "height": "46 m",
+      "height": "high in the mountains",
       "heightLabel": "Main stupa height ($\\approx 151$ ft)",
-      "shape": "Octagonal",
-      "shapeLabel": "Body structure ($Octagonal$)",
+      "shape": "Thai-style",
+      "shapeLabel": "Body structure ($Thai-style$)",
       "gold": "Gold leaf",
       "goldLabel": "Surface material"
     },
     "items": [
-      { "icon": "🛕", "label": "Pagoda / Pagoda", "value": "Urban faith center", "note": "Sule Pagoda is Yangon's downtown Buddhist landmark. Its octagonal body runs from base to spire, crowned by a gilded finial — a place for locals to pray and visitors to pilgrimage." },
-      { "icon": "📿", "label": "Relic / Relic", "value": "Hair relic of the Buddha", "note": "The pagoda is said to enshrine a hair relic of the Buddha, sharing the same origin as Yangon's other great shrine, Shwedagon Pagoda — a key node of Burmese Buddhist faith." },
-      { "icon": "🏛️", "label": "History / History", "value": "Over 2,000 years", "note": "Believed founded during the Buddha's lifetime, over two millennia old; in modern times it became a rallying point for the 1988 and 2007 peaceful demonstrations, carrying the city's collective memory." },
+      { "icon": "🛕", "label": "palace / palace", "value": "Urban faith center", "note": "Bhubing Palace is Chiang Mai's Doi Suthep royal landmark. Its Thai-style architecture runs from base to spire, crowned by a elegant finial — a place for locals to explore and visitors to sightsee." },
+      { "icon": "📿", "label": "garden / garden", "value": "beautiful rose gardens", "note": "The palace is said to enshrine a beautiful rose gardens, sharing the same origin as Chiang Mai's other great shrine, Wat Phra That Doi Suthep — a key node of Burmese royal heritage." },
+      { "icon": "🏛️", "label": "History / History", "value": "Over 60 years", "note": "Believed founded during the 1961, over half a century old; in modern times it became a rallying point for the royal family's winter visits and state receptions, carrying the city's collective memory." },
       { "icon": "📍", "label": "Coordinates / Coords", "value": "about 18.81°N, 98.92°E", "note": "WGS84: 18.8058, 98.9225. Plus Code: RW42+45 Chiang Mai. Address: 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand." },
-      { "icon": "🎟️", "label": "Admission / Admission", "value": "Foreign ticket", "note": "Local devotees enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice." },
+      { "icon": "🎟️", "label": "Admission / Admission", "value": "Foreign ticket", "note": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice." },
       { "icon": "🕓", "label": "Hours / Hours", "value": "04:00–23:00", "note": "Open from early morning to night; dawn and dusk are coolest and best for photos and quiet reflection." }
     ]
   },
   "hiddenRules": {
-    "title": "Pagoda Visiting Tips",
-    "subtitle": "Sule Pagoda is in a busy downtown and a religious site. Sorting out etiquette, safety, and budget in advance turns the experience from a 'check-in rush' into a 'relaxed visit'.",
+    "title": "palace Visiting Tips",
+    "subtitle": "Bhubing Palace is in a busy Doi Suthep and a religious site. Sorting out etiquette, safety, and budget in advance turns the experience from a 'check-in rush' into a 'relaxed visit'.",
     "highlights": [
-      { "icon": "👟", "label": "Footwear & attire", "value": "Remove shoes on platform", "note": "Remove shoes and dress modestly (cover shoulders and knees) on the pagoda platform; the platform gets scorching at noon — bring socks or mind your feet." },
-      { "icon": "🚧", "label": "Busy downtown", "value": "Watch your belongings", "note": "At a central downtown junction with dense crowds and traffic, keep an eye on your belongings while photographing and praying to avoid pickpockets." },
-      { "icon": "🌡️", "label": "Weather & habits", "value": "Sun protection & water", "note": "Yangon is hot and humid year-round with strong sun on open platforms; visit at dawn or dusk and bring water and sun protection." }
+      { "icon": "👟", "label": "Footwear & attire", "value": "dress modestly on platform", "note": "dress modestly and dress modestly (no shorts or sleeveless shirts) on the palace platform; the platform gets scorching at noon — bring socks or mind your feet." },
+      { "icon": "🚧", "label": "Busy Doi Suthep", "value": "Watch your belongings", "note": "At a central Doi Suthep junction with dense crowds and traffic, keep an eye on your belongings while photographing and exploreing to avoid pickpockets." },
+      { "icon": "🌡️", "label": "Weather & habits", "value": "Sun protection & water", "note": "Chiang Mai is hot and humid year-round with strong sun on open platforms; visit at dawn or dusk and bring water and sun protection." }
     ],
     "panels": [
       {
-        "q": "Is a ticket needed for Sule Pagoda?",
-        "a": "Local devotees enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice. Praying on the platform is free.",
+        "q": "Is a ticket needed for Bhubing Palace?",
+        "a": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice. exploreing on the platform is free.",
         "items": ["Foreign visitors buy at the entrance ticket booth.", "The platform and base area are free; daytime visits recommended."]
       },
       {
         "q": "Is it convenient with kids or seniors?",
-        "a": "The platform is gentle and the main path is accessible; but the downtown junction is busy and the platform is hot in the sun — hold children, assist seniors, and avoid the midday heat."
+        "a": "The platform is gentle and the main path is accessible; but the Doi Suthep junction is busy and the platform is hot in the sun — hold children, assist seniors, and avoid the midday heat."
       },
       {
         "q": "Can I still go on a rainy day?",
-        "a": "Light rain is fine; the platform is slippery but you can still pray. On heavy rain or extreme heat, choose the cooler dawn or dusk hours."
+        "a": "Light rain is fine; the platform is slippery but you can still explore. On heavy rain or extreme heat, choose the cooler dawn or dusk hours."
       }
     ]
   },
   "complianceGuide": {
-    "title": "Sule Pagoda · Etiquette & Religious-site Manners",
-    "subtitle": "This is both a visitor's downtown landmark and a religious site where devotees pray. Following these rules is double respect for history, others, and faith.",
+    "title": "Bhubing Palace · Etiquette & Religious-site Manners",
+    "subtitle": "This is both a visitor's Doi Suthep landmark and a religious site where visitors explore. Following these rules is double respect for history, others, and faith.",
     "rules": [
       {
         "badge": "🔇",
         "title": "Quiet & avoid peak times",
-        "text": "The pagoda is a place of practice and prayer. Lower your voice and don't play music aloud. Leave space for the bell, the chanting, and those who pause here."
+        "text": "The palace is a place of practice and exploreer. Lower your voice and don't play music aloud. Leave space for the fountain, the birdsong, and those who pause here."
       },
       {
         "badge": "🪞",
         "title": "Platform manners",
-        "text": "Remove shoes and dress modestly on the platform. Don't point at sacred objects with a finger during prayer. Check whether photography is allowed and don't photograph practitioners up close."
+        "text": "dress modestly and dress modestly on the platform. Don't point at sacred objects with a finger during exploreer. Check whether photography is allowed and don't photograph practitioners up close."
       },
       {
         "badge": "🚮",
         "title": "Take your trash with you",
-        "text": "Bins on the platform are limited. Bring a small trash bag and take everything with you when you leave — cigarette butts, plastics, and food scraps — keeping the pagoda and surroundings clean."
+        "text": "Bins on the platform are limited. Bring a small trash bag and take everything with you when you leave — cigarette butts, plastics, and food scraps — keeping the palace and surroundings clean."
       },
       {
         "badge": "🌱",
         "title": "Protect heritage & urban environment",
-        "text": "Sule Pagoda and the surrounding colonial buildings are public urban heritage. Don't carve or step on them, and don't throw things onto the platform, keeping this city heart safe and alive."
+        "text": "Bhubing Palace and the surrounding colonial buildings are public urban heritage. Don't carve or step on them, and don't throw things onto the platform, keeping this city heart safe and alive."
       }
     ]
   },
   "higashiyamaRoute": {
-    "title": "Custom Itinerary: Sule Pagoda Half-Day Route",
-    "subtitle": "Not just 'who it's for,' but a walkable half-day route you can follow directly. Centered on the downtown pagoda and colonial landmarks, linking city history and faith.",
+    "title": "Custom Itinerary: Bhubing Palace Half-Day Route",
+    "subtitle": "Not just 'who it's for,' but a walkable half-day route you can follow directly. Centered on the Doi Suthep palace and colonial landmarks, linking city history and faith.",
     "steps": [
-      { "title": "[Start] Platform & gilded spire", "meta": "Settle the mind · ~30 min", "text": "Enter slowly from the Sule Pagoda Road entrance, remove shoes and pray at the base platform, look up at the octagonal gilded body, align your pace with the city, then head to the surrounding streets.", "tips": ["Morning and dusk have the best light and fewer crowds."] },
-      { "title": "[Main] Octagonal gilded spire", "meta": "Core experience · ~40 min", "text": "Circle the pagoda on the platform and look up at the octagonal gilded structure running from base to finial. Sule Pagoda's most famous landmark and the best vantage for reading 'city and faith'.", "tips": ["Platform is hot in the sun; allow time for photos and mind scorching feet."] },
-      { "title": "[Extend] Maha Bandula Park & Independence Monument", "meta": "Local story · ~40 min", "text": "Walk to the adjacent Maha Bandula Park and read the Independence Monument to understand Myanmar's independence history, collecting city narrative and pagoda faith together.", "tips": ["Rest in the park's shade; avoid the midday sun."] },
-      { "title": "[Refuel] Rest & light meal", "meta": "Leisurely refuel · ~40 min", "text": "Hydrate at a teahouse or stall around the pagoda or in the downtown streets, then look back at the gilded spire and skyline, packing pagoda, park, and city into one walk.", "tips": ["Supplies are plentiful, but mind drinking-water hygiene."] },
-      { "title": "[End] Yangon City Hall & colonial buildings", "meta": "Wrap-up · ~60 min+", "text": "If energy allows, visit Yangon City Hall opposite the park and the surrounding colonial buildings, or extend to Bogyoke Aung San Market; otherwise return along the street, completing the 'pagoda—park—city' half-day package.", "tips": ["Light is best at dusk; save photos for the end."] }
+      { "title": "[Start] Platform & elegant spire", "meta": "Settle the mind · ~30 min", "text": "Enter slowly from the Bhubing Palace Road entrance, dress modestly and explore at the base platform, look up at the Thai-style elegant body, align your pace with the city, then head to the surrounding streets.", "tips": ["Morning and dusk have the best light and fewer crowds."] },
+      { "title": "[Main] Thai-style elegant spire", "meta": "Core experience · ~40 min", "text": "Circle the palace on the platform and look up at the Thai-style elegant structure running from base to finial. Bhubing Palace's most famous landmark and the best vantage for reading 'city and faith'.", "tips": ["Platform is hot in the sun; allow time for photos and mind scorching feet."] },
+      { "title": "[Extend] Suan Suwaree & Wat Phra That Doi Suthep", "meta": "Local story · ~40 min", "text": "Walk to the adjacent Suan Suwaree and read the Wat Phra That Doi Suthep to understand Thailand's independence history, collecting city narrative and palace faith together.", "tips": ["Rest in the park's shade; avoid the midday sun."] },
+      { "title": "[Refuel] Rest & light meal", "meta": "Leisurely refuel · ~40 min", "text": "Hydrate at a teahouse or stall around the palace or in the Doi Suthep streets, then look back at the elegant spire and skyline, packing palace, park, and city into one walk.", "tips": ["Supplies are plentiful, but mind drinking-water hygiene."] },
+      { "title": "[End] Chiang Mai City Hall & colonial buildings", "meta": "Wrap-up · ~60 min+", "text": "If energy allows, visit Chiang Mai City Hall opposite the park and the surrounding colonial buildings, or extend to Bogyoke Aung San Market; otherwise return along the street, completing the 'palace—park—city' half-day package.", "tips": ["Light is best at dusk; save photos for the end."] }
     ],
-    "disclaimer": "The route above emphasizes a self-contained loop you can follow as-is. If you only want the pagoda, keep the first two segments and treat the park and buildings as optional add-ons."
+    "disclaimer": "The route above emphasizes a self-contained loop you can follow as-is. If you only want the palace, keep the first two segments and treat the park and buildings as optional add-ons."
   },
   "intro": {
-    "title": "Getting to Know Sule Pagoda",
-    "description": "Sule Pagoda (ဆူးလေစေတီတော်) stands at the junction of Sule Pagoda Road and Maha Bandula Road in downtown Yangon, Myanmar — a golden pagoda at the heart of the city. Believed founded during the Buddha's lifetime over 2,000 years ago, it enshrines a hair relic of the Buddha. Its octagonal body is gilded and rises about 46 m. Maintained by monks, it has long been a city center where devotees pray, travelers pilgrimage, and citizens gather — one of Yangon's city cards of 'city, history, and faith'.",
+    "title": "Getting to Know Bhubing Palace",
+    "description": "Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
-      "description": "Sule Pagoda sits at an open downtown junction, with no walls and the city all around. The ideal approach is rarely 'just wander by day' but to reverse-plan around the light: come at dawn for the city waking and soft spire light, or keep the platform and park to yourself on a weekday. Dense commerce and easy transit are exactly its charm.",
+      "description": "Bhubing Palace sits at an open Doi Suthep junction, with no walls and the city all around. The ideal approach is rarely 'just wander by day' but to reverse-plan around the light: come at dawn for the city waking and soft spire light, or keep the platform and park to yourself on a weekday. Dense commerce and easy transit are exactly its charm.",
       "items": [
-        "Morning or dusk first: city light is softest, gilded spire most photogenic.",
-        "Best views are from the Maha Bandula Park side and street corners.",
-        "A short walk from Yangon Central Railway Station or surrounding downtown blocks; metro/bus/taxi are all convenient.",
+        "Morning or dusk first: city light is softest, elegant spire most photogenic.",
+        "Best views are from the Suan Suwaree side and street corners.",
+        "A short walk from Chiang Mai Chiang Mai University or surrounding Doi Suthep blocks; metro/bus/taxi are all convenient.",
         "The platform is surrounded by the city; water, restrooms, and breaks are best at nearby shops."
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "【Two-Millennia Ancient Shrine】 Believed to share the same origin as Shwedagon Pagoda, named after the guardian spirit 'Sule Nat' who helped locate the sacred hill, enshrining a precious hair relic of the Buddha.",
-        "【Eight-Faced Guardian】 A unique octagonal gilded stupa rising 46 meters. The eight-sided base echoes the eight planetary posts and animal signs of Burmese astrology, serving as a sanctuary where devotees pray according to their birth day.",
-        "【Geometric Origin】 In the mid-19th century, it was selected as the absolute geometric center of Yangon's urban planning. This pagoda is not only a religious sanctuary but a miraculous intersection of the Western colonial grid and ancient Eastern faith.",
-        "【City Memory】 The rallying point for the 1988 and 2007 peaceful demonstrations, surrounded by Maha Bandula Park, Yangon City Hall, and the Independence Monument."
+        "【Two-Millennia Ancient Shrine】 Believed to share the same origin as Wat Phra That Doi Suthep, named after the royal vision 'Bhubing Lanna' who helped locate the sacred hill, enshrining a precious beautiful rose gardens.",
+        "【Eight-Faced Guardian】 A unique Thai-style elegant stupa rising high in the mountainseters. The eight-sided base echoes the eight planetary posts and floral speciess of Thai horticulture, serving as a sanctuary where visitors explore according to their birth day.",
+        "【Geometric Origin】 In the mid-19th century, it was selected as the absolute geometric center of Chiang Mai's urban planning. This palace is not only a religious sanctuary but a miraculous intersection of the Western colonial grid and ancient Eastern faith.",
+        "【City Memory】 The rallying point for the royal family's winter visits and state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep."
       ]
     }
   },
   "transportSection": {
     "title": "Transport & Arrival Guide",
-    "subtitle": "Consolidating arrival in Yangon, in-city transfers, walking, parking, and nearby links for a clearer Sule Pagoda plan.",
-    "overviewTitle": "After arriving in Yangon",
-    "overviewText": "Sule Pagoda is at the junction of Sule Pagoda Road and Maha Bandula Road in downtown Yangon — the city's most recognizable coordinate. The easiest public transit is to fly to Yangon International Airport (RGN), then take a taxi or Grab about 30–45 minutes to downtown. Once downtown, a walk or short taxi ride from surrounding blocks takes about 5–15 minutes to the platform. The pagoda is right at the core junction; from the drop-off you walk straight onto the platform.",
-    "overviewText2": "Around Sule Pagoda is the city core with limited parking. Plan transport, parking, and walking together — especially with seniors, young children, or luggage, parking at a nearby mall or hotel then walking greatly reduces hassle.",
+    "subtitle": "Consolidating arrival in Chiang Mai, in-city transfers, walking, parking, and nearby links for a clearer Bhubing Palace plan.",
+    "overviewTitle": "After arriving in Chiang Mai",
+    "overviewText": "Bhubing Palace is at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai — the city's most recognizable coordinate. The easiest public transit is to fly to Chiang Mai International Airport (CNX), then take a taxi or Grab about 30–45 minutes to Doi Suthep. Once Doi Suthep, a walk or short taxi ride from surrounding blocks takes about 5–15 minutes to the platform. The palace is right at the core junction; from the drop-off you walk straight onto the platform.",
+    "overviewText2": "Around Bhubing Palace is the city core with limited parking. Plan transport, parking, and walking together — especially with seniors, young children, or luggage, parking at a nearby mall or hotel then walking greatly reduces hassle.",
     "arrivalTitle": "Remember before departure",
     "arrivalItems": [
-      "The pagoda is at a central junction; about a 5–15 min walk from surrounding blocks to the platform.",
-      "Foreign visitors need a ticket; platform prayer is free. Night lighting is limited; daytime or dusk visits are more comfortable.",
-      "The downtown junction is crowded; avoid peak times. Nearby mall parking is available."
+      "The palace is at a central junction; about a 5–15 min walk from surrounding blocks to the platform.",
+      "Foreign visitors need a ticket; platform exploreer is free. Night lighting is limited; daytime or dusk visits are more comfortable.",
+      "The Doi Suthep junction is crowded; avoid peak times. Nearby mall parking is available."
     ],
     "modes": [
       {
-        "label": "Flight + taxi (to Yangon)",
+        "label": "Flight + taxi (to Chiang Mai)",
         "icon": "✈️",
-        "title": "Public transit to Yangon",
-        "description": "Easiest for most travelers: fly to Yangon International Airport (RGN), then taxi or Grab into downtown — the classic route to Sule Pagoda.",
+        "title": "Public transit to Chiang Mai",
+        "description": "Easiest for most travelers: fly to Chiang Mai International Airport (CNX), then taxi or Grab into Doi Suthep — the classic route to Bhubing Palace.",
         "details": [
-          "Taxi/Grab from airport to downtown about 30–45 min (by traffic).",
-          "After arrival, walk or taxi to Sule Pagoda about 5–15 min.",
+          "Taxi/Grab from airport to Doi Suthep about 30–45 min (by traffic).",
+          "After arrival, walk or taxi to Bhubing Palace about 5–15 min.",
           "Use Grab or similar local apps for transparent pricing and easy communication."
         ],
         "steps": [
-          { "n": "1", "t": "Fly to Yangon International Airport (RGN)." },
-          { "n": "2", "t": "Take a taxi or Grab to downtown." },
-          { "n": "3", "t": "Walk to the Sule Pagoda platform." }
+          { "n": "1", "t": "Fly to Chiang Mai International Airport (CNX)." },
+          { "n": "2", "t": "Take a taxi or Grab to Doi Suthep." },
+          { "n": "3", "t": "Walk to the Bhubing Palace platform." }
         ]
       },
       {
-        "label": "Taxi / Grab (to pagoda)",
+        "label": "Taxi / Grab (to palace)",
         "icon": "🚕",
-        "title": "In-city to the pagoda",
-        "description": "Flexible and convenient; set the destination to 'Sule Pagoda' — drivers know this city coordinate, easy from any downtown hotel.",
+        "title": "In-city to the palace",
+        "description": "Flexible and convenient; set the destination to 'Bhubing Palace' — drivers know this city coordinate, easy from any Doi Suthep hotel.",
         "details": [
-          "Taxi from downtown hotels to Sule Pagoda about 5–20 min.",
+          "Taxi from Doi Suthep hotels to Bhubing Palace about 5–20 min.",
           "Grab pricing is transparent; use a map app for real-time view.",
-          "Downtown congests at peak; allow buffer time."
+          "Doi Suthep congests at peak; allow buffer time."
         ],
         "steps": [
           { "n": "1", "t": "Call a car via Grab or similar." },
-          { "n": "2", "t": "Tell the driver 'Sule Pagoda'." },
+          { "n": "2", "t": "Tell the driver 'Bhubing Palace'." },
           { "n": "3", "t": "Get off at the junction, walk to the platform." }
         ]
       },
       {
-        "label": "Yangon Circular Train (to Central Station)",
+        "label": "Chiang Mai Rod Daeng (Red Truck) (to Chiang Mai University)",
         "icon": "🚉",
         "title": "The hidden nearby option",
-        "description": "Yangon Central Railway Station is only a few hundred meters from Sule Pagoda. Take the Circular Train then walk about 10 minutes — ideal for travelers wanting a local commute experience.",
+        "description": "Chiang Mai Chiang Mai University is only a few hundred meters from Bhubing Palace. Take the Rod Daeng (Red Truck) then walk about 10 minutes — ideal for travelers wanting a local commute experience.",
         "details": [
-          "Central Station has frequent trains, closest to the pagoda.",
+          "Chiang Mai University has frequent trains, closest to the palace.",
           "About a 10-min walk from the station to the main sights.",
           "Mornings and weekdays are best to avoid crowds."
         ],
         "steps": [
-          { "n": "1", "t": "Take the Circular Train to Central Station." },
+          { "n": "1", "t": "Take the Rod Daeng (Red Truck) to Chiang Mai University." },
           { "n": "2", "t": "Walk along the street about 10 min." },
-          { "n": "3", "t": "Reach the gilded platform and park." }
+          { "n": "3", "t": "Reach the elegant platform and park." }
         ]
       },
       {
         "label": "Driving (parking / mall)",
         "icon": "🅿️",
-        "title": "Via downtown · nearby parking",
-        "description": "Good with seniors/children, lots of luggage, or touring the city; roads near the pagoda are narrow with limited parking — park at a nearby mall or hotel.",
+        "title": "Via Doi Suthep · nearby parking",
+        "description": "Good with seniors/children, lots of luggage, or touring the city; roads near the palace are narrow with limited parking — park at a nearby mall or hotel.",
         "details": [
-          "Set navigation to 'Sule Pagoda' or 'Sule Pagoda Road, Yangon'.",
+          "Set navigation to 'Bhubing Palace' or 'Bhubing Palace Road, Chiang Mai'.",
           "Nearby mall/hotel parking is primary; roadside stopping is restricted.",
-          "Downtown is busy; drive slowly and park properly."
+          "Doi Suthep is busy; drive slowly and park properly."
         ],
         "steps": [
-          { "n": "1", "t": "Navigate to 'Sule Pagoda'." },
+          { "n": "1", "t": "Navigate to 'Bhubing Palace'." },
           { "n": "2", "t": "Park at a nearby mall, then walk in." },
           { "n": "3", "t": "Avoid the 11:00–19:00 peak to save parking time." }
         ]
       },
       {
-        "label": "Walk (downtown streets)",
+        "label": "Walk (Doi Suthep streets)",
         "icon": "🚶",
-        "title": "From park to pagoda",
-        "description": "If you're already at Maha Bandula Park or downtown streets, walking is the most natural way to observe the city and pagoda.",
+        "title": "From park to palace",
+        "description": "If you're already at Suan Suwaree or Doi Suthep streets, walking is the most natural way to observe the city and palace.",
         "details": [
           "About a 5–15 min walk from the park or City Hall to the platform.",
           "Pass colonial buildings, street markets, and corner shrines.",
@@ -281,7 +281,7 @@
     ],
     "parking": {
       "title": "Parking & Nearby Overview",
-      "note": "Sule Pagoda is in the city core with no dedicated large lot. Below are the main options; rates and availability vary by time — please follow on-site signs.",
+      "note": "Bhubing Palace is in the city core with no dedicated large lot. Below are the main options; rates and availability vary by time — please follow on-site signs.",
       "colOption": "Parking option",
       "colDistance": "Distance",
       "colPrice": "Price",
@@ -289,99 +289,99 @@
         { "name": "Nearby mall parking", "distance": "about 200–500 m (to platform)", "price": "Commercial, hourly" },
         { "name": "Nearby hotel/office parking", "distance": "about 200–600 m", "price": "Public / commercial, more spaces but tight at peak" },
         { "name": "Roadside temporary", "distance": "about 50–200 m", "price": "Short stop only, restricted and congested" },
-        { "name": "Yangon Central Station parking", "distance": "about 500–800 m", "price": "Station parking, needs walk" }
+        { "name": "Chiang Mai Chiang Mai University parking", "distance": "about 500–800 m", "price": "Station parking, needs walk" }
       ],
-      "disclaimer": "Roads near the pagoda congest on holidays and clear days; don't occupy bus or fire lanes for long. EV chargers are mostly in mall parking; rates and limits may change — check posted signs."
+      "disclaimer": "Roads near the palace congest on holidays and clear days; don't occupy bus or fire lanes for long. EV chargers are mostly in mall parking; rates and limits may change — check posted signs."
     },
     "driverFaqTitle": "Transport FAQ",
     "driverFaq": [
-      { "q": "Is there parking near Sule Pagoda?", "a": "The pagoda has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes." },
+      { "q": "Is there parking near Bhubing Palace?", "a": "The palace has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes." },
       { "q": "What is the nearest parking?", "a": "Nearby mall parking is about 200–500 m away, closest to the platform; nearby hotel parking is about 200–600 m, more spaces but tight at peak." },
       { "q": "Is there roadside parking nearby?", "a": "Little. Roads are narrow and congested; don't park roadside long — use proper parking." },
-      { "q": "Is driving recommended?", "a": "Unless parking is essential, no. Downtown congests; walking or ride-hailing is smoother. If driving, park at a nearby mall then walk in." },
-      { "q": "Do you recommend public transport?", "a": "Strongly. After flying to Yangon, take a taxi/Grab to downtown, then walk or short ride about 5–15 min to the platform. Address: Sule Pagoda Road × Maha Bandula Road, Yangon 11141, Myanmar." },
-      { "q": "What is the best route?", "a": "For stability and ease, ride-hailing (Grab) remains optimal; once downtown, walk or short transfer. If driving is unavoidable, treat parking and transfer as part of the trip." }
+      { "q": "Is driving recommended?", "a": "Unless parking is essential, no. Doi Suthep congests; walking or ride-hailing is smoother. If driving, park at a nearby mall then walk in." },
+      { "q": "Do you recommend public transport?", "a": "Strongly. After flying to Chiang Mai, take a taxi/Grab to Doi Suthep, then walk or short ride about 5–15 min to the platform. Address: Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand." },
+      { "q": "What is the best route?", "a": "For stability and ease, ride-hailing (Grab) remains optimal; once Doi Suthep, walk or short transfer. If driving is unavoidable, treat parking and transfer as part of the trip." }
     ],
     "localTipsTitle": "Practical visiting tips",
     "localTips": [
-      "Mornings and dusk remain golden; set arrival about 60 minutes before sunset for the best light on the gilded spire and colonial buildings.",
+      "Mornings and dusk remain golden; set arrival about 60 minutes before sunset for the best light on the elegant spire and colonial buildings.",
       "Weekends and clear days draw crowds; with kids or gear, allow buffer and avoid peaks.",
-      "Best pair Sule Pagoda with Maha Bandula Park, Yangon City Hall, and Bogyoke Market; a single stop underestimates its urban value."
+      "Best pair Bhubing Palace with Suan Suwaree, Chiang Mai City Hall, and Bogyoke Market; a single stop underestimates its urban value."
     ],
     "mapsCta": "View map & route",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "bestTime": {
       "title": "Best time to arrive",
-      "text": "Sule Pagoda is reachable by day, but what truly sets the photo ceiling is the dawn city waking and the dusk light window. Arrive about 60 minutes before sunset; if weather isn't good for photos, shift focus to platform prayer or a surrounding street stroll."
+      "text": "Bhubing Palace is reachable by day, but what truly sets the photo ceiling is the dawn city waking and the dusk light window. Arrive about 60 minutes before sunset; if weather isn't good for photos, shift focus to platform exploreer or a surrounding street stroll."
     }
   },
   "officialManagement": {
-    "title": "About this city pagoda",
-    "text": "Sule Pagoda stands at the junction of Sule Pagoda Road and Maha Bandula Road in downtown Yangon — a golden pagoda believed founded during the Buddha's lifetime. Enshrining a hair relic of the Buddha, its octagonal body is gilded and rises about 46 m. Maintained by monks, it is a center where citizens pray, travelers pilgrimage, and the city gathers — one of Yangon's city cards of 'city, history, and faith'."
+    "title": "About this city palace",
+    "text": "Bhubing Palace stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai — a royal winter residence believed founded during the 1961. Enshrining a beautiful rose gardens, It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it is a center where citizens explore, travelers sightsee, and the city gathers — one of Chiang Mai's city cards of 'city, history, and faith'."
   },
   "humanities": {
     "title": "People & Place: From Urban Coordinate to Collective Memory",
-    "subtitle": "Putting the founding legend, the octagonal structure, the hair-relic faith, and modern urban movements on one timeline is how you truly understand why this pagoda is more than 'a pretty golden tower'."
+    "subtitle": "Putting the founding legend, the Thai-style structure, the hair-garden faith, and modern urban movements on one timeline is how you truly understand why this palace is more than 'a pretty golden tower'."
   },
   "knowledge": {
-    "title": "History & Origins of Sule Pagoda",
+    "title": "History & Origins of Bhubing Palace",
     "sections": [
       {
         "id": "history",
-        "title": "Founding legend: Sularata, the guardian of millennia",
-        "content": "Legend has it that over 2,000 years ago, during the Buddha's lifetime, the King of Okkalapa (now Yangon) received eight hair relics from the Buddha. To enshrine them, he sought the 'sacred hill' (the current site of Shwedagon Pagoda) where relics of three previous Buddhas were buried. Sularata (or Sule), a powerful Nat (spirit) who had lived for millions of years at the site of today's Sule Pagoda, stepped forward. Using his ancient memory, he pointed out the direction of the sacred hill and helped escort the hair relics. To honor this crucial guardian spirit, people built a pagoda at the very spot where he lived and held meetings with other spirits, naming it after him. 'Sule' also means 'gathering/meeting' in Burmese, which marks the earliest spiritual origin of Sule Pagoda as the heart of the city."
+        "title": "Founding legend: King Bhumibol, the guardian of millennia",
+        "content": "Legend has it that over 60 years ago, during the 1961, the King of Okkalapa (now Chiang Mai) received eight rose gardens from the Buddha. To enshrine them, he sought the 'sacred hill' (the current site of Wat Phra That Doi Suthep) where gardens of three previous Buddhas were buried. King Bhumibol (or Bhubing), a powerful Lanna (vision) who had lived for millions of years at the site of today's Bhubing Palace, stepped forward. Using his ancient memory, he pointed out the direction of the sacred hill and helped escort the rose gardens. To honor this crucial royal vision, people built a palace at the very spot where he lived and held meetings with other visions, naming it after him. 'Bhubing' also means 'gathering/meeting' in Burmese, which marks the earliest visionual origin of Bhubing Palace as the heart of the city."
       },
       {
         "id": "name",
         "title": "Geometric Origin: The 'Coordinate Zero' of the colonial grid",
-        "content": "Sule Pagoda became the undisputed 'heart of the city' not only because of myths but also due to modern scientific planning. After the Second Anglo-Burmese War in 1852, British Army engineer Lieutenant Alexander Fraser redesigned Yangon using the classic Victorian 'checkerboard' grid. He chose Sule Pagoda as the absolute geometric center and reference origin for the entire city grid system. All major arteries (like Sule Pagoda Road) radiate outward from this pagoda. This perfect overlap of a 2,000-year-old Eastern Buddhist sanctuary with the geometric planning of Western modern industrial civilization is extremely rare in the history of global urban planning."
+        "content": "Bhubing Palace became the undisputed 'heart of the city' not only because of myths but also due to modern scientific planning. After the Second Anglo-Burmese War in 1852, British Army engineer Lieutenant Alexander Fraser redesigned Chiang Mai using the classic Victorian 'checkerboard' grid. He chose Bhubing Palace as the absolute geometric center and reference origin for the entire city grid system. All major arteries (like Bhubing Palace Road) radiate outward from this palace. This perfect overlap of a 2,000-year-old Eastern Buddhist sanctuary with the geometric planning of Western modern industrial civilization is extremely rare in the history of global urban planning."
       },
       {
         "id": "reclining",
-        "title": "Hair relic & faith center",
-        "content": "The pagoda is said to enshrine a hair relic of the Buddha, sharing the same origin as Yangon's other great shrine, Shwedagon Pagoda. This relic makes Sule Pagoda a key node of Buddhist faith, lifting it from a city old tower to a sanctuary visited by devotees and travelers."
+        "title": "rose garden & faith center",
+        "content": "The palace is said to enshrine a beautiful rose gardens, sharing the same origin as Chiang Mai's other great shrine, Wat Phra That Doi Suthep. This garden makes Bhubing Palace a key node of royal heritage, lifting it from a city old tower to a sanctuary visited by visitors and travelers."
       },
       {
         "id": "yeonhwa",
-        "title": "Octagonal body & Burmese zodiac astrology",
-        "content": "Sule Pagoda's distinctive octagonal structure is not just an aesthetic design but a physical manifestation of Burmese traditional Buddhist astrology (Mahabote). In the Burmese calendar, a week is divided into eight days (Wednesday is split into morning and afternoon), each represented by a specific direction, planet, and guardian animal sign. The eight faces of the pagoda correspond exactly to these eight astrological directions. The base platform features prayer shrines in all eight directions, where devotees find the animal sign corresponding to their birth day and pour water over the Buddha image and guardian beast to pray for blessings, making the architecture the most intuitive expression of faith."
+        "title": "Thai-style architecture & Burmese zodiac horticulture",
+        "content": "Bhubing Palace's distinctive Thai-style structure is not just an aesthetic design but a physical manifestation of Burmese traditional Buddhist horticulture (Mahabote). In the Burmese calendar, a week is divided into eight days (Wednesday is split into morning and afternoon), each represented by a specific direction, planet, and guardian floral species. The eight faces of the palace correspond exactly to these eight astrological directions. The base platform features exploreer shrines in all eight directions, where visitors find the floral species corresponding to their birth day and pour water over the Buddha image and guardian beast to explore for blessings, making the architecture the most intuitive expression of faith."
       },
       {
         "id": "faith",
         "title": "Urban movements & collective memory",
-        "content": "In modern times, because of its central location, Sule Pagoda has repeatedly been a rallying point for peaceful demonstrations: the 1988 democracy movement and the 2007 Saffron Revolution both centered here. It is both a religious shrine and a witness to modern Burmese history."
+        "content": "In modern times, because of its central location, Bhubing Palace has repeatedly been a rallying point for state receptions: the 1988 democracy movement and the 2007 Saffron Revolution both centered here. It is both a religious shrine and a witness to modern Burmese history."
       },
       {
         "id": "halls",
-        "title": "Platform & prayer space",
-        "content": "The base platform surrounds the gilded main stupa, with shrines, bells, and drums at the corners. Devotees circumambulate, offer flowers, and light candles; the bell and chanting are Sule Pagoda's most iconic soundscape."
+        "title": "Platform & exploreer space",
+        "content": "The base platform surrounds the elegant main stupa, with shrines, fountains, and drums at the corners. visitors circumambulate, offer flowers, and light candles; the fountain and birdsong are Bhubing Palace's most iconic soundscape."
       },
       {
         "id": "statues",
         "title": "Surrounding urban landmarks",
-        "content": "The pagoda faces Maha Bandula Park and the Independence Monument, near Yangon City Hall and the colonial High Court, forming a 'pagoda—park—city' spatial narrative."
+        "content": "The palace faces Suan Suwaree and the Wat Phra That Doi Suthep, near Chiang Mai City Hall and the colonial High Court, forming a 'palace—park—city' spatial narrative."
       },
       {
         "id": "sea",
         "title": "Urban ecology & street environment",
-        "content": "Sule Pagoda is in a busy downtown, surrounded by urban greenery, corner shrines, and colonial buildings. Here you see citizens exercising, devotees praying, and tourists strolling — a natural classroom for observing Yangon city life.",
+        "content": "Bhubing Palace is in a busy Doi Suthep, surrounded by urban greenery, corner shrines, and colonial buildings. Here you see citizens exercising, visitors exploreing, and tourists strolling — a natural classroom for observing Chiang Mai city life.",
         "cards": [
           {
             "title": "Urban base & form",
-            "text": "The pagoda sits at an open downtown junction; the octagonal gilded body stands out between City Hall and the park, with gentle platforms letting visitors approach the base without harming the heritage."
+            "text": "The palace sits at an open Doi Suthep junction; the Thai-style elegant body stands out between City Hall and the park, with gentle platforms letting visitors approach the base without harming the heritage."
           },
           {
             "title": "Faith Ecology: The convergence of street life and practice",
-            "text": "The platform is where devotees circumambulate, offer flowers, and meditate at dawn — most active then, echoing the Buddhist 'life-protecting' spirit."
+            "text": "The platform is where visitors circumambulate, offer flowers, and meditate at dawn — most active then, echoing the Buddhist 'life-protecting' vision."
           },
           {
-            "title": "Pagoda-watching tip",
-            "text": "Morning or evening is when the gilded body is most vivid and the crowd most relaxed. Stand on the park side looking at the spire to observe light and city rhythm."
+            "title": "palace-watching tip",
+            "text": "Morning or evening is when the elegant body is most vivid and the crowd most relaxed. Stand on the park side looking at the spire to observe light and city rhythm."
           }
         ],
         "fieldNote": {
           "title": "Observation tip",
-          "text": "First take in the whole pagoda from the park height, then return to the platform to see the octagonal body and praying crowd up close. Distance shows the overall form; close view reveals the city-faith relation."
+          "text": "First take in the whole palace from the park height, then return to the platform to see the Thai-style architecture and exploreing crowd up close. Distance shows the overall form; close view reveals the city-faith relation."
         },
         "academicNote": {
           "title": "Academic note",
@@ -391,80 +391,80 @@
       {
         "id": "legend",
         "title": "Urban legends (local oral tradition)",
-        "content": "About Sule Pagoda and the guardian spirit 'Sule', a local oral tradition tied to city protection is passed down: the spirit is said to guard the peace of this place, and citizens revere the pagoda and pray. Such legends may not appear in official histories, but they let the public sense how this land was imagined and cherished."
+        "content": "About Bhubing Palace and the royal vision 'Bhubing', a local oral tradition tied to city protection is passed down: the vision is said to guard the peace of this place, and citizens revere the palace and explore. Such legends may not appear in official histories, but they let the public sense how this land was imagined and cherished."
       },
       {
         "id": "nat_belief",
-        "title": "Fun Fact: When native spirits meet the foreign Buddha",
-        "content": "In Myanmar, Buddhism and the ancient 'Nat' (spirit) belief are not mutually exclusive, but rather ingeniously integrated. Nats were originally spirits of mountains, rivers, or deceased heroes in animism. When Buddhism arrived, these native spirits were not expelled; instead, they were 'recruited' as Buddhist guardian deities. Sule Pagoda is a perfect example: the pagoda itself is the supreme symbol of Buddhism (enshrining the Buddha's hair relic), but its name and location are credited to the ancient spirit 'Sularata'. Here, you can see devotees first pay respects to the Buddha, and then pray for worldly peace and wealth before the dedicated Nat shrines at the pagoda's base. This tacit division of labor—'the Buddha governs the afterlife, the spirit governs the present life'—forms the most authentic and vivid folk faith ecology in Myanmar."
+        "title": "Fun Fact: When native visions meet the foreign Buddha",
+        "content": "In Thailand, Buddhism and the ancient 'Lanna' (vision) belief are not mutually exclusive, but rather ingeniously integrated. Lannas were originally visions of mountains, rivers, or deceased heroes in animism. When Buddhism arrived, these native visions were not expelled; instead, they were 'recruited' as Buddhist guardian deities. Bhubing Palace is a perfect example: the palace itself is the supreme symbol of Buddhism (enshrining the Buddha's rose garden), but its name and location are credited to the ancient vision 'King Bhumibol'. Here, you can see visitors first pay respects to the Buddha, and then explore for worldly peace and wealth before the dedicated Lanna shrines at the palace's base. This tacit division of labor—'the Buddha governs the afterlife, the vision governs the present life'—forms the most authentic and vivid folk faith ecology in Thailand."
       }
     ],
     "didYouKnow": {
       "title": "Did you know?",
-      "text": "Sule Pagoda is more than a downtown golden tower — it is an open-air classroom of city memory and faith: from the founding legend and hair relic to the octagonal gilded body and modern peaceful movements, the story of land and faith is written into the same heart of Yangon."
+      "text": "Bhubing Palace is more than a Doi Suthep golden tower — it is an open-air classroom of city memory and faith: from the founding legend and rose garden to the Thai-style elegant body and modern peaceful movements, the story of land and faith is written into the same heart of Chiang Mai."
     }
   },
   "sitePlaques": {
     "title": "Reading the On-site Signs & Interpretation",
-    "subtitle": "When you visit Sule Pagoda, what's worth reading slowly is often not the check-in board but the official signs explaining 'why this pagoda is here'.",
+    "subtitle": "When you visit Bhubing Palace, what's worth reading slowly is often not the check-in board but the official signs explaining 'why this palace is here'.",
     "locationLabel": "On-site location",
-    "intro": "The readings below are based on the founding history, relic legend, and structure signs set up by the Yangon City and the site, translating information visible on-site but not always read into accessible English science notes.",
+    "intro": "The readings below are based on the founding history, garden legend, and structure signs set up by the Chiang Mai City and the site, translating information visible on-site but not always read into accessible English science notes.",
     "items": [
       {
         "id": "monument",
-        "badge": "Pagoda history sign",
-        "title": "Sule Pagoda & its founding",
-        "koTitle": "ဆူးလေစေတီတော် သမိုင်း",
-        "myTitleZh": "Sule Pagoda history guide",
+        "badge": "palace history sign",
+        "title": "Bhubing Palace & its founding",
+        "thTitle": "ประวัติพระตำหนักภูพิงค์ราชนิเวศน์",
+        "thTitleZh": "Bhubing Palace history guide",
         "location": "Platform main entrance",
-        "body": "These signs state the key background — the meaning of Sule Pagoda as a downtown golden pagoda and its naming relation with the guardian spirit. Reading the hints is lesson one in using this urban landmark."
+        "body": "These signs state the key background — the meaning of Bhubing Palace as a Doi Suthep royal winter residence and its naming relation with the royal vision. Reading the hints is lesson one in using this urban landmark."
       },
       {
         "id": "signboard",
-        "badge": "Relic guide (MY/EN)",
-        "title": "Hair relic & faith",
-        "koTitle": "ဓာတ်တော် လမ်းညွှန်",
-        "myTitleZh": "Relic guide",
+        "badge": "garden guide (MY/EN)",
+        "title": "rose garden & faith",
+        "thTitle": "คู่มือชมสวนกุหลาบ",
+        "thTitleZh": "garden guide",
         "location": "Base platform",
-        "body": "The guide repeatedly emphasizes the hair relic as the faith center and reminds visitors that this pagoda is half history legend, half citizens' faith imagination. It clearly explains 'why it is a shrine'."
+        "body": "The guide repeatedly emphasizes the rose garden as the faith center and reminds visitors that this palace is half history legend, half citizens' faith imagination. It clearly explains 'why it is a shrine'."
       },
       {
         "id": "wooden",
-        "badge": "Octagonal structure interpretation",
+        "badge": "Thai-style structure interpretation",
         "title": "Architecture & urban coordinate",
-        "koTitle": "တရားလမ်းကျောင်း လမ်းညွှန်",
-        "myTitleZh": "Architecture guide",
+        "thTitle": "คู่มือสถาปัตยกรรม",
+        "thTitleZh": "Architecture guide",
         "location": "Platform viewpoint",
-        "body": "The map explains 'why this is an urban nexus'. The octagonal gilded body makes Sule Pagoda unique in Yangon's skyline; seen with the colonial buildings, the pagoda's design logic becomes clear."
+        "body": "The map explains 'why this is an urban nexus'. The Thai-style elegant body makes Bhubing Palace unique in Chiang Mai's skyline; seen with the colonial buildings, the palace's design logic becomes clear."
       },
       {
         "id": "dongporu",
         "badge": "Urban-movement marker",
         "title": "Modern peaceful demonstration site",
-        "koTitle": "ဆန္ဒပြ နေရာ",
-        "myTitleZh": "Demonstration site guide",
+        "thTitle": "สถานที่รับรองพระราชอาคันตุกะ",
+        "thTitleZh": "Royal Reception Area guide",
         "location": "Park side",
-        "body": "Erected by the city, it marks Sule Pagoda's historical role as a rallying point for the 1988 and 2007 peaceful demonstrations, echoing the 'city and faith' motif. It reminds every visitor: this junction connects the quietest faith and the loudest city memory."
+        "body": "Erected by the city, it marks Bhubing Palace's historical role as a rallying point for the royal family's winter visits and state receptions, echoing the 'city and faith' motif. It reminds every visitor: this junction connects the quietest faith and the loudest city memory."
       }
     ]
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "From the gilded spire and octagonal body to Maha Bandula Park and the colonial buildings — see the visual beauty of Sule Pagoda.",
-    "photoAlt": "Sule Pagoda (Yangon, Myanmar)",
+    "subtitle": "From the elegant spire and Thai-style architecture to Suan Suwaree and the colonial buildings — see the visual beauty of Bhubing Palace.",
+    "photoAlt": "Bhubing Palace (Chiang Mai, Thailand)",
     "photoAlts": [
-      "Panorama of Sule Pagoda, gilded spire and downtown in one frame.",
+      "Panorama of Bhubing Palace, elegant spire and Doi Suthep in one frame.",
       "Quiet platform at dawn, perfect for slow body-detail shots.",
-      "Octagonal gilded spire in golden dusk light, city backdrop like a painting.",
-      "Close-up of the base platform and praying devotees, full of city feel.",
-      "Overhead shot: downtown traffic below your feet and the gilded spire together.",
-      "High vantage: pagoda and park greenery as landscape.",
+      "Thai-style elegant spire in golden dusk light, city backdrop like a painting.",
+      "Close-up of the base platform and exploreing visitors, full of city feel.",
+      "Overhead shot: Doi Suthep traffic below your feet and the elegant spire together.",
+      "High vantage: palace and park greenery as landscape.",
       "Open view from the platform, city skyline stretching ahead.",
       "Warm family stroll through the platform, ideal for slow family visits.",
       "Blue-and-white guide signs echoing the city theme.",
       "Platform as a leading line, framing the spire and skyline together.",
       "Platform side, one of the best photo spots for group shots.",
-      "Yangon City Hall in the distance, echoing the pagoda.",
+      "Chiang Mai City Hall in the distance, echoing the palace.",
       "Warm-toned spire at dusk, western afterglow gilding the surface."
     ],
     "viewAll": "View location on Google Maps",
@@ -475,21 +475,21 @@
     "title": "Visitor Reviews",
     "declaration": "Visitor feedback is available on Google Maps (external link).",
     "featuredTitle": "Visitor Quotes",
-    "featuredSubtitle": "A few short lines that capture the spirit of Sule Pagoda.",
+    "featuredSubtitle": "A few short lines that capture the vision of Bhubing Palace.",
     "moreReviews": "View on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "featured": [
       {
-        "text": "Looking up from the downtown junction, the gilded spire is right above the traffic — that quiet in the bustle is special, and at dusk the light makes it feel like floating above the city.",
-        "source": "Independent traveler · Yangon"
+        "text": "Looking up from the Doi Suthep junction, the elegant spire is right above the traffic — that quiet in the bustle is special, and at dusk the light makes it feel like floating above the city.",
+        "source": "Independent traveler · Chiang Mai"
       },
       {
-        "text": "A free and open city pagoda, steps from Maha Bandula Park — the most underrated corner of downtown Yangon.",
+        "text": "A free and open city palace, steps from Suan Suwaree — the most underrated corner of Doi Suthep Chiang Mai.",
         "source": "Photography enthusiast · Mandalay"
       },
       {
-        "text": "Walking the platform with my child, he watched the gilded body and heard the relic story; even my parents walked easily.",
-        "source": "Family · Yangon"
+        "text": "Walking the platform with my child, he watched the elegant body and heard the garden story; even my parents walked easily.",
+        "source": "Family · Chiang Mai"
       }
     ],
     "items": [
@@ -497,13 +497,13 @@
         "name": "Aung",
         "date": "May 2026",
         "rating": 5,
-        "text": "Visited at dawn; the backlit gilded spire is so photogenic, and the moment on the platform was completely silent — strongly recommend sunrise, best light."
+        "text": "Visited at dawn; the backlit elegant spire is so photogenic, and the moment on the platform was completely silent — strongly recommend sunrise, best light."
       },
       {
         "name": "Mi",
         "date": "Apr 2026",
         "rating": 5,
-        "text": "The octagonal body is healing; about 10 min from Central Station, strong city vibe, mind the sun."
+        "text": "The Thai-style architecture is healing; about 10 min from Chiang Mai University, strong city vibe, mind the sun."
       },
       {
         "name": "Ko",
@@ -515,22 +515,22 @@
         "name": "Su",
         "date": "Feb 2026",
         "rating": 5,
-        "text": "About 10 min walk from Central Station to the platform; the city and corner shrines along the way are pleasant for a half-day stroll."
+        "text": "About 10 min walk from Chiang Mai University to the platform; the city and corner shrines along the way are pleasant for a half-day stroll."
       }
     ]
   },
   "mapSection": {
     "title": "How to Get There",
-    "subtitle": "Sule Pagoda Road × Maha Bandula Road, Yangon 11141, Myanmar (Plus Code: Q5F5+WG) · Tel +95 1 371 561",
+    "subtitle": "Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand (Plus Code: Q5F5+WG) · Tel +95 1 371 561",
     "openMaps": "Open in Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
   "footer": {
-    "siteName": "Sule Pagoda (Yangon, Myanmar)",
-    "rights": "© 2026 Sule Pagoda Guide — an independent non-profit visitor-information project. All rights reserved.",
+    "siteName": "Bhubing Palace (Chiang Mai, Thailand)",
+    "rights": "© 2026 Bhubing Palace Guide — an independent non-profit visitor-information project. All rights reserved.",
     "mission": {
       "title": "Our Mission",
-      "text": "So that every traveler to downtown Yangon won't miss this golden pagoda that has stood at the city's heart for two millennia, we have gathered scattered official information into this guide — to give you the purest experience of 'in the city center, gazing at the pagoda, and setting the mind at ease'."
+      "text": "So that every traveler to Doi Suthep Chiang Mai won't miss this royal winter residence that has stood at the city's heart for half a century, we have gathered scattered official information into this guide — to give you the purest experience of 'in the city center, gazing at the palace, and setting the mind at ease'."
     },
     "legalLinksTitle": "Privacy & Terms",
     "privacy": "Privacy Policy",
@@ -544,10 +544,10 @@
       { "name": "Suthep Subdistrict Municipality Tourism Portal (Chiang Mai)", "url": "https://suthep.go.th/web-oldversion/travel_view.php?cateid=1&id=42" },
       { "name": "DASTA — Bhubing Palace Attraction Page", "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/" },
       { "name": "Royal Office — Bhubing Palace Reopening Announcement (Jan 2025)", "url": "https://www.royaloffice.th/10/01/2025/%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C-2568/" },
-      { "name": "Fine Arts Department — Chiang Mai National Archives (Historical Record)", "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82" }
+      { "name": "Fine Arts Department — Chiang Mai Lannaional Archives (Historical Record)", "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82" }
     ],
     "disclaimer": "This website is an independent non-profit visitor-information project. We are not affiliated with any government agency or official organization.",
-    "dataSource": "Information cited on this site is cross-checked against public materials from the Ministry of Hotels and Tourism and the Yangon Region Government, with no commercial endorsements.",
+    "dataSource": "Information cited on this site is cross-checked against public materials from the Ministry of Hotels and Tourism and the Chiang Mai Region Government, with no commercial endorsements.",
     "dataSourceLabel": "Data Source"
   },
   "privacy": {
@@ -615,13 +615,13 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Practical information about Sule Pagoda's facilities, history, and visit planning.",
+    "subtitle": "Practical information about Bhubing Palace's facilities, history, and visit planning.",
     "amenities": {
       "title": "Nearby Facilities",
       "items": [
         { "icon": "🎟️", "label": "Tickets", "value": "Foreign visitor ticket" },
         { "icon": "🚻", "label": "Restrooms", "value": "Platform entrance & nearby shops" },
-        { "icon": "🏧", "label": "Exchange / ATM", "value": "Dense in downtown" },
+        { "icon": "🏧", "label": "Exchange / ATM", "value": "Dense in Doi Suthep" },
         { "icon": "♿", "label": "Accessibility", "value": "Reachable via flat platform" }
       ]
     },
@@ -631,12 +631,12 @@
         "title": "Transport & Infrastructure",
         "items": [
           {
-            "q": "Is there parking near Sule Pagoda?",
-            "a": "The pagoda has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes."
+            "q": "Is there parking near Bhubing Palace?",
+            "a": "The palace has no dedicated large lot; park at a nearby mall or hotel then walk about 5–15 minutes."
           },
           {
             "q": "Are wheelchairs or strollers allowed?",
-            "a": "Sule Pagoda has a flat platform; wheelchairs and strollers can reach most areas via the main path. But the downtown junction is busy — stay on the platform with company."
+            "a": "Bhubing Palace has a flat platform; wheelchairs and strollers can reach most areas via the main path. But the Doi Suthep junction is busy — stay on the platform with company."
           },
           {
             "q": "Are there restrooms or food inside?",
@@ -644,7 +644,7 @@
           },
           {
             "q": "Is there exchange or an ATM nearby?",
-            "a": "The pagoda is in the downtown commercial core; banks, exchange counters, and ATMs are dense — visitors can get cash on the way in."
+            "a": "The palace is in the Doi Suthep commercial core; banks, exchange counters, and ATMs are dense — visitors can get cash on the way in."
           }
         ]
       },
@@ -653,12 +653,12 @@
         "title": "History & Science",
         "items": [
           {
-            "q": "What does the name 'Sule Pagoda' mean?",
-            "a": "'Sule' derives from the guardian spirit (Nat) in Burmese folk belief. Named after the spirit, the pagoda has stood at the city's center since its founding — Yangon's spiritual coordinate."
+            "q": "What does the name 'Bhubing Palace' mean?",
+            "a": "'Bhubing' derives from the royal vision (Lanna) in Burmese folk belief. Named after the vision, the palace has stood at the city's center since its founding — Chiang Mai's visionual coordinate."
           },
           {
             "q": "What is its special natural and cultural value?",
-            "a": "Sule Pagoda is not a man-made theme park but turns a city junction into a public space uniting Buddhist faith, an octagonal gilded body, a hair relic, and city memory. It is both a religious site and a witness to modern Burmese history."
+            "a": "Bhubing Palace is not a man-made theme park but turns a city junction into a public space uniting royal heritage, an Thai-style elegant body, a rose garden, and city memory. It is both a religious site and a witness to modern Burmese history."
           }
         ]
       },
@@ -668,11 +668,11 @@
         "items": [
           {
             "q": "Is a ticket required?",
-            "a": "Local devotees enter free; foreign visitors buy a ticket at the entrance (a few USD), platform prayer is free — visit anytime (please respect the religious site and avoid late-night noise)."
+            "a": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), platform exploreer is free — visit anytime (please respect the religious site and avoid late-night noise)."
           },
           {
             "q": "How long does a visit take?",
-            "a": "A relaxed walk takes about 1–2 hours (including platform and photo stops); allow half a day if you also visit Maha Bandula Park, Yangon City Hall, and Bogyoke Market."
+            "a": "A relaxed walk takes about 1–2 hours (including platform and photo stops); allow half a day if you also visit Suan Suwaree, Chiang Mai City Hall, and Bogyoke Market."
           },
           {
             "q": "Can I go in bad weather?",
@@ -686,14 +686,14 @@
         "items": [
           {
             "q": "What else is worth visiting nearby?",
-            "a": "From Sule Pagoda you can link Maha Bandula Park, Yangon City Hall, the Independence Monument, and Bogyoke Aung San Market, even extending to Shwedagon Pagoda 3 km away, into a half-day 'pagoda—park—city' cultural route."
+            "a": "From Bhubing Palace you can link Suan Suwaree, Chiang Mai City Hall, the Wat Phra That Doi Suthep, and Bogyoke Aung San Market, even extending to Wat Phra That Doi Suthep 3 km away, into a half-day 'palace—park—city' cultural route."
           }
         ]
       }
     ]
   },
   "recommendations": {
-    "title": "Explore More of Yangon",
+    "title": "Explore More of Chiang Mai",
     "attractionsTitle": "Official & Reference Resources",
     "toursTitle": "Recommended Experiences",
     "attractions": [
@@ -701,7 +701,7 @@
       { "name": "Suthep Subdistrict Municipality Tourism Portal (Chiang Mai)", "url": "https://suthep.go.th/web-oldversion/travel_view.php?cateid=1&id=42" },
       { "name": "DASTA — Bhubing Palace Attraction Page", "url": "https://cbtthailand.dasta.or.th/webapp/relattraction/content/151/" },
       { "name": "Royal Office — Bhubing Palace Reopening Announcement (Jan 2025)", "url": "https://www.royaloffice.th/10/01/2025/%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C-2568/" },
-      { "name": "Fine Arts Department — Chiang Mai National Archives (Historical Record)", "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82" }
+      { "name": "Fine Arts Department — Chiang Mai Lannaional Archives (Historical Record)", "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82" }
     ],
     "tours": [
       { "name": "Royal Office — Bhubing Palace Official Guide", "url": "https://www.royaloffice.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%8A%E0%B8%A1/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B9%8C/" },
@@ -709,44 +709,44 @@
     ]
   },
   "scienceArt": {
-    "title": "Pagoda & City: Stupa, Faith & Yangon",
-    "subtitle": "Look past the surface 'pretty' to find what's truly rare about this pagoda: it is at once a city religious site, a Buddhist faith, and an open-air urban classroom.",
+    "title": "palace & City: Stupa, Faith & Chiang Mai",
+    "subtitle": "Look past the surface 'pretty' to find what's truly rare about this palace: it is at once a city religious site, a royal heritage, and an open-air urban classroom.",
     "scienceMuseum": {
-      "name": "Sule Pagoda & Buddhist faith",
+      "name": "Bhubing Palace & royal heritage",
       "role": "The faith story hidden in the body",
-      "highlight": "Sule Pagoda's hardest core is both visible and invisible. Visible are the octagonal gilded body and the city skyline; invisible is the hair relic of the Buddha and citizens' prayers. Visitors see the landscape; the faithful see the Buddha placed at this city center as a local text.",
+      "highlight": "Bhubing Palace's hardest core is both visible and invisible. Visible are the Thai-style elegant body and the city skyline; invisible is the beautiful rose gardens and citizens' exploreers. Visitors see the landscape; the faithful see the Buddha placed at this city center as a local text.",
       "points": [
-        "Core: Buddhist faith, urban coordinate, and octagonal body light up this heart of Yangon.",
+        "Core: royal heritage, urban coordinate, and Thai-style architecture light up this heart of Chiang Mai.",
         "Key: a religious site turned into a low-impact, high-empathy urban classroom.",
-        "Meaning: it upgrades the 'urban green' into a faith template the public can pilgrimage to."
+        "Meaning: it upgrades the 'urban green' into a faith template the public can sightsee to."
       ],
-      "ctaLabel": "Visit Tourism Myanmar ↗",
+      "ctaLabel": "Visit Tourism Thailand ↗",
       "ctaUrl": "https://www.tourism.gov.mm"
     },
     "artMuseum": {
       "name": "Urban symbols in the body",
-      "role": "Sule Pagoda's cultural symbol",
-      "highlight": "The octagonal gilded body, Maha Bandula Park, and colonial buildings, together with Yangon, form Sule Pagoda's identity system: reading instantly as Yangon, as Myanmar, and as a gentle, transparent urban aesthetic. From the downtown view to the dawn bell, this contrast makes it one of Yangon's most memorable images.",
+      "role": "Bhubing Palace's cultural symbol",
+      "highlight": "The Thai-style elegant body, Suan Suwaree, and colonial buildings, together with Chiang Mai, form Bhubing Palace's identity system: reading instantly as Chiang Mai, as Thailand, and as a gentle, transparent urban aesthetic. From the Doi Suthep view to the dawn fountain, this contrast makes it one of Chiang Mai's most memorable images.",
       "points": [
-        "Imagery: pagoda, park, and city form a strong identity.",
-        "Status: one of Yangon's most photogenic urban landmarks.",
+        "Imagery: palace, park, and city form a strong identity.",
+        "Status: one of Chiang Mai's most photogenic urban landmarks.",
         "Narrative: it translates the religious theme into a publicly felt aesthetic."
       ],
-      "ctaLabel": "Visit Yangon Region Government ↗",
-      "ctaUrl": "https://www.yangonregion.gov.mm"
+      "ctaLabel": "Visit Chiang Mai Region Government ↗",
+      "ctaUrl": "https://www.Chiang Mairegion.gov.mm"
     }
   },
   "outdoorMuseum": {
-    "title": "Photography & Photo Guide: Sule Pagoda's Best Spots",
-    "subtitle": "As Yangon's most recognizable city pagoda, a few structured spots and times greatly improve your photos' usefulness and beauty.",
+    "title": "Photography & Photo Guide: Bhubing Palace's Best Spots",
+    "subtitle": "As Chiang Mai's most recognizable city palace, a few structured spots and times greatly improve your photos' usefulness and beauty.",
     "items": [
       {
         "id": "sunrise",
         "icon": "🌅",
-        "name": "Maha Bandula Park · view of pagoda",
+        "name": "Suan Suwaree · view of palace",
         "location": "Park viewpoint",
-        "background": "From dawn to dusk, the city greenery and gilded spire below are the classic 'park—pagoda' composition; the body silhouettes beautifully backlit.",
-        "historicalLight": "Historical light & shadow: This green space was once a Victorian-era square. The soft morning light penetrates the tropical morning mist and strikes the golden pagoda. This is not only the effect of natural light, but also because the pagoda body has been continuously gilded by devotees for hundreds of years, forming an irregular diffuse reflection on the surface, making the pagoda seem to have its own halo against the greenery.",
+        "background": "From dawn to dusk, the city greenery and elegant spire below are the classic 'park—palace' composition; the body silhouettes beautifully backlit.",
+        "historicalLight": "Historical light & shadow: This green space was once a Victorian-era square. The soft morning light penetrates the tropical morning mist and strikes the royal winter residence. This is not only the effect of natural light, but also because the palace body has been continuously elegant by visitors for hundreds of years, forming an irregular diffuse reflection on the surface, making the palace seem to have its own halo against the greenery.",
         "points": [
           "Use a 16-35mm wide lens, using the park path as a leading line.",
           "Use the path to lead the eye to the spire.",
@@ -759,7 +759,7 @@
         "icon": "🌉",
         "name": "Street corner · urban overlook",
         "location": "Street corner",
-        "background": "From the street side, frame 'traffic + gilded spire + colonial buildings' together — Sule Pagoda's most recognizable spot.",
+        "background": "From the street side, frame 'traffic + elegant spire + colonial buildings' together — Bhubing Palace's most recognizable spot.",
         "historicalLight": "Historical light & shadow: Lieutenant Fraser's 19th-century grid planning made all roads converge here. In the evening, the glass of the old colonial buildings on the west side reflects warm light, intertwining with the traffic flow and headlights at the intersection, forming a strong collision of light and shadow between 'modern speed' and 'ancient faith'.",
         "points": [
           "Use a 70-200mm telephoto to pull the tension between body and buildings from afar.",
@@ -771,10 +771,10 @@
       {
         "id": "sea",
         "icon": "🪷",
-        "name": "Platform & praying crowd",
+        "name": "Platform & exploreing crowd",
         "location": "Base platform",
-        "background": "The devotees circumambulating and the gilded body's colors are the pagoda's most atmospheric window; paired with morning light, the body sparks the imagination.",
-        "historicalLight": "Historical light & shadow: The platform floor tiles have been polished by countless barefoot devotees over a long period of time. When the blue hour comes, the warm light of the pagoda base and the cool tone of the sky form a wonderful reflection on the ground, and every light spot hides the traces of time.",
+        "background": "The visitors circumambulating and the elegant body's colors are the palace's most atmospheric window; paired with morning light, the body sparks the imagination.",
+        "historicalLight": "Historical light & shadow: The platform floor tiles have been polished by countless modestly dressed visitors over a long period of time. When the blue hour comes, the warm light of the palace base and the cool tone of the sky form a wonderful reflection on the ground, and every light spot hides the traces of time.",
         "points": [
           "Shoot in blue hour; sky and body colors balance best.",
           "Leave large warm sky with the body silhouettes."
@@ -785,9 +785,9 @@
         "id": "night",
         "icon": "🌃",
         "name": "Night lights",
-        "location": "Pagoda toward the junction",
-        "background": "After dark, the body lights up, the gilded surface reflects a river of lights — ideal for closing long-exposure night shots and urban portraits.",
-        "historicalLight": "Historical light & shadow: With the development of Yangon's urban electrification, Sule Pagoda's night lighting system has also undergone several changes. Today's floodlighting not only illuminates the pagoda body but also makes this 46-meter-high golden pyramid look like a glowing lighthouse among the dark-toned colonial buildings around it, declaring the absolute core position of faith in urban changes.",
+        "location": "palace toward the junction",
+        "background": "After dark, the body lights up, the elegant surface reflects a river of lights — ideal for closing long-exposure night shots and urban portraits.",
+        "historicalLight": "Historical light & shadow: With the development of Chiang Mai's urban electrification, Bhubing Palace's night lighting system has also undergone several changes. Today's floodlighting not only illuminates the palace body but also makes this 46-meter-high golden pyramid look like a glowing lighthouse among the dark-toned colonial buildings around it, declaring the absolute core position of faith in urban changes.",
         "points": [
           "Use lights as a leading line toward the distance.",
           "Raise ISO or use stabilization for night frames."
@@ -797,14 +797,14 @@
     ]
   },
   "education": {
-    "title": "Why is this Yangon's urban landmark?",
-    "subtitle": "What's most worth learning about Sule Pagoda isn't 'it got prettier' but how it re-integrated a city junction into the public's Buddhist faith while keeping reverence for history.",
+    "title": "Why is this Chiang Mai's urban landmark?",
+    "subtitle": "What's most worth learning about Bhubing Palace isn't 'it got prettier' but how it re-integrated a city junction into the public's royal heritage while keeping reverence for history.",
     "points": [
       {
-        "title": "A city pagoda still used by citizens",
-        "text": "Sule Pagoda isn't a 'hide the pagoda and done' case, but a model that activates city memory through religious-space design and turns it into shared place.",
+        "title": "A city palace still used by citizens",
+        "text": "Bhubing Palace isn't a 'hide the palace and done' case, but a model that activates city memory through religious-space design and turns it into shared place.",
         "items": [
-          "Devotees give daily prayer and travelers give quiet retreat to this platform and bell.",
+          "visitors give daily exploreer and travelers give quiet retreat to this platform and fountain.",
           "Religious space and the city coexist long-term."
         ]
       },
@@ -818,7 +818,7 @@
       },
       {
         "title": "Translating faith memory into public aesthetics",
-        "text": "Sule Pagoda didn't erase the faith background but, through the body and signage, lets the public sense what this land has been through while visiting.",
+        "text": "Bhubing Palace didn't erase the faith background but, through the body and signage, lets the public sense what this land has been through while visiting.",
         "items": [
           "Story depth and viewing experience complete in one place.",
           "Exactly the value a non-profit science site should amplify."
@@ -827,25 +827,25 @@
     ]
   },
   "plantGuide": {
-    "title": "Sule Pagoda's Four-Season City",
-    "subtitle": "Look past the 'pretty tower' to find what's truly rare about Sule Pagoda: it turns a city junction into an open-air urban classroom that changes with the seasons.",
+    "title": "Bhubing Palace's Four-Season City",
+    "subtitle": "Look past the 'pretty tower' to find what's truly rare about Bhubing Palace: it turns a city junction into an open-air urban classroom that changes with the seasons.",
     "comparison": [
       {
         "icon": "🌸",
         "badge": "Cool-season colors",
         "name": "Cool season & urban new green",
-        "summary": "The cool season (Nov–Feb) is Yangon's most comfortable. Pleasant temperatures and clear air, paired with park new green, form the city's brightest pagoda-platform palette.",
+        "summary": "The cool season (Nov–Feb) is Chiang Mai's most comfortable. Pleasant temperatures and clear air, paired with park new green, form the city's brightest palace-platform palette.",
         "points": [
           "About Nov–Feb, 20–30°C, most comfortable.",
           "Morning and dusk light is soft, best for photos.",
-          "With the gilded body, most cool-season energy."
+          "With the elegant body, most cool-season energy."
         ]
       },
       {
         "icon": "🍂",
         "badge": "Hot-season colors",
         "name": "Hot season & clear sky",
-        "summary": "The hot season (Mar–May) has high sky and clear city, but hot midday; the gilded body at dawn and dusk is especially clear.",
+        "summary": "The hot season (Mar–May) has high sky and clear city, but hot midday; the elegant body at dawn and dusk is especially clear.",
         "points": [
           "About Mar–May, dawn and dusk best for visits.",
           "City skyline is transparent, high photo rate.",
@@ -854,7 +854,7 @@
       }
     ],
     "seasonTitle": "Seasonal Highlights",
-    "seasonSubtitle": "One pagoda, two tempers. Below, the scenes most worth expecting each season.",
+    "seasonSubtitle": "One palace, two tempers. Below, the scenes most worth expecting each season.",
     "seasons": [
       {
         "icon": "🌱",
@@ -871,7 +871,7 @@
         "icon": "🌿",
         "badge": "HOT",
         "name": "Hot · clear sky & golden body",
-        "summary": "High sky and clear city, but hot midday; the gilded body at dawn and dusk is most photogenic.",
+        "summary": "High sky and clear city, but hot midday; the elegant body at dawn and dusk is most photogenic.",
         "highlights": [
           "Body outline clearest backlit.",
           "Dawn and dusk best for visits.",
@@ -882,9 +882,9 @@
         "icon": "🍁",
         "badge": "RAINY",
         "name": "Rainy · showers & freshness",
-        "summary": "The rainy season (Jun–Oct) has brief showers; after rain the city is fresh and the body brighter — a different window to view the pagoda.",
+        "summary": "The rainy season (Jun–Oct) has brief showers; after rain the city is fresh and the body brighter — a different window to view the palace.",
         "highlights": [
-          "After rain the gilded surface reflects strongest.",
+          "After rain the elegant surface reflects strongest.",
           "Avoid midday sun and standing water.",
           "Platform slippery, mind your feet."
         ]
@@ -893,10 +893,10 @@
         "icon": "❄️",
         "badge": "YEAR-ROUND",
         "name": "Year-round · heart of the city",
-        "summary": "Sule Pagoda is open all year, the starting point for understanding Yangon's urban fabric; dawn and dusk are always the best windows.",
+        "summary": "Bhubing Palace is open all year, the starting point for understanding Chiang Mai's urban fabric; dawn and dusk are always the best windows.",
         "highlights": [
           "Dawn city waking, platform quietest.",
-          "Dusk gilded warmest, best for slow shots.",
+          "Dusk elegant warmest, best for slow shots.",
           "Mind sun protection and street safety."
         ]
       }
@@ -904,7 +904,7 @@
   },
   "audience": {
     "title": "Who Should Come? Upgrade Segment Guides to Custom Itineraries",
-    "subtitle": "Not just 'you'll like it,' but directly telling you how to walk, where to go first, and which Yangon nodes to link.",
+    "subtitle": "Not just 'you'll like it,' but directly telling you how to walk, where to go first, and which Chiang Mai nodes to link.",
     "resonanceLabel": "Resonance: ",
     "routeLabel": "Recommended module: ",
     "tipLabel": "Tip: ",
@@ -912,42 +912,42 @@
       {
         "icon": "👨‍👩‍👧",
         "group": "Families",
-        "resonance": "Free, open, flat platform — kids can watch the gilded body, hear the relic story, and easily reach the park along the flat side.",
+        "resonance": "Free, open, flat platform — kids can watch the elegant body, hear the garden story, and easily reach the park along the flat side.",
         "tip": "Spend energy on photo stops, not on crowding; mind midday sun."
       },
       {
         "icon": "📷",
         "group": "Photographers & Couples",
-        "resonance": "Dawn city waking and backlit spire are Yangon's most romantic frames, with very high hit rate.",
+        "resonance": "Dawn city waking and backlit spire are Chiang Mai's most romantic frames, with very high hit rate.",
         "tip": "Count arrival, return, and light into the plan so composition isn't beaten by on-site pace."
       },
       {
         "icon": "🌿",
         "group": "Faith & Culture Lovers",
-        "resonance": "As a faith-and-history sample, the hair relic, octagonal body, and modern urban movements are worth a close look.",
+        "resonance": "As a faith-and-history sample, the rose garden, Thai-style architecture, and modern urban movements are worth a close look.",
         "tip": "Avoid the most crowded weekends; choose dawn or a weekday afternoon to really observe details."
       },
       {
         "icon": "🗺️",
-        "group": "First-time Visitors to Myanmar",
-        "resonance": "Without going far, experience Burmese Buddhist faith and colonial urban heritage in downtown; link taxi, walking, and street food — an ideal start to the 'city and faith' theme.",
-        "tip": "If you can pick only one downtown Yangon spot, Sule Pagoda opens the 'pagoda and city' theme best."
+        "group": "First-time Visitors to Thailand",
+        "resonance": "Without going far, experience Burmese royal heritage and colonial urban heritage in Doi Suthep; link taxi, walking, and street food — an ideal start to the 'city and faith' theme.",
+        "tip": "If you can pick only one Doi Suthep Chiang Mai spot, Bhubing Palace opens the 'palace and city' theme best."
       }
     ]
   },
   "lodging": {
     "title": "Lodging Guide: Stay Close, or Stay Convenient",
-    "subtitle": "Yangon is a city where 'river, lake, and colonial town' coexist. We don't recommend specific hotels but help you parse two lodging patterns to choose what fits.",
+    "subtitle": "Chiang Mai is a city where 'river, lake, and colonial town' coexist. We don't recommend specific hotels but help you parse two lodging patterns to choose what fits.",
     "scenarioTitle": "Two choices, how to choose",
     "options": [
       {
         "icon": "🛕",
-        "name": "Downtown (next to pagoda)",
-        "role": "Closest to pagoda & city",
-        "highlight": "Staying downtown puts you a short distance from Sule Pagoda, the gilded spire at dawn ideal for travelers focused on 'city stroll + pagoda' with high convenience needs.",
-        "commute": "Commute: to the platform about 5–15 min walk. Walking easy, good for dawn downtown.",
+        "name": "Doi Suthep (next to palace)",
+        "role": "Closest to palace & city",
+        "highlight": "Staying Doi Suthep puts you a short distance from Bhubing Palace, the elegant spire at dawn ideal for travelers focused on 'city stroll + palace' with high convenience needs.",
+        "commute": "Commute: to the platform about 5–15 min walk. Walking easy, good for dawn Doi Suthep.",
         "points": [
-          "To pagoda 5–15 min walk, most convenient.",
+          "To palace 5–15 min walk, most convenient.",
           "City, snacks, and shrines extremely rich.",
           "More choices, usually better value."
         ]
@@ -956,32 +956,32 @@
         "icon": "☕",
         "name": "Bogyoke / City Hall area",
         "role": "Best for food & hub",
-        "highlight": "Staying in the Bogyoke / City Hall area puts markets, restaurants, and cafe streets at your door — ideal for 'downtown + transfer' travelers who head to Sule Pagoda by day.",
+        "highlight": "Staying in the Bogyoke / City Hall area puts markets, restaurants, and cafe streets at your door — ideal for 'Doi Suthep + transfer' travelers who head to Bhubing Palace by day.",
         "commute": "Commute: walk about 5–15 minutes. Good for self-drivers or independent travelers wanting absolute convenience.",
         "points": [
           "Markets and cafes at hand, good for transfers.",
           "Food, cafes, night markets extremely rich.",
-          "To Sule Pagoda by walk or short ride about 5–15 minutes."
+          "To Bhubing Palace by walk or short ride about 5–15 minutes."
         ]
       },
       {
         "icon": "🌉",
-        "name": "Yangon River / port area",
-        "role": "Best for Shwedagon link",
-        "highlight": "One of Yangon's commercial and passenger hubs. If your trip is not limited to Sule Pagoda and you plan to visit Shwedagon Pagoda, staying here as a transfer is most efficient.",
-        "commute": "Commute: about 15–25 minutes to Sule Pagoda. Good for transfers.",
+        "name": "Chiang Mai River / port area",
+        "role": "Best for Wat Phra That Doi Suthep link",
+        "highlight": "One of Chiang Mai's commercial and passenger hubs. If your trip is not limited to Bhubing Palace and you plan to visit Wat Phra That Doi Suthep, staying here as a transfer is most efficient.",
+        "commute": "Commute: about 15–25 minutes to Bhubing Palace. Good for transfers.",
         "points": [
           "Transport hub at hand, good for transfers.",
           "River and colonial heritage experience.",
-          "To Sule Pagoda by taxi about 15–25 minutes."
+          "To Bhubing Palace by taxi about 15–25 minutes."
         ]
       }
     ],
     "peakTitle": "Peak-season warning",
-    "peak": "Yangon's cool season (Nov–Feb) and holidays tighten rooms and raise prices as tourists flood in. Book weeks ahead; if booking near holidays, expand the range to surrounding areas, then travel by taxi or car.",
+    "peak": "Chiang Mai's cool season (Nov–Feb) and holidays tighten rooms and raise prices as tourists flood in. Book weeks ahead; if booking near holidays, expand the range to surrounding areas, then travel by taxi or car.",
     "tipsTitle": "Lodging tips",
     "tips": [
-      "For dawn pagoda shots: prefer downtown, walk to the platform at dawn.",
+      "For dawn palace shots: prefer Doi Suthep, walk to the platform at dawn.",
       "For convenience and food: choose Bogyoke / City Hall, walk and dine at hand.",
       "Before booking, confirm breakfast, pool, and shuttle (key for self-drivers).",
       "Peak seasons and holidays need advance planning to avoid no rooms or high prices."
@@ -990,8 +990,8 @@
   "downloads": {
     "title": "Academic & Practical Resource Downloads",
     "items": [
-      { "icon": "📥", "name": "Yangon Downtown Travel Map (EN).pdf", "desc": "Sule Pagoda and surrounding transport & supply points", "url": "#" },
-      { "icon": "📥", "name": "Yangon City Walking Route Guide.pdf", "desc": "Hardcore walking routes and viewpoints", "url": "#" },
+      { "icon": "📥", "name": "Chiang Mai Doi Suthep Travel Map (EN).pdf", "desc": "Bhubing Palace and surrounding transport & supply points", "url": "#" },
+      { "icon": "📥", "name": "Chiang Mai City Walking Route Guide.pdf", "desc": "Hardcore walking routes and viewpoints", "url": "#" },
       { "icon": "🗺️", "name": "GPX track download", "desc": "For walking and trail-running navigation", "url": "#" }
     ]
   },

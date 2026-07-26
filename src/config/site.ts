@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Bhubing Palace',
   baseUrl: 'https://bhubingpalace.com',
-  locales: ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko'] as const,
+  locales: ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko', 'th'] as const,
 };
 
 export default siteConfig;

@@ -5,9 +5,10 @@ import shn from './shn.json';
 import mnw from './mnw.json';
 import ja from './ja.json';
 import ko from './ko.json';
+import th from './th.json';
 
-export const defaultLang = 'zh';
-export const languagesList = ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko'] as const;
+export const defaultLang = 'th';
+export const languagesList = ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko', 'th'] as const;
 
 export const languages: Record<string, string> = {
   zh: '中文',
@@ -17,9 +18,10 @@ export const languages: Record<string, string> = {
   mnw: 'ဘာသာမန်',
   ja: '日本語',
   ko: '한국어',
+  th: 'ไทย',
 };
 
-const ui: Record<string, any> = { zh, en, my, shn, mnw, ja, ko };
+const ui: Record<string, any> = { zh, en, my, shn, mnw, ja, ko, th };
 
 export function getLangFromUrl(url: URL): string {
   const seg = url.pathname.split('/').filter(Boolean);
@@ -51,11 +53,13 @@ export function buildAlternates(path = ''): Record<string, string> {
     mnw: mk('mnw'),
     ja: mk('ja'),
     ko: mk('ko'),
-    xDefault: mk('zh'),
+    th: mk('th'),
+    xDefault: mk('th'),
   };
 }
 
 export function htmlLangAttr(lang: string): string {
   if (lang === 'zh') return 'zh-CN';
+  if (lang === 'th') return 'th-TH';
   return lang;
 }

@@ -6,8 +6,8 @@ export default defineConfig({
   site: 'https://bhubingpalace.com',
   output: 'static',
   i18n: {
-    defaultLocale: 'zh',
-    locales: ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko'],
+    defaultLocale: 'th',
+    locales: ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko', 'th'],
     routing: {
       prefixDefaultLocale: true,
     },

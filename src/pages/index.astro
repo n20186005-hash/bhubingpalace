@@ -1,16 +1,21 @@
 ---
-const target = '/zh';
+import { defaultLang } from '../i18n/ui';
+
+// Landing page for / : the edge (Cloudflare _redirects) handles the 302 to the
+// default locale in production. This file is a graceful fallback for Astro dev
+// and environments where the edge redirect is not applied.
+const target = defaultLang === 'zh' ? '/zh/' : `/${defaultLang}/`;
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang="th">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content={`0; url=${target}`} />
-    <link rel="canonical" href="https://bhubingpalace.com/zh" />
-    <title>Bhubing Palace（蒲屏皇宫 · พระตำหนักภูพิงคราชนิเวศน์）· 泰国清迈皇家行宫与山顶花园</title>
+    <link rel="canonical" href={`https://bhubingpalace.com${target}`} />
+    <title>Redirecting...</title>
   </head>
   <body>
-    <p>正在跳转到 <a href={target}>中文</a>…</p>
+    <p>กำลังเปลี่ยนเส้นทางไปยัง <a href={target}>{target}</a> …</p>
   </body>
 </html>

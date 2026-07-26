@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'Bhubing Palace',
   baseUrl: 'https://bhubingpalace.com',
   slug: 'bhubing-palace',
-  locales: ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko'] as const,
+  locales: ['zh', 'en', 'my', 'shn', 'mnw', 'ja', 'ko', 'th'] as const,
 };
 
 export const ogLocale: Record<string, string> = {
@@ -13,4 +13,5 @@ export const ogLocale: Record<string, string> = {
   mnw: 'mnw',
   ja: 'ja_JP',
   ko: 'ko_KR',
+  th: 'th_TH',
 };

@@ -8,7 +8,13 @@ const stars = (n) => Array.from({ length: 5 }, (_, i) => i < n ? 'star-filled' :
 <section id="reviews" class="section-padding" style="background: var(--bg-primary);">
   <div class="max-w-4xl mx-auto px-4">
     <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{r.title}</h2>
-    <p class="text-center text-base mb-10" style="color: var(--text-secondary);">{r.declaration}</p>
+    <p class="text-center text-base mb-2" style="color: var(--text-secondary);">{r.declaration}</p>
+    {r.sourceLabel && (
+      <p class="text-center text-xs mb-10" style="color: var(--text-muted);">
+        🔗 {r.sourceLabel}：
+        <a href={r.mapsUrl} target="_blank" rel="noopener noreferrer" class="underline underline-offset-2" style="color: var(--accent);">{r.sourceLinkLabel}</a>
+      </p>
+    )}
 
     <div class="grid md:grid-cols-2 gap-6">
       {r.items.map((item) => (
@@ -37,5 +43,9 @@ const stars = (n) => Array.from({ length: 5 }, (_, i) => i < n ? 'star-filled' :
         📍 {r.moreReviews}
       </a>
     </div>
+
+    {r.sourceDisclaimer && (
+      <p class="text-center text-xs mt-6 max-w-2xl mx-auto leading-relaxed" style="color: var(--text-muted);">{r.sourceDisclaimer}</p>
+    )}
   </div>
 </section>

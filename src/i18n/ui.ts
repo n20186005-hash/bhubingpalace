@@ -29,22 +29,33 @@ export function getLangFromUrl(url: URL): string {
   return (languagesList as readonly string[]).includes(lang) ? lang : defaultLang;
 }
 
-export function getI18n(url: URL) {
-  const lang = getLangFromUrl(url);
-  const messages = ui[lang];
+/**
+ * Look up a locale directly. Needed by server islands, whose `Astro.url`
+ * points at `/_server-islands/<Component>` rather than the page being viewed,
+ * so the language has to travel in as a prop.
+ */
+export function getMessages(lang: string | undefined) {
+  const resolved = lang && lang in ui ? lang : defaultLang;
+  const messages = ui[resolved];
   const t = (key: string): string => {
     const found = key
       .split('.')
       .reduce<any>((o, i) => (o == null ? undefined : o[i]), messages);
     return found ?? '';
   };
-  return { lang, messages, t };
+  return { lang: resolved, messages, t };
+}
+
+export function getI18n(url: URL) {
+  return getMessages(getLangFromUrl(url));
 }
 
 export function buildAlternates(path = ''): Record<string, string> {
   const base = 'https://bhubingpalace.com';
   const clean = path.replace(/^\/+/, '').replace(/\/+$/, '');
-  const mk = (l: string) => `${base}/${l}${clean ? '/' + clean : ''}`;
+  // Always emit the trailing-slash form so the canonical matches the URL the
+  // static file is actually served from (`/en/index.html` -> `/en/`).
+  const mk = (l: string) => `${base}/${l}/${clean ? clean + '/' : ''}`;
   return {
     zh: mk('zh'),
     en: mk('en'),

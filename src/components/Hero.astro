@@ -6,14 +6,28 @@ const facts = h.quickFacts ?? [];
 const factsSource = h.factsSource ?? {};
 const live = h.liveInfo ?? {};
 const planner = h.sunsetPlanner ?? {};
+const heroAlt = h.imageAlt ?? messages.gallery?.photoAlt ?? 'Bhubing Palace, Chiang Mai, Thailand';
 ---
 
 <section id="overview" class="relative min-h-[84vh] sm:min-h-[90vh] flex items-center justify-center text-center overflow-hidden">
-  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.62)), url('/gallery/bhubing-palace-20.jpg'); background-size: cover; background-position: center;`}></div>
+  <div class="absolute inset-0">
+    <img
+      src="/gallery/bhubing-palace-thailand-20.jpg"
+      alt={heroAlt}
+      class="w-full h-full object-cover"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+    />
+    <div class="absolute inset-0" style="background: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.62));"></div>
+  </div>
   <div class="relative z-10 px-4 sm:px-6 py-16 sm:py-20 max-w-4xl w-full animate-fade-in-up">
-    <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-5 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
+    <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-3 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
       ⭐ {h.rating} · {h.reviewCount}
     </span>
+    {h.ratingSource && (
+      <p class="mb-4 text-[11px] sm:text-xs text-white/70">{h.ratingSource}</p>
+    )}
 
     <p class="text-xl sm:text-2xl text-yellow-400/90 mb-2 font-medium tracking-wide drop-shadow-sm" style="font-family: 'Padauk', sans-serif;">
       ဘူဘင်းနန်းတော် - ချီယန်မိုင် တောင်တန်းပေါ်ရှိ တော်ဝင် နန်းတော်
@@ -183,7 +197,7 @@ const planner = h.sunsetPlanner ?? {};
       if (!mountainEl || !cityEl) return;
 
       var url =
-        'https://api.open-meteo.com/v1/forecast?latitude=18.8058&longitude=98.9225&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Bangkok';
+        'https://api.open-meteo.com/v1/forecast?latitude=18.8053&longitude=98.8986&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Bangkok';
 
       function weatherText(code, lang) {
         if (lang === 'ja') {

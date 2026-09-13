@@ -1,1 +1,20 @@
 /  /th/  302
+
+# Canonical URL shape: strip the non-trailing-slash duplicates that Google
+# indexed separately from /en/ (see GSC: /en 34 impressions vs /en/ 36).
+/en  /en/  301
+/en/*  /en/:splat  301
+/th  /th/  301
+/th/*  /th/:splat  301
+/zh  /zh/  301
+/zh/*  /zh/:splat  301
+/ja  /ja/  301
+/ja/*  /ja/:splat  301
+/ko  /ko/  301
+/ko/*  /ko/:splat  301
+/my  /my/  301
+/my/*  /my/:splat  301
+/shn  /shn/  301
+/shn/*  /shn/:splat  301
+/mnw  /mnw/  301
+/mnw/*  /mnw/:splat  301

@@ -1,0 +1,54 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.sources ?? {};
+const list = s.list ?? [];
+---
+
+<section id="sources" class="section-padding" style="background: var(--bg-tertiary); border-top: 1px solid var(--border-color);">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h2>
+      {s.subtitle && <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>}
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-6">
+      <!-- Rating provenance -->
+      <div class="rounded-2xl p-6 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <h3 class="font-semibold text-lg mb-2" style="color: var(--text-primary);">⭐ {s.ratingLabel}</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{s.ratingText}</p>
+        <dl class="mt-4 space-y-1 text-xs" style="color: var(--text-muted);">
+          {s.retrievedLabel && <div class="flex gap-2"><dt>{s.retrievedLabel}:</dt><dd>{s.retrievedValue}</dd></div>}
+          {s.updatedLabel && <div class="flex gap-2"><dt>{s.updatedLabel}:</dt><dd>{s.updatedValue}</dd></div>}
+        </dl>
+        {s.ratingSourceUrl && (
+          <a href={s.ratingSourceUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 text-sm font-semibold" style="color: var(--accent);">
+            📍 {s.ratingLinkLabel} ↗
+          </a>
+        )}
+      </div>
+
+      <!-- Authoritative references -->
+      <div class="rounded-2xl p-6 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <h3 class="font-semibold text-lg mb-3" style="color: var(--text-primary);">🔖 {s.listTitle}</h3>
+        <ul class="space-y-2 text-sm">
+          {list.map((item) => (
+            <li>
+              <a href={item.url} target="_blank" rel="noopener noreferrer" class="hover:opacity-70 break-words" style="color: var(--accent);">
+                {item.name} ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <!-- Image copyright -->
+    {s.imageCopyrightText && (
+      <div class="mt-6 rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color);">
+        <h3 class="font-semibold text-base mb-2" style="color: var(--text-primary);">© {s.imageCopyrightTitle}</h3>
+        <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{s.imageCopyrightText}</p>
+      </div>
+    )}
+  </div>
+</section>

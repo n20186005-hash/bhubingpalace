@@ -10,9 +10,15 @@ interface Props {
   title: string;
   description: string;
   path?: string;
+  /**
+   * Utility and legal pages (privacy, terms, cookie settings) were ranking
+   * above real content in Search Console, so they are excluded from the index
+   * while still passing link equity through.
+   */
+  noindex?: boolean;
 }
 
-const { title, description, path = '' } = Astro.props;
+const { title, description, path = '', noindex = false } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
 const alts = buildAlternates(path);
@@ -20,13 +26,23 @@ const canonical = alts[lang] ?? alts.zh;
 const { messages } = getI18n(Astro.url);
 const attractionName = messages.header?.siteName ?? messages.footer?.siteName ?? messages.meta.title;
 
+const mapsShareUrl = 'https://maps.app.goo.gl/n4pFykP5ncS7gfcE9';
+const tourismThailandUrl = 'https://www.tourismthailand.org/';
+const heroImage = 'https://bhubingpalace.com/gallery/bhubing-palace-thailand-1.jpg';
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'TouristAttraction',
+  '@id': `${siteConfig.baseUrl}/#attraction`,
   name: attractionName,
+  alternateName: ['Bhubing Palace', 'พระตำหนักภูพิงคราชนิเวศน์', 'Chiang Mai Bhubing Palace'],
   description: messages.meta.description,
   url: canonical,
-  image: 'https://bhubingpalace.com/gallery/bhubing-palace-1.jpg',
+  image: [
+    heroImage,
+    'https://bhubingpalace.com/gallery/bhubing-palace-thailand-2.jpg',
+    'https://bhubingpalace.com/gallery/bhubing-palace-thailand-20.jpg',
+  ],
   address: {
     '@type': 'PostalAddress',
     streetAddress: '1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District',
@@ -38,23 +54,28 @@ const jsonLd = {
   telephone: '+6653294555',
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 18.8058,
-    longitude: 98.9225,
+    latitude: 18.8053,
+    longitude: 98.8986,
   },
+  hasMap: mapsShareUrl,
+  // Grounds are open 08:30-16:30 with the ticket office closing at 15:30, and
+  // they close entirely while the royal family is in residence.
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-      opens: '04:00',
-      closes: '23:00',
+      opens: '08:30',
+      closes: '16:30',
     },
   ],
-  isAccessibleForFree: true,
+  isAccessibleForFree: false,
+  publicAccess: true,
+  touristType: ['Culture', 'Nature', 'Photography', 'Family'],
   offers: [
     {
       '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
+      price: '50',
+      priceCurrency: 'THB',
       url: canonical,
       description: messages.meta.description,
     },
@@ -62,12 +83,60 @@ const jsonLd = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.3',
-    reviewCount: '5480',
+    reviewCount: '5505',
+    bestRating: '5',
+    worstRating: '1',
   },
   sameAs: [
-    'https://maps.app.goo.gl/n4pFykP5ncS7gfcE9',
-    'https://en.wikipedia.org/wiki/Bhubing_Palace'
+    mapsShareUrl,
+    tourismThailandUrl,
+    'https://en.wikipedia.org/wiki/Bhubing_Palace',
   ],
+};
+
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${siteConfig.baseUrl}/#website`,
+  url: siteConfig.baseUrl,
+  name: attractionName,
+  inLanguage: htmlLang,
+  publisher: { '@id': `${siteConfig.baseUrl}/#attraction` },
+};
+
+const placeLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Place',
+  '@id': `${siteConfig.baseUrl}/#place`,
+  name: attractionName,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District',
+    addressLocality: 'Chiang Mai',
+    addressRegion: 'Chiang Mai Province',
+    postalCode: '50200',
+    addressCountry: 'TH',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 18.8053,
+    longitude: 98.8986,
+  },
+  telephone: '+6653294555',
+  hasMap: mapsShareUrl,
+};
+
+const webPageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${canonical}#webpage`,
+  url: canonical,
+  name: title,
+  description,
+  inLanguage: htmlLang,
+  isPartOf: { '@id': `${siteConfig.baseUrl}/#website` },
+  about: { '@id': `${siteConfig.baseUrl}/#attraction` },
+  primaryImageOfPage: { '@type': 'ImageObject', url: heroImage },
 };
   const breadcrumbLd = (() => {
     const bc = messages.breadcrumb;
@@ -75,9 +144,9 @@ const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: bc.home, item: `${siteConfig.baseUrl}/${lang}` },
-        { '@type': 'ListItem', position: 2, name: bc.region, item: `${siteConfig.baseUrl}/${lang}#overview` },
-        { '@type': 'ListItem', position: 3, name: bc.city, item: `${siteConfig.baseUrl}/${lang}#transport` },
+        { '@type': 'ListItem', position: 1, name: bc.home, item: `${siteConfig.baseUrl}/${lang}/` },
+        { '@type': 'ListItem', position: 2, name: bc.region, item: `${siteConfig.baseUrl}/${lang}/#overview` },
+        { '@type': 'ListItem', position: 3, name: bc.city, item: `${siteConfig.baseUrl}/${lang}/#transport` },
         { '@type': 'ListItem', position: 4, name: bc.current, item: canonical },
       ],
     };
@@ -101,6 +170,12 @@ const jsonLd = {
 
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta
+      name="robots"
+      content={noindex
+        ? 'noindex, follow'
+        : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
+    />
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang="zh" href={alts.zh} />
     <link rel="alternate" hreflang="en" href={alts.en} />
@@ -116,17 +191,36 @@ const jsonLd = {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={attractionName} />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
-    <meta property="og:image" content="https://bhubingpalace.com/gallery/bhubing-palace-1.jpg" />
+    <meta property="og:image" content={heroImage} />
+    <meta property="og:image:alt" content={`${attractionName} in Chiang Mai`} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://bhubingpalace.com/gallery/bhubing-palace-1.jpg" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={heroImage} />
+    <meta name="twitter:image:alt" content={`${attractionName} in Chiang Mai`} />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#234830" />
+    <meta name="application-name" content={attractionName} />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content={attractionName} />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
 
     <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
 
     <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(websiteLd)}></script>
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(placeLd)}></script>
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(webPageLd)}></script>
     <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
 
     <script is:inline>
@@ -149,5 +243,12 @@ const jsonLd = {
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      }
+    </script>
   </body>
 </html>

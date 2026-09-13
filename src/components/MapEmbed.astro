@@ -18,7 +18,8 @@ const embedUrl = 'https://www.google.com/maps?q=Bhubing%20Palace%20Chiang%20Mai&
         height="420"
         style="border:0;"
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen=""
+        referrerpolicy="strict-origin-when-cross-origin"
         title={m.title}
       ></iframe>
     </div>
@@ -38,5 +39,14 @@ const embedUrl = 'https://www.google.com/maps?q=Bhubing%20Palace%20Chiang%20Mai&
         </a>
       )}
     </div>
+
+    {m.officialUrl && m.officialText && (
+      <p class="text-center text-sm mt-8 max-w-2xl mx-auto leading-relaxed" style="color: var(--text-secondary);">
+        {m.officialText}{' '}
+        <a href={m.officialUrl} target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 font-medium" style="color: var(--accent);">
+          {m.officialLabel} ↗
+        </a>
+      </p>
+    )}
   </div>
 </section>

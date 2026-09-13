@@ -1,0 +1,34 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.scienceResponsibility;
+const points = s.points ?? [];
+---
+
+<section id="science-responsibility" class="section-padding" style="background: var(--bg-tertiary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {points.map((point) => (
+        <article class="rounded-3xl p-7 md:p-8 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shrink-0" style="background: color-mix(in srgb, var(--accent) 14%, transparent);">
+              <span aria-hidden="true">{point.icon}</span>
+            </div>
+            <h3 class="font-display text-lg sm:text-xl font-semibold" style="color: var(--text-primary);">{point.title}</h3>
+          </div>
+          <p class="text-sm sm:text-base leading-relaxed mb-5" style="color: var(--text-secondary);">{point.text}</p>
+          <ul class="space-y-3 text-sm leading-relaxed mt-auto pt-5 border-t" style="border-color: var(--border-color); color: var(--text-secondary);">
+            {point.items.map((item) => (
+              <li class="flex gap-3"><span class="shrink-0" style="color: var(--accent);">✦</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

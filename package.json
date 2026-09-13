@@ -1,5 +1,5 @@
 {
-  "name": "hyuhyuam-hermitage",
+  "name": "bhubingpalace",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,9 +7,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "deploy": "astro build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.13",
     "@tailwindcss/vite": "^4.0.0",
     "astro": "^5.5.0",
     "tailwindcss": "^4.0.0"

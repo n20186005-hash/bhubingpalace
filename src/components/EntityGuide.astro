@@ -1,0 +1,72 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const e = messages.entity ?? {};
+const hierarchy = e.hierarchy ?? [];
+const landmarks = e.landmarks ?? [];
+---
+
+{e.title && (
+  <section id="entity" class="section-padding" style="background: var(--bg-primary); border-top: 1px solid var(--border-color);">
+    <div class="max-w-5xl mx-auto px-4">
+      <!-- About (H2) -->
+      <div class="max-w-3xl mx-auto text-center mb-10">
+        <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4" style="color: var(--text-primary);">{e.title}</h2>
+        <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{e.intro}</p>
+      </div>
+
+      <!-- Geographic hierarchy (country / province / city / attraction) -->
+      {hierarchy.length > 0 && (
+        <nav class="mb-12" aria-label={e.hierarchyLabel}>
+          <ol class="flex flex-wrap items-center justify-center gap-2 text-sm">
+            {hierarchy.map((part, i) => (
+              <li class="flex items-center gap-2">
+                <span class="rounded-full px-3 py-1 border" style="border-color: var(--border-color); background: var(--card-bg); color: var(--text-primary);">
+                  {part}
+                </span>
+                {i < hierarchy.length - 1 && <span aria-hidden="true" style="color: var(--text-muted);">→</span>}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      <div class="grid lg:grid-cols-2 gap-8 items-start">
+        <!-- Location & How to Visit (H2) -->
+        <div class="rounded-3xl p-6 sm:p-8 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h2 class="font-display text-2xl font-semibold mb-4" style="color: var(--text-primary);">{e.locationTitle}</h2>
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{e.locationText}</p>
+          {e.mapsUrl && e.mapsLabel && (
+            <a href={e.mapsUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-5 text-sm font-semibold" style="color: var(--accent);">
+              📍 {e.mapsLabel} ↗
+            </a>
+          )}
+        </div>
+
+        <!-- History & Significance (H2) -->
+        <div class="rounded-3xl p-6 sm:p-8 border h-full" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+          <h2 class="font-display text-2xl font-semibold mb-4" style="color: var(--text-primary);">{e.historyTitle}</h2>
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{e.historyText}</p>
+        </div>
+      </div>
+
+      <!-- Landmarks & Attractions Around (H2) -->
+      {landmarks.length > 0 && (
+        <div class="mt-12">
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4 text-center" style="color: var(--text-primary);">{e.landmarksTitle}</h2>
+          {e.landmarksIntro && (
+            <p class="max-w-3xl mx-auto text-center text-base sm:text-lg leading-relaxed mb-10" style="color: var(--text-secondary);">{e.landmarksIntro}</p>
+          )}
+          <div class="grid sm:grid-cols-2 gap-4">
+            {landmarks.map((lm) => (
+              <div class="rounded-2xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+                <h3 class="font-semibold text-lg mb-2" style="color: var(--text-primary);">{lm.name}</h3>
+                <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{lm.note}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+)}

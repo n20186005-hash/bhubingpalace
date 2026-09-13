@@ -1,0 +1,194 @@
+---
+import { getMessages } from '../i18n/ui';
+import {
+  getWeather,
+  buildAdvice,
+  CONDITION_ICON,
+  clockTime,
+  weekdayIndex,
+  interpolate,
+  type Advisory,
+} from '../lib/weather';
+
+interface Props {
+  /** Server islands lose the page URL, so the locale travels in as a prop. */
+  lang?: string;
+}
+
+const { lang = 'th' } = Astro.props;
+const { messages } = getMessages(lang);
+const w = messages.weather;
+
+const snapshot = await getWeather();
+const advice = buildAdvice(snapshot);
+const now = snapshot?.current ?? null;
+const forecast = snapshot?.daily ?? [];
+const today = forecast[0] ?? null;
+
+const phrase = (item: Advisory) => interpolate(w.rules[item.id] ?? '', item.params);
+
+const groups = [
+  { key: 'outfit', icon: '👕', items: advice.outfit },
+  { key: 'plan', icon: '🗺️', items: advice.plan },
+  { key: 'pack', icon: '🎒', items: advice.pack },
+];
+
+const dot: Record<string, string> = { warning: '#dc2626', notice: '#d97706', info: 'var(--accent)' };
+
+const kmh = (ms: number) => `${Math.round(ms * 3.6)} km/h`;
+
+const metrics = [
+  now && { k: w.labels.feelsLike, v: `${Math.round(now.apparent)}°` },
+  now && { k: w.labels.humidity, v: `${Math.round(now.humidity)}%` },
+  now && { k: w.labels.wind, v: kmh(now.windSpeed) },
+  now && { k: w.labels.gusts, v: kmh(now.windGusts) },
+  now && { k: w.labels.visibility, v: `${(now.visibility / 1000).toFixed(1)} km` },
+  today && { k: w.labels.rainChance, v: `${today.precipProbability}%` },
+  today && { k: w.labels.uvMax, v: `${today.uvMax}` },
+  snapshot?.air && { k: w.labels.air, v: `PM2.5 ${Math.round(snapshot.air.pm25)}` },
+  today && { k: w.labels.sunrise, v: clockTime(today.sunrise) },
+  today && { k: w.labels.sunset, v: clockTime(today.sunset) },
+].filter(Boolean) as { k: string; v: string }[];
+
+const updatedAt = snapshot ? clockTime(snapshot.fetchedAt) : '';
+const isToday = (index: number) => index === 0;
+---
+
+<section id="weather" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{w.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{w.subtitle}</p>
+    </div>
+
+    {snapshot && now && today ? (
+      <>
+        <!-- 1. Today at a glance -->
+        <div class="rounded-2xl p-6 md:p-8 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="grid lg:grid-cols-[1fr_1.15fr] gap-8 items-center">
+            <div>
+              <p class="text-xs uppercase tracking-[0.18em] mb-4" style="color: var(--text-muted);">{w.nowLabel}</p>
+              <div class="flex items-center gap-5">
+                <span class="text-5xl sm:text-6xl leading-none" aria-hidden="true">{CONDITION_ICON[now.condition]}</span>
+                <div>
+                  <p class="text-5xl sm:text-6xl font-semibold leading-none" style="color: var(--text-primary);">
+                    {Math.round(now.temperature)}<span class="text-2xl align-top">°C</span>
+                  </p>
+                  <p class="text-base mt-1" style="color: var(--text-secondary);">{w.conditions?.[now.condition] ?? ''}</p>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-2 mt-5">
+                <span class="text-xs px-3 py-1 rounded-full border" style="border-color: var(--border-color); color: var(--text-secondary);">{w.elevationBadge}</span>
+                {snapshot.cityDelta !== null && snapshot.cityDelta < 0 && (
+                  <span class="text-xs px-3 py-1 rounded-full border" style="border-color: color-mix(in srgb, var(--accent) 35%, transparent); color: var(--accent);">
+                    {interpolate(w.cityDiff, { d: Math.abs(snapshot.cityDelta) })}
+                  </span>
+                )}
+                {today.mistLikely && (
+                  <span class="text-xs px-3 py-1 rounded-full border" style="border-color: color-mix(in srgb, var(--accent) 35%, transparent); color: var(--accent);">🌫️ {w.mistBadge}</span>
+                )}
+              </div>
+              <p class="text-sm mt-3" style="color: var(--text-muted);">
+                {today.tempMin}° / {today.tempMax}° · {w.updatedPrefix} {updatedAt}
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {metrics.map((m) => (
+                <div class="rounded-xl px-4 py-3 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+                  <p class="text-xs mb-1" style="color: var(--text-muted);">{m.k}</p>
+                  <p class="text-base font-semibold" style="color: var(--text-primary);">{m.v}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Risk notices: shown only when something actually needs attention -->
+        {advice.alerts.length > 0 ? (
+          <div class="mt-6 rounded-2xl p-5 md:p-6 border" style="background: color-mix(in srgb, #dc2626 10%, transparent); border-color: color-mix(in srgb, #dc2626 45%, transparent);">
+            <h3 class="font-semibold text-lg mb-3 flex items-center gap-2" style="color: #b91c1c;">
+              <span aria-hidden="true">⚠️</span>{w.alertTitle}
+            </h3>
+            <ul class="space-y-2.5">
+              {advice.alerts.map((item) => (
+                <li class="flex gap-3 text-sm sm:text-base leading-relaxed" style="color: var(--text-primary);">
+                  <span aria-hidden="true" class="shrink-0" style="color: #dc2626;">●</span>
+                  <span>
+                    <span class="sr-only">{w.levels?.[item.level]}: </span>
+                    {phrase(item)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : (
+          <p class="mt-6 text-sm flex items-center gap-2" style="color: var(--text-muted);">
+            <span aria-hidden="true">✅</span>{w.noAlert}
+          </p>
+        )}
+
+        <!-- 3. Advice: only the rules that actually triggered are rendered -->
+        <div class="mt-6">
+          <h3 class="font-semibold text-xl mb-4" style="color: var(--text-primary);">{w.adviceTitle}</h3>
+          <div class="grid md:grid-cols-3 gap-4">
+            {groups.map((group) => (
+              group.items.length > 0 && (
+                <div class="rounded-2xl p-5 border h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+                  <h4 class="font-semibold mb-3 flex items-center gap-2" style="color: var(--text-primary);">
+                    <span aria-hidden="true">{group.icon}</span>{w.groups[group.key]}
+                  </h4>
+                  {group.key === 'pack' ? (
+                    <div class="flex flex-wrap gap-2">
+                      {group.items.map((item) => (
+                        <span class="text-sm px-3 py-1.5 rounded-full border" style="background: color-mix(in srgb, var(--accent) 10%, transparent); border-color: color-mix(in srgb, var(--accent) 30%, transparent); color: var(--text-primary);">
+                          {phrase(item)}
+                        </span>
+                      ))}
+                    </div>
+                  ) : (
+                    <ul class="space-y-2.5">
+                      {group.items.map((item) => (
+                        <li class="flex gap-2.5 text-sm leading-relaxed" style="color: var(--text-secondary);">
+                          <span aria-hidden="true" class="shrink-0" style="color: {dot[item.level] ?? 'var(--accent)'};">●</span>
+                          <span>{phrase(item)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )
+            ))}
+          </div>
+        </div>
+
+        <!-- 4. Seven-day outlook -->
+        <div class="mt-8">
+          <h3 class="font-semibold text-xl mb-4" style="color: var(--text-primary);">{w.forecastTitle}</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3">
+            {forecast.map((day, index) => (
+              <div class="rounded-2xl px-4 py-4 border text-center" style="background: var(--card-bg); border-color: {isToday(index) ? 'color-mix(in srgb, var(--accent) 45%, transparent)' : 'var(--border-color)'};">
+                <p class="text-xs mb-2" style="color: {isToday(index) ? 'var(--accent)' : 'var(--text-muted)'};">
+                  {isToday(index) ? w.todayLabel : (w.weekdays?.[weekdayIndex(day.date)] ?? '')}
+                </p>
+                <p class="text-2xl mb-1" aria-hidden="true">{CONDITION_ICON[day.condition]}</p>
+                <p class="text-xs mb-2" style="color: var(--text-secondary);">{w.conditions?.[day.condition] ?? ''}</p>
+                <p class="text-sm font-semibold" style="color: var(--text-primary);">{Math.round(day.tempMin)}° / {Math.round(day.tempMax)}°</p>
+                <p class="text-xs mt-1" style="color: var(--text-secondary);" title={w.labels.rainChance}>💧 {day.precipProbability}%</p>
+                {day.mistLikely && <p class="text-[11px] mt-1" style="color: var(--accent);">🌫️ {w.mistBadge}</p>}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <p class="text-xs mt-6 leading-relaxed" style="color: var(--text-muted);">
+          {w.elevationNote} {w.adviceNote}
+        </p>
+      </>
+    ) : (
+      <div class="rounded-2xl p-6 md:p-8 border" style="background: var(--card-bg); border-color: var(--border-color);">
+        <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{w.unavailable}</p>
+      </div>
+    )}
+  </div>
+</section>

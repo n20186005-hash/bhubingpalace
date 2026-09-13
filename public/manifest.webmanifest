@@ -1,0 +1,57 @@
+{
+  "id": "/",
+  "name": "Bhubing Palace — Visitor Guide",
+  "short_name": "Bhubing Palace",
+  "description": "Independent visitor guide to Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) on Doi Suthep, Chiang Mai, Thailand: location map, opening details, history, landmarks and travel tips.",
+  "start_url": "/en/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f2015",
+  "theme_color": "#234830",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["travel", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Map & Location",
+      "short_name": "Map",
+      "url": "/en/#map"
+    },
+    {
+      "name": "Photo Gallery",
+      "short_name": "Photos",
+      "url": "/en/#gallery"
+    },
+    {
+      "name": "Visitor FAQ",
+      "short_name": "FAQ",
+      "url": "/en/#faq"
+    }
+  ]
+}

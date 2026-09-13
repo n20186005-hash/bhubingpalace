@@ -1,0 +1,73 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.seasonStrategy;
+const headers = s.headers;
+const rows = s.rows ?? [];
+
+const columns = [
+  { key: 'season', icon: '🗓️' },
+  { key: 'weather', icon: '🌡️' },
+  { key: 'water', icon: '💧' },
+  { key: 'wildlife', icon: '🦋' },
+  { key: 'crowd', icon: '👥' },
+  { key: 'advice', icon: '🧭' },
+];
+---
+
+<section id="season-strategy" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-6">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>
+    </div>
+
+    <p class="max-w-3xl mx-auto text-xs leading-relaxed text-center mb-8" style="color: var(--text-muted);">{s.baselineNote}</p>
+
+    <!-- Desktop: comparison table -->
+    <div class="hidden lg:block overflow-x-auto rounded-2xl border" style="border-color: var(--border-color);">
+      <table class="w-full text-sm border-collapse" style="background: var(--card-bg);">
+        <thead>
+          <tr style="background: var(--bg-tertiary);">
+            {columns.map((col) => (
+              <th scope="col" class="text-left font-semibold px-5 py-4 align-top" style="color: var(--text-primary); border-bottom: 1px solid var(--border-color);">
+                <span aria-hidden="true" class="mr-1">{col.icon}</span>{headers[col.key]}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr>
+              {columns.map((col, index) => (
+                <td class="px-5 py-4 align-top leading-relaxed"
+                    style={`color: ${index === 0 ? 'var(--text-primary)' : 'var(--text-secondary)'}; border-bottom: 1px solid var(--border-color);`}>
+                  <span class={index === 0 ? 'font-semibold' : ''}>{row[col.key]}</span>
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile: one card per season -->
+    <div class="lg:hidden space-y-4">
+      {rows.map((row) => (
+        <article class="rounded-2xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h3 class="font-semibold text-base mb-4" style="color: var(--text-primary);">{row.season}</h3>
+          <dl class="space-y-3 text-sm">
+            {columns.slice(1).map((col) => (
+              <div>
+                <dt class="text-xs mb-1" style="color: var(--text-muted);"><span aria-hidden="true" class="mr-1">{col.icon}</span>{headers[col.key]}</dt>
+                <dd class="leading-relaxed" style="color: var(--text-secondary);">{row[col.key]}</dd>
+              </div>
+            ))}
+          </dl>
+        </article>
+      ))}
+    </div>
+
+    <p class="text-xs mt-6 leading-relaxed" style="color: var(--text-muted);">{s.footnote}</p>
+  </div>
+</section>

@@ -32,6 +32,11 @@ Thumbs.db
 *.tsbuildinfo
 node_modules/.
 
+# Cloudflare Workers
+.wrangler/
+.dev.vars
+worker-configuration.d.ts
+
 # Local env / secrets
 .env.*
 !.env.example

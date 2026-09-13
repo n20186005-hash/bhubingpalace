@@ -1,0 +1,51 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.visitorServices;
+const groups = s.groups ?? [];
+const planning = s.planningItems ?? [];
+---
+
+<section id="visitor-services" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{s.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{s.subtitle}</p>
+    </div>
+
+    <p class="max-w-3xl mx-auto text-sm leading-relaxed text-center px-4 py-3 rounded-xl border mb-10"
+       style="background: var(--bg-tertiary); border-color: var(--border-color); color: var(--text-secondary);">
+      ⚖️ {s.neutralNote}
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {groups.map((group) => (
+        <article class="rounded-2xl p-6 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-start gap-3 mb-4">
+            <span class="text-2xl shrink-0" aria-hidden="true">{group.icon}</span>
+            <div>
+              <h3 class="font-semibold text-base leading-snug" style="color: var(--text-primary);">{group.name}</h3>
+              <span class="inline-block text-[11px] mt-1 px-2 py-0.5 rounded-full" style="background: var(--tag-bg); color: var(--tag-text);">{group.type}</span>
+            </div>
+          </div>
+          <ul class="space-y-2.5 text-sm leading-relaxed mt-auto" style="color: var(--text-secondary);">
+            {group.points.map((point) => (
+              <li class="flex gap-2.5"><span class="shrink-0" style="color: var(--accent);">·</span><span>{point}</span></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+
+    <div class="rounded-2xl p-6 md:p-8 border mt-8" style="background: color-mix(in srgb, var(--accent) 10%, transparent); border-color: color-mix(in srgb, var(--accent) 32%, transparent);">
+      <h3 class="font-semibold text-xl mb-4" style="color: var(--text-primary);">✅ {s.planningTitle}</h3>
+      <ul class="grid md:grid-cols-2 gap-3 text-sm sm:text-base" style="color: var(--text-secondary);">
+        {planning.map((item) => (
+          <li class="flex gap-3"><span class="shrink-0" style="color: var(--accent);">✓</span><span>{item}</span></li>
+        ))}
+      </ul>
+    </div>
+
+    <p class="text-xs mt-5 leading-relaxed" style="color: var(--text-muted);">{s.footnote}</p>
+  </div>
+</section>

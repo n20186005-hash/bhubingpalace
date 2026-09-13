@@ -1,0 +1,61 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const a = messages.audienceRoutes;
+const labels = a.labels;
+const routes = a.routes ?? [];
+---
+
+<section id="audience-routes" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{a.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{a.subtitle}</p>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-6">
+      {routes.map((route) => (
+        <article class="rounded-3xl p-7 border flex flex-col h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shrink-0" style="background: color-mix(in srgb, var(--accent) 14%, transparent);">
+              <span aria-hidden="true">{route.icon}</span>
+            </div>
+            <div>
+              <h3 class="font-display text-xl font-semibold" style="color: var(--text-primary);">{route.name}</h3>
+              <p class="text-xs mt-0.5" style="color: var(--accent);">{route.tag}</p>
+            </div>
+          </div>
+
+          <dl class="grid grid-cols-2 gap-3 mb-5 pb-5 border-b" style="border-color: var(--border-color);">
+            <div>
+              <dt class="text-xs mb-1" style="color: var(--text-muted);">{labels.duration}</dt>
+              <dd class="text-sm font-medium" style="color: var(--text-primary);">{route.duration}</dd>
+            </div>
+            <div>
+              <dt class="text-xs mb-1" style="color: var(--text-muted);">{labels.pace}</dt>
+              <dd class="text-sm font-medium" style="color: var(--text-primary);">{route.pace}</dd>
+            </div>
+          </dl>
+
+          <p class="text-xs uppercase tracking-[0.16em] mb-3" style="color: var(--text-muted);">{labels.stops}</p>
+          <ol class="space-y-3 text-sm leading-relaxed mb-6" style="color: var(--text-secondary);">
+            {route.stops.map((stop, index) => (
+              <li class="flex gap-3">
+                <span class="shrink-0 w-5 h-5 rounded-full text-[11px] flex items-center justify-center font-semibold"
+                      style="background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent);">{index + 1}</span>
+                <span>{stop}</span>
+              </li>
+            ))}
+          </ol>
+
+          <ul class="space-y-2.5 text-sm mt-auto pt-5 border-t" style="border-color: var(--border-color); color: var(--text-muted);">
+            {route.tips.map((tip) => (
+              <li class="flex gap-2.5"><span class="shrink-0" aria-hidden="true">💡</span><span>{tip}</span></li>
+            ))}
+          </ul>
+          <p class="sr-only">{labels.tips}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

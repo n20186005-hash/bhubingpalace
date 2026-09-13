@@ -7,6 +7,7 @@ import QuickFactsDashboard from '../../components/QuickFactsDashboard.astro';
 import ComplianceGuide from '../../components/ComplianceGuide.astro';
 import HigashiyamaRoute from '../../components/HigashiyamaRoute.astro';
 import Intro from '../../components/Intro.astro';
+import EntityGuide from '../../components/EntityGuide.astro';
 import BotanicalGuide from '../../components/BotanicalGuide.astro';
 import RoyalTimeline from '../../components/RoyalTimeline.astro';
 import Transport from '../../components/Transport.astro';
@@ -17,17 +18,25 @@ import Gallery from '../../components/Gallery.astro';
 import FeaturedQuotes from '../../components/FeaturedQuotes.astro';
 import HiddenRules from '../../components/HiddenRules.astro';
 import Reviews from '../../components/Reviews.astro';
+import SourcesSection from '../../components/SourcesSection.astro';
 import MapEmbed from '../../components/MapEmbed.astro';
 import DeepDive from '../../components/DeepDive.astro';
 import Downloads from '../../components/Downloads.astro';
 import FAQ from '../../components/FAQ.astro';
+import Weather from '../../components/Weather.astro';
+import VisitorServices from '../../components/VisitorServices.astro';
+import SeasonStrategy from '../../components/SeasonStrategy.astro';
+import AudienceRoutes from '../../components/AudienceRoutes.astro';
+import DayRoutes from '../../components/DayRoutes.astro';
+import ScienceResponsibility from '../../components/ScienceResponsibility.astro';
+import HistoryLegends from '../../components/HistoryLegends.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
 
 export function getStaticPaths() {
   return languagesList.map((lang) => ({ params: { lang } }));
 }
 
-const { messages } = getI18n(Astro.url);
+const { lang, messages } = getI18n(Astro.url);
 const faq = messages.faq;
 const faqLd = (() => {
   const categories = faq?.categories ?? [];
@@ -52,13 +61,30 @@ const faqLd = (() => {
   <SectionNav />
   <Hero />
   <QuickFactsDashboard />
+  <Weather lang={lang} server:defer>
+    <div slot="fallback" class="section-padding" style="background: var(--bg-secondary);" aria-hidden="true">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="max-w-3xl mx-auto text-center mb-10">
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3" style="color: var(--text-primary);">{messages.weather.title}</h2>
+          <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{messages.weather.subtitle}</p>
+        </div>
+      </div>
+    </div>
+  </Weather>
   <Intro />
+  <EntityGuide />
   <BotanicalGuide />
   <RoyalTimeline />
+  <HistoryLegends />
   <HumanitiesDossier />
   <DeepDive />
+  <ScienceResponsibility />
+  <SeasonStrategy />
   <Transport />
   <HigashiyamaRoute />
+  <VisitorServices />
+  <AudienceRoutes />
+  <DayRoutes />
   <HiddenRules />
   <ComplianceGuide />
   <Lodging />
@@ -69,4 +95,5 @@ const faqLd = (() => {
   <Gallery />
   <FeaturedQuotes />
   <Reviews />
+  <SourcesSection />
 </BaseLayout>

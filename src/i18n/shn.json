@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Bhubing Palace (Chiang Mai, Thailand) | The royal winter residence at the heart of the city, over half a century old",
-    "description": "The complete guide to Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์): a royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a royal winter retreat and a place for receiving state guests. Surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep, it is the starting point for understanding Chiang Mai's history and urban fabric."
+    "title": "Bhubing Palace Chiang Mai: Opening Hours, Dress Code & Tickets",
+    "description": "Plan a visit to Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) on Doi Suthep, Chiang Mai: the royal winter residence at roughly 1,373 m, built in 1961, with the Suan Suwaree rose garden. Opening hours 08:30–16:30 (ticket office closes 15:30), the 50 THB foreign ticket, the strict dress code, and how to combine it with Wat Phra That Doi Suthep."
   },
   "header": {
     "siteName": "พระตำหนักภูพิงค์ราชนิเวศน์",
@@ -46,8 +46,8 @@
   "hero": {
     "title": "Bhubing Palace (Chiang Mai, Thailand)",
     "subtitle": "A royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a rallying point for state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep.",
-    "rating": "4.4 (6,531)",
-    "reviewCount": "6,531 reviews",
+    "rating": "4.3 (5,505)",
+    "reviewCount": "5,505 reviews",
     "hours": "04:00–23:00 (free hours; foreign visitors pay a ticket)",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
@@ -95,7 +95,7 @@
     },
     "factsSource": {
       "label": "Hours & tickets per Chiang Mai City / on-site info",
-      "url": "https://www.tourism.gov.mm"
+      "url": "https://www.tourismthailand.org/"
     },
     "liveInfo": {
       "weather": "Current weather",
@@ -109,7 +109,9 @@
       "arriveLabel": "Arrive by",
       "blueHourLabel": "Blue hour",
       "lightCaption": "Light calculated live by Open-Meteo"
-    }
+    },
+    "ratingSource": "Rating source: Google Maps · September 2026",
+    "imageAlt": "Bhubing Palace — main view in Chiang Mai, Thailand"
   },
   "quickFactsDashboard": {
     "title": "Bhubing Palace at a Glance · Data Board",
@@ -137,7 +139,7 @@
         "icon": "📍",
         "label": "Coordinates / Coords",
         "value": "about 18.81°N, 98.92°E",
-        "note": "WGS84: 18.8058, 98.9225. Plus Code: RW42+45 Chiang Mai. Address: 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand."
+        "note": "WGS84: 18.8053, 98.8986. Plus Code: RW42+45 Chiang Mai. Address: 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand."
       },
       {
         "icon": "🎟️",
@@ -700,13 +702,19 @@
         "rating": 5,
         "text": "About 10 min walk from Chiang Mai University to the platform; the city and corner shrines along the way are pleasant for a half-day stroll."
       }
-    ]
+    ],
+    "sourceLabel": "Rating & review source",
+    "sourceLinkLabel": "Google Maps",
+    "sourceDisclaimer": "The rating (4.3) and review count (5,505) were retrieved from Google Maps in September 2026 and may change at any time; please refer to Google Maps for the latest figures."
   },
   "mapSection": {
     "title": "How to Get There",
     "subtitle": "1 หมู่ที่ 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200 Thailand (Plus Code: RW42+45) · Tel +66 53 294 555",
     "openMaps": "Open in Google Maps",
-    "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
+    "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
+    "officialLabel": "Official tourism portal",
+    "officialText": "For official updates and regional tourism information, visit the Thailand / Chiang Mai Official Tourism Portal.",
+    "officialUrl": "https://www.tourismthailand.org/"
   },
   "footer": {
     "siteName": "Bhubing Palace (Chiang Mai, Thailand)",
@@ -746,7 +754,21 @@
     ],
     "disclaimer": "This website is an independent non-profit visitor-information project. We are not affiliated with any government agency or official organization.",
     "dataSource": "Information cited on this site is cross-checked against public materials from the Ministry of Hotels and Tourism and the Chiang Mai Region Government, with no commercial endorsements.",
-    "dataSourceLabel": "Data Source"
+    "dataSourceLabel": "Data Source",
+    "imageCopyright": "All images displayed on this website remain the property and copyright of their original photographers.",
+    "entity": {
+      "officialName": "Bhubing Palace · พระตำหนักภูพิงคราชนิเวศน์",
+      "addressValue": "1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand",
+      "phoneValue": "+66 53 294 555",
+      "plusCodeValue": "RW42+45 Chiang Mai, Thailand",
+      "ratingValue": "4.3 / 5",
+      "title": "Official information",
+      "addressLabel": "Address",
+      "phoneLabel": "Phone",
+      "plusCodeLabel": "Plus Code",
+      "ratingLabel": "Google rating",
+      "ratingSuffix": "based on 5,500+ Google traveller reviews"
+    }
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -891,6 +913,14 @@
           {
             "q": "Can I go in bad weather?",
             "a": "Yes — the platform is open space, visitable in any weather. But the platform is hot in the sun and slippery in rain; take sun and slip precautions, wear comfortable shoes, and watch the weather."
+          },
+          {
+            "q": "Is there a dress code, and can I rent clothes on site?",
+            "a": "Yes. Bhubing Palace is a working royal residence, so shoulders and knees must be covered: no sleeveless tops, shorts, short skirts, ripped jeans or revealing clothing. Sarongs and trousers can be borrowed or rented at the entrance. The rule applies to every visitor regardless of nationality."
+          },
+          {
+            "q": "Is Bhubing Palace ever closed to visitors?",
+            "a": "Yes. The grounds close whenever the royal family is in residence, which is most likely during the cool season. Opening hours are 08:30–16:30 with the ticket office closing at 15:30, and closures can be announced at short notice, so confirm before you travel up the mountain."
           }
         ]
       },
@@ -901,6 +931,14 @@
           {
             "q": "What else is worth visiting nearby?",
             "a": "From Bhubing Palace you can link Suan Suwaree, Chiang Mai City Hall, the Wat Phra That Doi Suthep, and Bogyoke Aung San Market, even extending to Wat Phra That Doi Suthep 3 km away, into a half-day 'palace—park—city' cultural route."
+          },
+          {
+            "q": "How do I combine Bhubing Palace with the Monk's Trail hike?",
+            "a": "Hike the Monk's Trail from the foot of Doi Suthep through Wat Pha Lat up to Wat Phra That Doi Suthep (roughly 5–6 km of forest path), then continue about 4 km further up Highway 1004 by songthaew or car to Bhubing Palace. Start early: the trail is steep, hot by mid-morning, and you will want daylight for the gardens."
+          },
+          {
+            "q": "How do I pair Bhubing Palace with Wat Phra That Doi Suthep?",
+            "a": "Both sit on the same road about 4 km apart. The usual order is the temple first (07:00–09:00, before the coach groups), then Bhubing Palace for the gardens, since the palace opens at 08:30. Songthaews run between the temple car park and the palace. Allow around 3–3.5 hours for the two together, plus travel time from the city."
           }
         ]
       }
@@ -1265,28 +1303,28 @@
         "name": "Juliet Rose",
         "latin": "Rosa 'Ausjameson'",
         "bloom": "Year-round",
-        "img": "/gallery/bhubing-palace-1.jpg",
+        "img": "/gallery/bhubing-palace-thailand-1.jpg",
         "desc": "Known for its magnificent form and light tea fragrance, one of the most popular varieties."
       },
       {
         "name": "Peace Rose",
         "latin": "Rosa 'Madame A. Meilland'",
         "bloom": "Nov - Feb",
-        "img": "/gallery/bhubing-palace-5.jpg",
+        "img": "/gallery/bhubing-palace-thailand-5.jpg",
         "desc": "A classic hybrid tea rose with pale yellow petals edged in pink."
       },
       {
         "name": "Highland Orchids",
         "latin": "Orchidaceae",
         "bloom": "Dec - Mar",
-        "img": "/gallery/bhubing-palace-10.jpg",
+        "img": "/gallery/bhubing-palace-thailand-10.jpg",
         "desc": "Endemic orchid species of Northern Thailand carefully cultivated in the glasshouses."
       },
       {
         "name": "Giant Tree Ferns",
         "latin": "Cyatheales",
         "bloom": "Evergreen",
-        "img": "/gallery/bhubing-palace-12.jpg",
+        "img": "/gallery/bhubing-palace-thailand-12.jpg",
         "desc": "Ancient and massive ferns lining the shaded pathways of the royal gardens."
       }
     ]
@@ -1322,5 +1360,605 @@
     "cityTemp": "City",
     "open": "Open Today",
     "closed": "Closed for Royal Visit"
+  },
+  "entity": {
+    "title": "About Bhubing Palace",
+    "intro": "Welcome to Bhubing Palace, the royal winter residence widely recognized as Chiang Mai's central highland palace. Located in the heart of Chiang Mai, Chiang Mai Province, Thailand, this destination serves as a primary hub for travelers exploring the Doi Suthep region and the northern highlands.",
+    "hierarchyLabel": "Geographic hierarchy",
+    "hierarchy": [
+      "Bhubing Palace",
+      "Chiang Mai",
+      "Chiang Mai Province",
+      "Thailand"
+    ],
+    "mapsLabel": "Open in Google Maps",
+    "locationTitle": "Location & How to Visit Bhubing Palace in Chiang Mai",
+    "locationText": "Bhubing Palace stands at 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand (Plus Code RW42+45), roughly 1,300 m above sea level on Doi Suthep mountain and about 4 km uphill from Wat Phra That Doi Suthep. From central Chiang Mai it is a 30–40 minute drive along Highway 1004 (Huay Kaew Road) by songthaew, car or taxi. Tickets are sold until 15:30, and the palace normally closes to visitors during royal residences, usually from January to March.",
+    "landmarksTitle": "Landmarks & Attractions Around Bhubing Palace",
+    "landmarksIntro": "When visiting Bhubing Palace, travelers can easily explore the surrounding historical landmarks and points of interest, including Wat Phra That Doi Suthep and Doi Pui Hmong Village.",
+    "landmarks": [
+      {
+        "name": "Wat Phra That Doi Suthep",
+        "note": "Chiang Mai's most revered temple, about 4 km downhill, famous for its golden chedi and panoramic city views."
+      },
+      {
+        "name": "Doi Pui Hmong Village",
+        "note": "A Hmong hill-tribe village and mountain viewpoint a few minutes above the palace."
+      },
+      {
+        "name": "Suan Suwaree Rose Garden",
+        "note": "The palace's own rose garden, home to hundreds of rose varieties and seasonal flower beds."
+      },
+      {
+        "name": "Doi Suthep–Pui National Park",
+        "note": "The surrounding protected forest, with waterfalls, nature trails and cool mountain air all year round."
+      }
+    ],
+    "historyTitle": "History & Significance of Bhubing Palace",
+    "historyText": "Bhubing Palace was built in 1961 by order of King Bhumibol Adulyadej (Rama IX) as a winter residence for the Thai royal family and a guesthouse for visiting heads of state. Named after Phu Ping, the traditional guardian spirit of the mountain, it is celebrated for its Lanna-style 'Ruen Mu' wooden pavilions and the Suwaree Rose Garden. It remains an active royal residence that opens to the public whenever the royal family is not in residence.",
+    "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
+  },
+  "sources": {
+    "title": "Sources & Data Provenance",
+    "subtitle": "Transparency on where the information, ratings and images on this page come from.",
+    "ratingLabel": "Rating & reviews",
+    "ratingText": "The Google Maps rating (4.3) and review count (5,505) for Bhubing Palace are taken from Google Maps and may change over time.",
+    "ratingLinkLabel": "View on Google Maps",
+    "retrievedLabel": "Retrieved",
+    "retrievedValue": "September 2026",
+    "updatedLabel": "Page last updated",
+    "updatedValue": "September 2026",
+    "listTitle": "Official & authoritative references",
+    "list": [
+      {
+        "name": "Tourism Authority of Thailand (TAT)",
+        "url": "https://www.tourismthailand.org/"
+      },
+      {
+        "name": "Bureau of the Royal Household (Royal Office)",
+        "url": "https://www.royaloffice.th/"
+      },
+      {
+        "name": "Chiang Mai Provincial Administrative Organization",
+        "url": "https://www.chiangmai.go.th/"
+      },
+      {
+        "name": "Department of National Parks, Wildlife and Plant Conservation",
+        "url": "https://www.dnp.go.th/"
+      }
+    ],
+    "imageCopyrightTitle": "Image copyright",
+    "imageCopyrightText": "All images displayed on this website remain the property and copyright of their original photographers. They are shown here for non-commercial, informational purposes only; all rights are reserved by the respective owners.",
+    "ratingSourceUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
+  },
+  "visitorServices": {
+    "title": "Visitor Services & Nearby Facilities",
+    "subtitle": "A type-by-type overview of what is available around the hilltop grounds and along the approach road, so you can plan dwell time and kit before setting off.",
+    "neutralNote": "This is a non-profit reference site. We describe facility types only, and neither recommend nor endorse any specific business. Actual trading status, prices and hours are governed by on-site notices.",
+    "groups": [
+      {
+        "icon": "🚻",
+        "name": "Restrooms & Drinking Water",
+        "type": "Public facility",
+        "points": [
+          "Public restrooms are provided inside the grounds, mostly near the ticket gate, the main garden and the viewing terrace.",
+          "They are usually separate buildings; check whether shoes must be removed. Floors are slippery in the rainy season, so watch the steps.",
+          "Fixed drinking-water points are limited — bring your own bottle. The royal residential area is not open to visitors."
+        ]
+      },
+      {
+        "icon": "🅿️",
+        "name": "Parking",
+        "type": "Public facility",
+        "points": [
+          "Hilltop parking is small. It saturates first on weekends and in high season, and queuing is routine.",
+          "The grounds sit on a winding mountain road with narrow shoulders and no long-term stopping — use marked parking areas only.",
+          "When the hilltop is full, transfer at the foot of the mountain to a shared vehicle or pre-booked car instead of waiting."
+        ]
+      },
+      {
+        "icon": "🍽️",
+        "name": "Food & Drink",
+        "type": "Catering",
+        "points": [
+          "At the top, expect light meals, drinks and snack stalls. Full restaurant dining is concentrated at the foot of the mountain and in the city.",
+          "Most outlets are small independent businesses; menus and hours shift with the season, and queues are normal in high season.",
+          "The grounds themselves do not offer full restaurant service — eat before you ascend or bring simple food."
+        ]
+      },
+      {
+        "icon": "🛏️",
+        "name": "Accommodation",
+        "type": "Lodging",
+        "points": [
+          "There is no visitor accommodation on the summit; lodging sits in Chiang Mai city and along the foot of Doi Suthep.",
+          "City hotels, foothill guesthouses and resort-style stays are the common types, typically 30–60 minutes away by car.",
+          "If you plan a dawn ascent to beat the crowds, staying on the city's north-west side or near the start of the mountain road cuts commuting time noticeably."
+        ]
+      },
+      {
+        "icon": "🛒",
+        "name": "Shops & Convenience Stores",
+        "type": "Retail",
+        "points": [
+          "Convenience stores and small supermarkets cluster in the city and at the start of the mountain road; choice at the summit is very limited.",
+          "Buy bottled water, rain gear, a light jacket, sun protection and basic medicine before you go up.",
+          "Souvenir and plant-themed goods inside the grounds are sold from small stalls whose opening depends on footfall."
+        ]
+      },
+      {
+        "icon": "🔌",
+        "name": "Fuel & Charging",
+        "type": "Energy supply",
+        "points": [
+          "Petrol stations are concentrated in the city and along the ring roads; there are very few supply points on the mountain road.",
+          "EV charging is mostly found at shopping malls and public car parks, in limited numbers — plan the charge in advance.",
+          "Check your fuel or battery before ascending; continuous climbing raises consumption sharply."
+        ]
+      },
+      {
+        "icon": "💳",
+        "name": "Payment, Cash & Connectivity",
+        "type": "Practical",
+        "points": [
+          "Tickets and small purchases in the grounds are largely cash-based; some stalls may not accept electronic payment.",
+          "City businesses generally accept cards and mobile payment, but small operators at the foot and summit may not.",
+          "Mobile signal can be patchy in the valley sections — save offline maps and your ticket details in advance."
+        ]
+      },
+      {
+        "icon": "♿",
+        "name": "Accessibility & Strollers",
+        "type": "Mobility support",
+        "points": [
+          "The grounds are mainly gentle slopes and walkways; the main garden is relatively level, but some sections still involve steps.",
+          "Wheelchairs and strollers can use the principal walkways, though gradients and surfaces vary considerably between sections.",
+          "If you need assistance, ask staff on the day which routes and wheelchair access are currently passable."
+        ]
+      }
+    ],
+    "planningTitle": "Check before you set off",
+    "planningItems": [
+      "The grounds close while members of the royal family are in residence, usually during the cool season. Confirm the day's opening before travelling.",
+      "The summit runs 5–7 °C cooler than the city, more so at dawn and dusk — bring a light jacket.",
+      "The dress code is enforced: shoulders and knees covered, no see-through, tight or overly revealing clothing.",
+      "Hilltop parking is limited. In high season, set off early or transfer at the foot of the mountain.",
+      "Charging points and connectivity are limited on the summit — download offline maps and save your ticket details beforehand."
+    ],
+    "footnote": "These are generic, type-level descriptions and do not refer to any specific business. Facility availability can change with season and policy."
+  },
+  "weather": {
+    "title": "Live Weather & 7-Day Outlook",
+    "subtitle": "The hilltop grounds sit at about 1,373 m, where conditions feel very different from downtown Chiang Mai. This is not just numbers — it tells you what to wear, how to plan the day and what to carry.",
+    "nowLabel": "On the summit now",
+    "forecastTitle": "Next 7 days",
+    "todayLabel": "Today",
+    "adviceTitle": "What it means for you",
+    "alertTitle": "Weather risk",
+    "noAlert": "No significant weather risk expected today.",
+    "groups": {
+      "outfit": "What to wear",
+      "plan": "How to plan",
+      "pack": "What to bring"
+    },
+    "levels": {
+      "warning": "Act now",
+      "notice": "Heads up",
+      "info": "Good to know"
+    },
+    "labels": {
+      "feelsLike": "Feels like",
+      "humidity": "Humidity",
+      "wind": "Wind",
+      "gusts": "Gusts",
+      "precip": "Rainfall",
+      "rainChance": "Rain chance",
+      "uvMax": "UV index",
+      "sunrise": "Sunrise",
+      "sunset": "Sunset",
+      "visibility": "Visibility",
+      "air": "Air quality"
+    },
+    "rules": {
+      "alertThunder": "Thunderstorms today — stay off the summit and away from trees and open terraces; outdoor and water-based areas may close.",
+      "alertRainHeavy": "Around {mm} mm of rain expected. Heavy at times — avoid valleys and low-lying roads.",
+      "alertFlood": "Around {mm} mm of rain expected. The mountain road may flood or shed rockfall — avoid the higher slopes.",
+      "alertWindStrong": "Gusts up to force {level}. Stay back from cliff edges and temporary structures; light items such as hats will blow away.",
+      "alertFog": "Visibility may drop to about {m} m. The road and viewing terraces will be murky — slow down and use fog lights.",
+      "alertHeat": "Highs near {t} °C. Minimise time outdoors at midday and keep drinking water.",
+      "alertCold": "Highs only around {t} °C. It is genuinely cold up here — dress warmly.",
+      "alertUv": "The UV index reaches {uv}, which is strong. Protect yourself if you are outside for long.",
+      "alertSmoke": "PM2.5 is around {pm} µg/m³. Visibility and air quality are poor — sensitive visitors should wear a mask.",
+      "alertFireRisk": "A long dry spell has left the woodland tinder-dry. Open flame and smoking are prohibited in the grounds.",
+      "outfitCold": "Very cold — bring a heavy coat, scarf and a warm base layer.",
+      "outfitHot": "Highs near {t} °C — wear light, breathable clothing and avoid long spells outside at midday.",
+      "outfitRainShell": "Rain expected — wear a waterproof shell or light rain jacket, and choose shoes with grip.",
+      "outfitLayers": "About {d} °C between day and night — layer up so you can add or shed quickly.",
+      "outfitCool": "The summit runs about {d} °C cooler than the city — bring a light jacket or long sleeves, more so at dawn and dusk.",
+      "outfitWindy": "Winds up to force {level} — wear a close-fitting jacket and skip loose skirts or a hat that will fly off.",
+      "planThunder": "Thunderstorms — outdoor sightseeing is not advisable, and open-air and water activities will most likely close.",
+      "planHeavyRain": "Heavy rain — do not plan outdoor activities; choose indoor sights instead.",
+      "planRainLikely": "Rain probability is {p}% — shift outdoor plans earlier or later and carry an umbrella.",
+      "planLightRain": "Light rain, slick surfaces and a mediocre experience outdoors — slow the pace down.",
+      "planAvoidNoon": "Temperatures reach {t} °C — shorten outdoor time and avoid the midday window.",
+      "planSunny": "Clear and fine — great for outdoor sightseeing and for sunrise or sunset photography.",
+      "planOvercast": "Cloudy with soft light — excellent for photography and comfortable for a long walk.",
+      "planMountainRoad": "The mountain road may be slick or foggy — slow down and watch for rockfall and wet bends.",
+      "planWindy": "Gusts up to force {level} — exposed summit areas will feel rough; mind your footing and loose belongings.",
+      "planCloudSea": "High humidity with light wind — a good chance of a valley cloud sea or morning mist.",
+      "planGood": "Stable weather — the grounds should be fine as planned.",
+      "packUmbrella": "Umbrella or folding umbrella (rain chance {p}%)",
+      "packRaincoat": "Rain jacket (heavy rain — leave the long umbrella behind)",
+      "packSun": "Sunscreen, sunglasses, sun hat (UV index {uv})",
+      "packWater": "Plenty of drinking water and heat relief",
+      "packWarm": "Heavy coat and scarf",
+      "packLayer": "Light jacket (about {d} °C swing)",
+      "packMask": "Face mask (poor visibility or air quality)",
+      "packGrip": "Shoes with grip",
+      "packRepellent": "Insect repellent (mosquitoes are active in the wet season)"
+    },
+    "cityDiff": "The summit is {d} °C cooler than the city",
+    "elevationNote": "Readings are for the hilltop grounds at roughly 1,373 m; the temperature gap, wind and visibility can all differ markedly from the city.",
+    "updatedPrefix": "Updated",
+    "unavailable": "Live observations are temporarily unavailable — please go by conditions on the ground. Hilltop afternoons bring thunderstorms and thick fog, so check again before you travel.",
+    "adviceNote": "Suggestions are generated automatically from the local forecast and are indicative only; follow official meteorological warnings where issued.",
+    "weekdays": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "elevationBadge": "1,373 m elevation",
+    "mistBadge": "Morning mist likely",
+    "conditions": {
+      "clear": "Clear",
+      "mostlyClear": "Mostly clear",
+      "partlyCloudy": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "freezingRain": "Freezing rain",
+      "snow": "Snow",
+      "showers": "Showers",
+      "snowShowers": "Snow showers",
+      "thunderstorm": "Thunderstorm",
+      "unknown": "Unknown"
+    }
+  },
+  "seasonStrategy": {
+    "title": "Seasonal Visiting Strategy",
+    "subtitle": "Overlay weather, the grounds' water and planting cycle, and wildlife activity to see what each season is actually best for.",
+    "baselineNote": "Climate baseline: 1991–2020 30-year normals for the Chiang Mai area, combining mountain station observations with regional reanalysis.",
+    "headers": {
+      "season": "Season / window",
+      "weather": "Weather",
+      "water": "Water & planting",
+      "wildlife": "Wildlife",
+      "crowd": "Crowd level",
+      "advice": "What to do"
+    },
+    "rows": [
+      {
+        "season": "Early cool season · Nov–Dec",
+        "weather": "Dry and clear; nights around 8–15 °C on the ridge, afternoons 20–26 °C, and the lowest rain probability of the year.",
+        "water": "Reservoir and lily-pond levels are stable early in the dry season; deciduous trees begin to turn and bedding flowers hold their late-autumn flush.",
+        "wildlife": "Mountain birds are active — listen for calls along the garden edges at dawn; butterfly numbers begin to fall back.",
+        "crowd": "Second-highest of the year; weekends and holidays are the busiest.",
+        "advice": "One of the most comfortable windows of the year. Arrive before 08:00 and carry a light jacket for the temperature swing."
+      },
+      {
+        "season": "Late cool season · Jan–Feb",
+        "weather": "Clear and dry; nights can drop to 5–12 °C with occasional cold snaps, while afternoon UV is strong.",
+        "water": "Peak flowering season — the rose garden and temperate beds open together, and the display depends heavily on irrigation.",
+        "wildlife": "Nectar plants draw bees and sunbirds; dawn birdsong density is the highest of the year.",
+        "crowd": "The year's peak, with possible closures where it overlaps royal residencies.",
+        "advice": "Best display, densest crowds. Come at opening time, and always confirm the grounds are not closed for a royal visit."
+      },
+      {
+        "season": "Hot season · Mar–Apr",
+        "weather": "The hottest stretch: the city can exceed 38 °C, the summit sits at roughly 28–33 °C in the afternoon, and air clarity drops.",
+        "water": "Lowest water levels of the year and the heaviest irrigation load; some bedding flowers go dormant and foliage plants dominate.",
+        "wildlife": "Daytime activity falls away — dawn and dusk are the observation windows, with cicadas loud in the canopy.",
+        "crowd": "Eases off; weekday mornings are comparatively quiet.",
+        "advice": "Go early and leave early. Watch hydration and sun protection, and check air quality if you are sensitive."
+      },
+      {
+        "season": "Rainy season · May–Oct",
+        "weather": "Frequent afternoon thunderstorms, 15–20 rain days a month at the peak, high humidity and fast-forming fog on the road.",
+        "water": "Reservoir and ponds at their highest; aquatic plants, ferns and mosses at their most luxuriant — the best moss viewing of the year.",
+        "wildlife": "Frogs and insects thrive, and butterflies and dragonflies increase after rain — the best season for invertebrates.",
+        "crowd": "The quietest period of the year.",
+        "advice": "Bring rain gear and grippy shoes, avoid exposed viewing terraces during storms, and drive carefully in low visibility."
+      }
+    ],
+    "footnote": "Normals are statistical averages; individual years deviate substantially. Always check the latest forecast before travelling."
+  },
+  "audienceRoutes": {
+    "title": "Routes Tailored to Who You Are Travelling With",
+    "subtitle": "Three targeted routes: families with children / photography and nature / low-mobility and step-free. Pick by group make-up and pace.",
+    "labels": {
+      "duration": "Suggested time",
+      "pace": "Pace",
+      "stops": "Route stops",
+      "tips": "Tips"
+    },
+    "routes": [
+      {
+        "icon": "👨‍👩‍👦",
+        "name": "Families with Children",
+        "tag": "Slow, few stops, rest whenever you like",
+        "duration": "About 2–2.5 hours inside the grounds",
+        "pace": "Slow, 15–25 minutes per stop",
+        "stops": [
+          "Ticket gate and main walkway entrance: locate restrooms, water and a meeting point first.",
+          "Main rose-garden loop: dense beds and plenty of seating, good for long pauses and photos.",
+          "Aquatic plant area: watch lilies and dragonflies, mind the railings and keep children back from the water.",
+          "Lawn edge and viewing terrace: free play, refuel, then head back down."
+        ],
+        "tips": [
+          "The mountain road runs about 13 km with constant curves — prepare children prone to car sickness.",
+          "The summit swings in temperature; pack a light jacket and a spare set of clothes for each child.",
+          "This is a viewing garden: do not pick plants or feed animals."
+        ]
+      },
+      {
+        "icon": "📷",
+        "name": "Photography & Nature",
+        "tag": "Chasing light, flowers and birds",
+        "duration": "About 3–4 hours inside the grounds",
+        "pace": "Moderate, with one session in the morning and one later",
+        "stops": [
+          "Shaded stretch from the entrance to the garden: low-angle side light for canopy and path depth.",
+          "Rose garden: colours are most saturated while the dew is still on the petals.",
+          "Aquatic area and boardwalk: reflections, lilies and fern textures.",
+          "Upper viewing terrace: finish with valley mist and layered ridgelines."
+        ],
+        "tips": [
+          "Summit afternoons tend to cloud over — put your key shots in the morning.",
+          "In the rainy season mist is an asset; bring a rain cover and a lens cloth.",
+          "Avoid parking a tripod across walkways where foot traffic is heavy."
+        ]
+      },
+      {
+        "icon": "♿",
+        "name": "Low Mobility / Step-Free",
+        "tag": "Shortest route, rest the whole way",
+        "duration": "About 1.5–2 hours inside the grounds",
+        "pace": "Very slow, turn back at any point",
+        "stops": [
+          "Ticket gate to upper garden on the main walkway: the most level surface with the gentlest gradient.",
+          "Quick rose-garden loop: the core beds sit close to the entrance.",
+          "Viewing terrace: rest and take in the view, then decide by remaining energy.",
+          "Rest points inside the grounds: fold back gradually rather than completing it all in one push."
+        ],
+        "tips": [
+          "Some sections have steps and slopes — travel with a companion and allow generous time.",
+          "Before using a wheelchair or stroller, ask staff which routes are passable that day.",
+          "At this altitude, anyone with reduced heart or lung capacity should slow down and keep drinking water."
+        ]
+      }
+    ]
+  },
+  "dayRoutes": {
+    "title": "Recommended General Itineraries",
+    "subtitle": "A half-day and a full-day rhythm, both anchored on the hilltop grounds. Just follow the timeline.",
+    "labels": {
+      "duration": "Duration",
+      "bestFor": "Best for",
+      "timeline": "Timeline",
+      "tips": "Tips"
+    },
+    "routes": [
+      {
+        "icon": "🕐",
+        "name": "Half-Day Essentials",
+        "duration": "About 3–3.5 hours including the mountain road",
+        "bestFor": "Tight schedules, first visits, pairing with Wat Phra That Doi Suthep",
+        "timeline": [
+          {
+            "time": "06:45",
+            "title": "Leave the city",
+            "text": "Head up Highway 1004 and stay ahead of commuter and coach traffic."
+          },
+          {
+            "time": "07:30",
+            "title": "Arrive at the grounds",
+            "text": "Go straight onto the main walkway at opening; start with the rose garden and highland flowers."
+          },
+          {
+            "time": "08:30",
+            "title": "Aquatic plant area",
+            "text": "Ponds and fern beds — light and footfall are at their friendliest now."
+          },
+          {
+            "time": "09:15",
+            "title": "Viewing terrace",
+            "text": "Look over the valley mist and the city, then rest a while."
+          },
+          {
+            "time": "10:00",
+            "title": "Descend to Doi Suthep",
+            "text": "About 4 km down to Wat Phra That Doi Suthep, closing the half-day loop."
+          }
+        ],
+        "tips": [
+          "The opening window is the quietest — the best reason to set an early alarm.",
+          "The road is densely curved; prepare if you are prone to motion sickness.",
+          "If afternoon storms are forecast, clear the mountain road before they arrive."
+        ]
+      },
+      {
+        "icon": "🌄",
+        "name": "Full-Day In Depth",
+        "duration": "About 7–8 hours",
+        "bestFor": "Photographers, plant enthusiasts and travellers who prefer a slower pace",
+        "timeline": [
+          {
+            "time": "06:30",
+            "title": "Leave the city",
+            "text": "An early start dodges both the heat and the coach groups."
+          },
+          {
+            "time": "07:15",
+            "title": "Hilltop grounds · first half",
+            "text": "Work through rose garden → aquatic area → fern and moss beds."
+          },
+          {
+            "time": "09:30",
+            "title": "Rest and resupply",
+            "text": "Top up water and a light meal at a rest point, and sort your photos."
+          },
+          {
+            "time": "10:30",
+            "title": "Hilltop grounds · second half",
+            "text": "Return to your key compositions and watch bird and butterfly activity."
+          },
+          {
+            "time": "12:00",
+            "title": "Descend to Doi Suthep",
+            "text": "Pay respects at the pagoda and take in the panoramic city view; have lunch at the foot."
+          },
+          {
+            "time": "14:00",
+            "title": "Foothill villages and nurseries",
+            "text": "Visit the Hmong village at the foot and the garden nurseries to see highland horticulture."
+          },
+          {
+            "time": "16:30",
+            "title": "Return",
+            "text": "Clear the mountain road before the afternoon storms and finish the day in the city."
+          }
+        ],
+        "tips": [
+          "Always confirm the grounds are open that day — they close at short notice during royal residencies.",
+          "Mountain weather turns quickly in the afternoon; keep outdoor highlights in the morning.",
+          "Carry water, rain gear, a light jacket and sun protection, and build in buffer time."
+        ]
+      }
+    ]
+  },
+  "scienceResponsibility": {
+    "title": "Science & Visitor Responsibility",
+    "subtitle": "Bhubing is more than a scenic garden: it also carries out highland plant conservation, mountain climate observation and public environmental education.",
+    "points": [
+      {
+        "icon": "🌱",
+        "title": "Highland Plant Conservation",
+        "text": "The grounds collect and cultivate temperate and subtropical highland plants, keeping living specimens for species preservation and horticultural research.",
+        "items": [
+          "The specialist gardens are zoned by ecological habit, making it easy to compare how plants perform at different altitudes.",
+          "Please do not pick flowers, break branches or remove any plant material.",
+          "When photographing, avoid trampling beds and moss areas — they recover very slowly."
+        ]
+      },
+      {
+        "icon": "🌡️",
+        "title": "Mountain Climate Observation",
+        "text": "At roughly 1,373 m, the grounds are a natural vantage point for studying mountain climate and cloud belts.",
+        "items": [
+          "Summit temperatures run 5–8°C below central Chiang Mai, with a wider day–night swing.",
+          "Clear dry-season mornings often bring a sea of cloud and radiation fog — a vivid lesson in mountain weather.",
+          "Please do not move or touch weather instruments or research equipment."
+        ]
+      },
+      {
+        "icon": "🦋",
+        "title": "Biodiversity Watching",
+        "text": "The gardens and surrounding woodland give birds, butterflies and pollinators habitat and foraging ground.",
+        "items": [
+          "Keep your distance and avoid close-up flash photography.",
+          "Do not feed animals or play birdsong recordings to lure birds in.",
+          "If you record a species, submit it through an observation app to become citizen-science data."
+        ]
+      },
+      {
+        "icon": "🤝",
+        "title": "Visitor Responsibility & Etiquette",
+        "text": "As a working royal site and a protected garden, how visitors behave directly affects whether it can stay open.",
+        "items": [
+          "Follow the dress code (shoulders and knees covered); trousers and sarongs can be borrowed on site.",
+          "Stay on designated walkways and keep out of beds, lawns and closed areas.",
+          "Take your rubbish with you and observe the bans on smoking and drones."
+        ]
+      }
+    ]
+  },
+  "historyLegends": {
+    "title": "History & Local Legends",
+    "subtitle": "How a royal winter residence on Doi Suthep became one of Chiang Mai's best-known highland gardens — and the stories locals tell about it.",
+    "chapters": [
+      {
+        "badge": "1961",
+        "title": "A Royal Winter Residence",
+        "text": "Bhubing Palace was built in 1961 as a winter residence for the Thai royal family. The site was chosen at roughly 1,373 m on Doi Suthep, where the air stays cool and the seasons feel temperate — a natural escape from the heat of Chiang Mai and a place to receive state guests."
+      },
+      {
+        "badge": "1962",
+        "title": "From Residence to Botanical Garden",
+        "text": "Once the residence was complete, temperate and highland plants were steadily introduced. Specialist gardens took shape — rose, aquatic, fern and moss — combining the role of a royal garden with research and conservation."
+      },
+      {
+        "badge": "Open",
+        "title": "Opened to the Public",
+        "text": "When the royal family is not in residence, the grounds open to visitors. Guests follow designated walkways past the principal gardens and viewing terraces, experiencing a mountain garden layer by layer."
+      },
+      {
+        "badge": "Management",
+        "title": "An Official Management Framework",
+        "text": "The grounds are managed and maintained by the royal household. Opening hours, dress code and conduct rules are therefore strict — not to inconvenience visitors, but to protect both a working royal site and its plant collections."
+      },
+      {
+        "badge": "Today",
+        "title": "Bhubing Today",
+        "text": "It is now Chiang Mai's best-known hilltop garden and the most common companion stop to Wat Phra That Doi Suthep. It sits within a wider belt of highland horticulture that includes the Hmong village and roadside nurseries at the foot of the mountain."
+      }
+    ],
+    "legendTitle": "Local Legends",
+    "legends": [
+      {
+        "title": "Where the rose garden came from",
+        "text": "It is said the earliest plantings came from royal private collections and gifts from friendly nations — which is why the rose garden carries an international character in both varieties and layout."
+      },
+      {
+        "title": "Why the summit is so cool",
+        "text": "Locals say the mountain 'keeps its own weather'. Temperature falls roughly 0.6°C per 100 m of elevation, and forest cover plus mountain cloud keeps the summit 5–8°C cooler than the city all year."
+      },
+      {
+        "title": "Why the dress code is so strict",
+        "text": "Residents treat this as a royal site rather than an ordinary park: the dress code expresses respect, not an extra ticket condition. Trousers and sarongs can be borrowed on site."
+      }
+    ],
+    "timelineTitle": "Key Milestones",
+    "timeline": [
+      {
+        "year": "1961",
+        "text": "Construction begins on the royal winter residence at roughly 1,373 m."
+      },
+      {
+        "year": "Around 1962",
+        "text": "Principal buildings and garden landscapes are completed; temperate and highland plants are introduced."
+      },
+      {
+        "year": "Opening period",
+        "text": "The grounds open to the public whenever the royal family is not in residence, gradually becoming a leading Chiang Mai attraction."
+      },
+      {
+        "year": "From 2006",
+        "text": "Plant conservation and research are strengthened and the specialist gardens are progressively refined."
+      },
+      {
+        "year": "Recent years",
+        "text": "Bhubing, Doi Suthep, the Hmong village and the Monk's Trail together form the standard Doi Suthep day trip."
+      },
+      {
+        "year": "Before you visit",
+        "text": "Always confirm that the grounds are open that day — they close temporarily during royal residencies."
+      }
+    ],
+    "caveat": "The chapters and legends above are background written for visitors. For exact historical facts, opening policy and regulations, always refer to on-site notices and official announcements."
   }
 }

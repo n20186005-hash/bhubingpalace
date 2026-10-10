@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Bhubing Palace Chiang Mai: Opening Hours, Dress Code & Tickets",
-    "description": "Plan a visit to Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) on Doi Suthep, Chiang Mai: the royal winter residence at roughly 1,373 m, built in 1961, with the Suan Suwaree rose garden. Opening hours 08:30–16:30 (ticket office closes 15:30), the 50 THB foreign ticket, the strict dress code, and how to combine it with Wat Phra That Doi Suthep."
+    "title": "Bhubing Palace Chiang Mai | Opening Hours, Tickets & Dress Code",
+    "description": "Plan your visit to Bhubing Palace on Doi Suthep. Find opening hours, admission fees, dress code, royal closure information and directions from Chiang Mai."
   },
   "header": {
-    "siteName": "Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์)",
+    "siteName": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์)",
     "home": "Home",
     "visit": "Explore",
     "transport": "Transport",
@@ -104,14 +104,16 @@
     "sunsetPlanner": {
       "eyebrow": "Golden Hour Calculator · Light Tool",
       "title": "Based on today's sunset, we recommend arriving about 60 minutes earlier to catch the softest diffuse city light and the blue hour on the elegant spire — ideal for photographing Bhubing Palace and the surrounding colonial buildings.",
-      "note": "Bhubing Palace sits in a busy Doi Suthep intersection surrounded by high-rises and traffic; light is warmest at dawn and dusk. On weekends or clear days, allow extra time to avoid crowds.",
+      "note": "Bhubing Palace sits on the forested slopes of Doi Suthep; light is warmest at dawn and dusk. On weekends or clear days, allow extra time to avoid crowds.",
       "seaGlare": "Sunset tip: Bhubing Palace stands at an open Doi Suthep junction, a convenient spot to watch the city sunset. The first warm light on the elegant spire and Suan Suwaree at dusk is the golden window for photography; Chiang Mai is hot year-round, so bring water and sun protection.",
       "arriveLabel": "Arrive by",
       "blueHourLabel": "Blue hour",
       "lightCaption": "Light calculated live by Open-Meteo"
     },
     "ratingSource": "Rating source: Google Maps · September 2026",
-    "imageAlt": "Bhubing Palace — main view in Chiang Mai, Thailand"
+    "imageAlt": "Bhubing Palace — main view in Chiang Mai, Thailand",
+    "localSubtitle": "Royal Winter Palace on Doi Suthep, Chiang Mai",
+    "verifyNote": "Usually open 08:30–16:30 (ticket office until 15:30). May close when the royal family is in residence — please confirm before visiting."
   },
   "quickFactsDashboard": {
     "title": "Bhubing Palace at a Glance · Data Board",
@@ -190,10 +192,10 @@
     "panels": [
       {
         "q": "Is a ticket needed for Bhubing Palace?",
-        "a": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice. exploreing on the platform is free.",
+        "a": "Yes. Admission: Thai nationals 20 THB (children 10 THB) and foreign visitors 50 THB, bought at the entrance booth, subject to on-site notice. The grounds are a paid attraction, not a free public park.",
         "items": [
-          "Foreign visitors buy at the entrance ticket booth.",
-          "The platform and base area are free; daytime visits recommended."
+          "Thai nationals 20 THB (children 10 THB); foreign visitors 50 THB at the entrance booth.",
+          "Daytime visits are recommended; the grounds close at 16:30."
         ]
       },
       {
@@ -296,7 +298,7 @@
   },
   "intro": {
     "title": "Getting to Know Bhubing Palace",
-    "description": "Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
+    "description": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
@@ -322,13 +324,13 @@
     "title": "Transport & Arrival Guide",
     "subtitle": "Consolidating arrival in Chiang Mai, in-city transfers, walking, parking, and nearby links for a clearer Bhubing Palace plan.",
     "overviewTitle": "After arriving in Chiang Mai",
-    "overviewText": "Bhubing Palace is at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai — the city's most recognizable coordinate. The easiest public transit is to fly to Chiang Mai International Airport (CNX), then take a taxi or Grab about 30–45 minutes to Doi Suthep. Once Doi Suthep, a walk or short taxi ride from surrounding blocks takes about 5–15 minutes to the platform. The palace is right at the core junction; from the drop-off you walk straight onto the platform.",
-    "overviewText2": "Around Bhubing Palace is the city core with limited parking. Plan transport, parking, and walking together — especially with seniors, young children, or luggage, parking at a nearby mall or hotel then walking greatly reduces hassle.",
+    "overviewText": "Bhubing Palace is on the slopes of Doi Suthep, northwest of Chiang Mai — a royal winter residence, not a city-center monument. The easiest public transit is to fly to Chiang Mai International Airport (CNX), then take a taxi or Grab about 30–45 minutes up the mountain to Doi Suthep. From the base of Doi Suthep it is a short drive up the winding road to the palace; from the drop-off you walk in to the entrance.",
+    "overviewText2": "Parking at the palace is limited, especially on weekends and during the cool (Nov–Feb) season. Plan to arrive early, or take a round-trip songthaew (red truck) up Doi Suthep and avoid driving up the mountain yourself.",
     "arrivalTitle": "Remember before departure",
     "arrivalItems": [
-      "The palace is at a central junction; about a 5–15 min walk from surrounding blocks to the platform.",
-      "Foreign visitors need a ticket; platform exploreer is free. Night lighting is limited; daytime or dusk visits are more comfortable.",
-      "The Doi Suthep junction is crowded; avoid peak times. Nearby mall parking is available."
+      "The palace is on Doi Suthep, about a 30–45 min drive from central Chiang Mai — allow extra time in the cool season.",
+      "Admission applies to all visitors (Thai nationals 20 THB, children 10 THB, foreigners 50 THB). The grounds close at 16:30, so plan a daytime visit.",
+      "Doi Suthep is crowded on weekends and holidays; arrive early. On-site parking is limited."
     ],
     "modes": [
       {
@@ -382,27 +384,27 @@
         ]
       },
       {
-        "label": "Chiang Mai Rod Daeng (Red Truck) (to Chiang Mai University)",
+        "label": "Songthaew (Red Truck) up Doi Suthep",
         "icon": "🚉",
-        "title": "The hidden nearby option",
-        "description": "Chiang Mai Chiang Mai University is only a few hundred meters from Bhubing Palace. Take the Rod Daeng (Red Truck) then walk about 10 minutes — ideal for travelers wanting a local commute experience.",
+        "title": "The local shared ride",
+        "description": "From central Chiang Mai or the base of Doi Suthep, shared red songthaews run up the mountain. Ask to be dropped near Bhubing Palace, then it is a short walk to the entrance.",
         "details": [
-          "Chiang Mai University has frequent trains, closest to the palace.",
-          "About a 10-min walk from the station to the main sights.",
-          "Mornings and weekdays are best to avoid crowds."
+          "Songthaews gather near the base of Doi Suthep and in central Chiang Mai.",
+          "Fares are per person; agree on the price before boarding.",
+          "Mornings and weekdays are less crowded."
         ],
         "steps": [
           {
             "n": "1",
-            "t": "Take the Rod Daeng (Red Truck) to Chiang Mai University."
+            "t": "Catch a red songthaew heading up Doi Suthep."
           },
           {
             "n": "2",
-            "t": "Walk along the street about 10 min."
+            "t": "Ask the driver to stop at Bhubing Palace."
           },
           {
             "n": "3",
-            "t": "Reach the elegant platform and park."
+            "t": "Walk from the drop-off to the entrance."
           }
         ]
       },
@@ -410,10 +412,10 @@
         "label": "Driving (parking / mall)",
         "icon": "🅿️",
         "title": "Via Doi Suthep · nearby parking",
-        "description": "Good with seniors/children, lots of luggage, or touring the city; roads near the palace are narrow with limited parking — park at a nearby mall or hotel.",
+        "description": "Good with seniors/children or lots of luggage; the mountain road to the palace is narrow with limited parking, so an early arrival helps.",
         "details": [
           "Set navigation to 'Bhubing Palace' or 'Bhubing Palace Road, Chiang Mai'.",
-          "Nearby mall/hotel parking is primary; roadside stopping is restricted.",
+          "On-site parking is limited and fills early; roadside stopping is restricted.",
           "Doi Suthep is busy; drive slowly and park properly."
         ],
         "steps": [
@@ -438,7 +440,7 @@
         "description": "If you're already at Suan Suwaree or Doi Suthep streets, walking is the most natural way to observe the city and palace.",
         "details": [
           "About a 5–15 min walk from the park or City Hall to the platform.",
-          "Pass colonial buildings, street markets, and corner shrines.",
+          "The palace road winds through the forest of Doi Suthep; from the entrance it is a short walk to the gardens.",
           "Flat paths; wear comfortable shoes and watch children and belongings."
         ]
       }
@@ -451,9 +453,9 @@
       "colPrice": "Price",
       "options": [
         {
-          "name": "Nearby mall parking",
-          "distance": "about 200–500 m (to platform)",
-          "price": "Commercial, hourly"
+          "name": "Palace on-site parking",
+          "distance": "at the entrance",
+          "price": "Limited; included with admission"
         },
         {
           "name": "Nearby hotel/office parking",
@@ -466,12 +468,12 @@
           "price": "Short stop only, restricted and congested"
         },
         {
-          "name": "Chiang Mai Chiang Mai University parking",
-          "distance": "about 500–800 m",
-          "price": "Station parking, needs walk"
+          "name": "Base of Doi Suthep parking",
+          "distance": "about 5–10 km (then songthaew up)",
+          "price": "Public lots, then ride up"
         }
       ],
-      "disclaimer": "Roads near the palace congest on holidays and clear days; don't occupy bus or fire lanes for long. EV chargers are mostly in mall parking; rates and limits may change — check posted signs."
+      "disclaimer": "Roads near the palace congest on holidays and clear days; don't occupy bus or fire lanes for long. EV chargers are scarce near the palace — plan ahead."
     },
     "driverFaqTitle": "Transport FAQ",
     "driverFaq": [
@@ -481,7 +483,7 @@
       },
       {
         "q": "What is the nearest parking?",
-        "a": "Nearby mall parking is about 200–500 m away, closest to the platform; nearby hotel parking is about 200–600 m, more spaces but tight at peak."
+        "a": "On-site parking is limited and fills early. The base of Doi Suthep has larger public lots, then take a songthaew up the mountain."
       },
       {
         "q": "Is there roadside parking nearby?",
@@ -489,7 +491,7 @@
       },
       {
         "q": "Is driving recommended?",
-        "a": "Unless parking is essential, no. Doi Suthep congests; walking or ride-hailing is smoother. If driving, park at a nearby mall then walk in."
+        "a": "Unless parking is essential, no. Doi Suthep congests; a songthaew or ride-hailing is smoother. If driving, use the on-site lot or park at the base and ride up."
       },
       {
         "q": "Do you recommend public transport?",
@@ -527,50 +529,50 @@
       {
         "id": "history",
         "title": "Founding legend: King Bhumibol, the guardian of millennia",
-        "content": "Legend has it that over 60 years ago, during the 1961, the King of Okkalapa (now Chiang Mai) received eight rose gardens from the Buddha. To enshrine them, he sought the 'sacred hill' (the current site of Wat Phra That Doi Suthep) where gardens of three previous Buddhas were buried. King Bhumibol (or Bhubing), a powerful Lanna (vision) who had lived for millions of years at the site of today's Bhubing Palace, stepped forward. Using his ancient memory, he pointed out the direction of the sacred hill and helped escort the rose gardens. To honor this crucial royal vision, people built a palace at the very spot where he lived and held meetings with other visions, naming it after him. 'Bhubing' also means 'gathering/meeting' in Burmese, which marks the earliest visionual origin of Bhubing Palace as the heart of the city."
+        "content": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์, Phu Phing Royal Palace) was built as a royal winter residence for King Bhumibol Adulyadej and Queen Sirikit. Construction began in 1961 on the forested slopes of Doi Suthep, northwest of Chiang Mai, at an elevation of about 1,200 m, where the cool climate suits its famous rose garden. The name 'Bhubing' is commonly understood to mean 'the residence of the winds.' It remains a working royal residence and is open to visitors only when the royal family is not in residence."
       },
       {
         "id": "name",
         "title": "Geometric Origin: The 'Coordinate Zero' of the colonial grid",
-        "content": "Bhubing Palace became the undisputed 'heart of the city' not only because of myths but also due to modern scientific planning. After the Second Anglo-Burmese War in 1852, British Army engineer Lieutenant Alexander Fraser redesigned Chiang Mai using the classic Victorian 'checkerboard' grid. He chose Bhubing Palace as the absolute geometric center and reference origin for the entire city grid system. All major arteries (like Bhubing Palace Road) radiate outward from this palace. This perfect overlap of a 2,000-year-old Eastern Buddhist sanctuary with the geometric planning of Western modern industrial civilization is extremely rare in the history of global urban planning."
+        "content": "Despite its grand name, Bhubing Palace is not a city-center monument. It sits up on Doi Suthep, roughly 22 km — a 30–45 minute drive — from central Chiang Mai. Its address is on Bhubing Palace Road in the Suthep subdistrict, a quiet, forested mountainside rather than an urban grid."
       },
       {
         "id": "reclining",
         "title": "rose garden & faith center",
-        "content": "The palace is said to enshrine a beautiful rose gardens, sharing the same origin as Chiang Mai's other great shrine, Wat Phra That Doi Suthep. This garden makes Bhubing Palace a key node of royal heritage, lifting it from a city old tower to a sanctuary visited by visitors and travelers."
+        "content": "The palace's Suan Suwaree rose garden is its signature feature; the cool mountain air lets roses bloom well. Bhubing is a royal residence rather than a temple, but it sits near Wat Phra That Doi Suthep, one of Chiang Mai's most important temples, so visitors often combine the two."
       },
       {
         "id": "yeonhwa",
         "title": "Thai-style architecture & Burmese zodiac horticulture",
-        "content": "Bhubing Palace's distinctive Thai-style structure is not just an aesthetic design but a physical manifestation of Burmese traditional Buddhist horticulture (Mahabote). In the Burmese calendar, a week is divided into eight days (Wednesday is split into morning and afternoon), each represented by a specific direction, planet, and guardian floral species. The eight faces of the palace correspond exactly to these eight astrological directions. The base platform features exploreer shrines in all eight directions, where visitors find the floral species corresponding to their birth day and pour water over the Buddha image and guardian beast to explore for blessings, making the architecture the most intuitive expression of faith."
+        "content": "The palace buildings follow Thai-style royal architecture, with low pavilions, tiled roofs, and manicured gardens suited to a cool-season residence. Visitors tour the grounds and exterior; the interior rooms are not open to the public."
       },
       {
         "id": "faith",
         "title": "Urban movements & collective memory",
-        "content": "In modern times, because of its central location, Bhubing Palace has repeatedly been a rallying point for state receptions: the 1988 democracy movement and the 2007 Saffron Revolution both centered here. It is both a religious shrine and a witness to modern Burmese history."
+        "content": "Because it is an active royal residence, Bhubing Palace closes to the public when the royal family is in residence, most often from January to March. Always check the current status before you go; when open, the gardens and palace exterior are the main things to see."
       },
       {
         "id": "halls",
         "title": "Platform & exploreer space",
-        "content": "The base platform surrounds the elegant main stupa, with shrines, fountains, and drums at the corners. visitors circumambulate, offer flowers, and light candles; the fountain and birdsong are Bhubing Palace's most iconic soundscape."
+        "content": "The palace grounds include open lawns, the rose garden, fountains, and walking paths. Visitors stroll the gardens and view the exterior of the royal residences; the atmosphere is calm and green rather than ceremonial."
       },
       {
         "id": "statues",
         "title": "Surrounding urban landmarks",
-        "content": "The palace faces Suan Suwaree and the Wat Phra That Doi Suthep, near Chiang Mai City Hall and the colonial High Court, forming a 'palace—park—city' spatial narrative."
+        "content": "The palace faces the Suan Suwaree public garden and is a short drive from Wat Phra That Doi Suthep. It is set within the forest of Doi Suthep, away from the city center."
       },
       {
         "id": "sea",
         "title": "Urban ecology & street environment",
-        "content": "Bhubing Palace is in a busy Doi Suthep, surrounded by urban greenery, corner shrines, and colonial buildings. Here you see citizens exercising, visitors exploreing, and tourists strolling — a natural classroom for observing Chiang Mai city life.",
+        "content": "Bhubing Palace sits within the forest of Doi Suthep. On visiting days you'll see families and travelers walking the gardens and photographing the roses; the mood is a quiet mountain retreat rather than a busy city intersection.",
         "cards": [
           {
             "title": "Urban base & form",
-            "text": "The palace sits at an open Doi Suthep junction; the Thai-style elegant body stands out between City Hall and the park, with gentle platforms letting visitors approach the base without harming the heritage."
+            "text": "The palace sits on the forested slopes of Doi Suthep; the Thai-style pavilions stand among rose gardens and lawns."
           },
           {
             "title": "Faith Ecology: The convergence of street life and practice",
-            "text": "The platform is where visitors circumambulate, offer flowers, and meditate at dawn — most active then, echoing the Buddhist 'life-protecting' vision."
+            "text": "The gardens are most pleasant in the cool morning; visitors photograph the roses and enjoy the mountain air."
           },
           {
             "title": "palace-watching tip",
@@ -612,7 +614,7 @@
         "id": "monument",
         "badge": "palace history sign",
         "title": "Bhubing Palace & its founding",
-        "thTitle": "ประวัติพระตำหนักภูพิงค์ราชนิเวศน์",
+        "thTitle": "ประวัติพระตำหนักภูพิงคราชนิเวศน์",
         "thTitleZh": "Bhubing Palace history guide",
         "location": "Platform main entrance",
         "body": "These signs state the key background — the meaning of Bhubing Palace as a Doi Suthep royal winter residence and its naming relation with the royal vision. Reading the hints is lesson one in using this urban landmark."

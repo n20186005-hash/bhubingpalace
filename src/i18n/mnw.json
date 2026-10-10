@@ -4,7 +4,7 @@
     "description": "Plan a visit to Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) on Doi Suthep, Chiang Mai: the royal winter residence at roughly 1,373 m, built in 1961, with the Suan Suwaree rose garden. Opening hours 08:30–16:30 (ticket office closes 15:30), the 50 THB foreign ticket, the strict dress code, and how to combine it with Wat Phra That Doi Suthep."
   },
   "header": {
-    "siteName": "พระตำหนักภูพิงค์ราชนิเวศน์",
+    "siteName": "พระตำหนักภูพิงคราชนิเวศน์",
     "home": "မုက်လိက်တမ်",
     "visit": "ဂေတ်လန်",
     "transport": "အာကၠုင်",
@@ -48,7 +48,7 @@
     "subtitle": "A royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a rallying point for state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep.",
     "rating": "4.3 (5,505)",
     "reviewCount": "5,505 reviews",
-    "hours": "04:00–23:00 (free hours; foreign visitors pay a ticket)",
+    "hours": "08:30–16:30 (Tickets until 15:30. Usually closed Jan–Mar during royal visits)",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "legend": {
@@ -111,7 +111,9 @@
       "lightCaption": "Light calculated live by Open-Meteo"
     },
     "ratingSource": "Rating source: Google Maps · September 2026",
-    "imageAlt": "Bhubing Palace — main view in Chiang Mai, Thailand"
+    "imageAlt": "Bhubing Palace — main view in Chiang Mai, Thailand",
+    "localSubtitle": "Royal Winter Palace on Doi Suthep, Chiang Mai",
+    "verifyNote": "Usually open 08:30–16:30 (ticket office until 15:30). May close when the royal family is in residence — please confirm before visiting."
   },
   "quickFactsDashboard": {
     "title": "Bhubing Palace at a Glance · Data Board",
@@ -287,7 +289,7 @@
   },
   "intro": {
     "title": "Getting to Know Bhubing Palace",
-    "description": "Bhubing Palace (พระตำหนักภูพิงค์ราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
+    "description": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
@@ -599,7 +601,7 @@
         "id": "monument",
         "badge": "palace history sign",
         "title": "Bhubing Palace & its founding",
-        "thTitle": "ประวัติพระตำหนักภูพิงค์ราชนิเวศน์",
+        "thTitle": "ประวัติพระตำหนักภูพิงคราชนิเวศน์",
         "thTitleZh": "Bhubing Palace history guide",
         "location": "Platform main entrance",
         "body": "These signs state the key background — the meaning of Bhubing Palace as a Doi Suthep royal winter residence and its naming relation with the royal vision. Reading the hints is lesson one in using this urban landmark."

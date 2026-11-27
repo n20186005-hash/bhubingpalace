@@ -13,7 +13,7 @@ interface Props {
   /**
    * Utility and legal pages (privacy, terms, cookie settings) were ranking
    * above real content in Search Console, so they are excluded from the index
-   * while still passing link equity through.
+   * while keeping them accessible to visitors.
    */
   noindex?: boolean;
 }
@@ -58,35 +58,8 @@ const jsonLd = {
     longitude: 98.8986,
   },
   hasMap: mapsShareUrl,
-  // Grounds are open 08:30-16:30 with the ticket office closing at 15:30, and
-  // they close entirely while the royal family is in residence.
-  openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-      opens: '08:30',
-      closes: '16:30',
-    },
-  ],
-  isAccessibleForFree: false,
   publicAccess: true,
   touristType: ['Culture', 'Nature', 'Photography', 'Family'],
-  offers: [
-    {
-      '@type': 'Offer',
-      price: '50',
-      priceCurrency: 'THB',
-      url: canonical,
-      description: messages.meta.description,
-    },
-  ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.3',
-    reviewCount: '5515',
-    bestRating: '5',
-    worstRating: '1',
-  },
   sameAs: [
     mapsShareUrl,
     tourismThailandUrl,

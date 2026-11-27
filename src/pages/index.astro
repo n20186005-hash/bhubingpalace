@@ -4,7 +4,7 @@ import { defaultLang } from '../i18n/ui';
 // Landing page for / : the edge (Cloudflare _redirects) handles the 302 to the
 // default locale in production. This file is a graceful fallback for Astro dev
 // and environments where the edge redirect is not applied.
-const target = defaultLang === 'zh' ? '/zh/' : `/${defaultLang}/`;
+const target = `/${defaultLang}/`;
 ---
 
 <!doctype html>

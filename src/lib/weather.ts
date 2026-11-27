@@ -180,7 +180,7 @@ function pick(series: Record<string, unknown[]> | undefined, key: string, index:
 
 async function readEdgeCache(): Promise<WeatherSnapshot | null> {
   try {
-    const store = (globalThis as { caches?: CacheStorage }).caches;
+    const store = (globalThis as unknown as { caches?: { default?: Cache } }).caches;
     if (!store || typeof store.default?.match !== 'function') return null;
     const hit = await store.default.match(new Request(CACHE_KEY));
     if (!hit) return null;
@@ -192,7 +192,7 @@ async function readEdgeCache(): Promise<WeatherSnapshot | null> {
 
 async function writeEdgeCache(snapshot: WeatherSnapshot): Promise<void> {
   try {
-    const store = (globalThis as { caches?: CacheStorage }).caches;
+    const store = (globalThis as unknown as { caches?: { default?: Cache } }).caches;
     if (!store || typeof store.default?.put !== 'function') return;
     await store.default.put(
       new Request(CACHE_KEY),

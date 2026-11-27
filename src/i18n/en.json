@@ -189,36 +189,21 @@
   },
   "complianceGuide": {
     "title": "Royal residence visitor etiquette",
-    "subtitle": "Respect dress requirements, signposted access limits, plants and other visitors. Bhubing Palace is a royal residence, not a city-centre religious monument.",
+    "subtitle": "Respect dress requirements, marked access limits, plants and other visitors.",
     "rules": [
       {
         "badge": "🔇",
-        "title": "Quiet & avoid peak times",
-        "text": "Keep voices low and follow staff instructions in the royal grounds."
+        "title": "Quiet",
+        "text": "Keep voices low and follow staff instructions."
       },
       {
-        "badge": "🪞",
-        "title": "Platform manners",
-        "text": "Wear a sleeved top and long trousers or a skirt covering the knees. Check current rules and clothing availability before travelling.",
-        "visualEtiquette": {
-          "allowedTitle": "Allowed",
-          "prohibitedTitle": "Strictly Prohibited",
-          "allowed": [
-            "Long pants or skirts below knee",
-            "Shirts with sleeves",
-            "Modest attire"
-          ],
-          "prohibited": [
-            "Sleeveless shirts or tank tops",
-            "Shorts or torn pants",
-            "Tight leggings",
-            "Short skirts or sheer clothing"
-          ]
-        }
+        "badge": "👗",
+        "title": "Dress",
+        "text": "Wear a sleeved top and long trousers or a skirt covering the knees. Check current rules and clothing availability before travel."
       },
       {
         "badge": "🚮",
-        "title": "Take your trash with you",
+        "title": "Litter",
         "text": "Take your litter away and use any bins provided."
       },
       {
@@ -730,7 +715,7 @@
         "items": [
           {
             "q": "Is there parking near Bhubing Palace?",
-            "a": "There is limited parking near the palace entrance. It is highly recommended to take a Rod Daeng (Red Truck) to avoid mountain parking issues."
+            "a": "Ask staff about parking availability and follow signs on arrival. A red songthaew or hired car is another option."
           },
           {
             "q": "Are wheelchairs or strollers allowed?",
@@ -738,7 +723,7 @@
           },
           {
             "q": "Are there restrooms or food inside?",
-            "a": "There are restrooms inside the palace grounds. Small cafes and snack stalls are available near the entrance, but picnicking inside the royal gardens is prohibited."
+            "a": "Confirm restroom and food availability directly before visiting; services can change."
           },
           {
             "q": "Is there exchange or an ATM nearby?",
@@ -752,11 +737,11 @@
         "items": [
           {
             "q": "What does the name 'Bhubing Palace' mean?",
-            "a": "Bhubing Palace (Phra Tamnak Phu Phing) was named by King Bhumibol Adulyadej when it was built in 1961 as a royal winter residence and state guesthouse."
+            "a": "The name was chosen by King Bhumibol Adulyadej from two names proposed by Somdet Phra Nyanasamvara, according to THAI DATA’s account of Royal Office sources."
           },
           {
             "q": "What is its special natural and cultural value?",
-            "a": "It showcases beautiful Lanna-style architecture integrated with nature. Its famous Suan Suwaree rose garden, planted by Queen Sirikit, features rare temperate climate flowers that bloom year-round in the cool mountain air."
+            "a": "The royal residence and landscaped grounds bring together Thai architecture, rose gardens and other mountain plants. Flowers vary by season and access to buildings can be restricted."
           }
         ]
       },
@@ -770,7 +755,7 @@
           },
           {
             "q": "How long does a visit take?",
-            "a": "A relaxed walk through the gardens takes about 1.5 to 2 hours. We recommend combining it with a visit to the nearby Wat Phra That Doi Suthep for a perfect half-day trip."
+            "a": "Allow roughly 1–2 hours for a garden walk, depending on your pace and open areas. Check opening and allow travel time for the mountain road."
           },
           {
             "q": "Can I go in bad weather?",

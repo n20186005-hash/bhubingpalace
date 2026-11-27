@@ -7,13 +7,13 @@ const images = Array.from({ length: totalImages }, (_, i) => {
   const n = String(i + 1);
   return `/gallery/bhubing-palace-thailand-${n}.jpg`;
 });
-const photoAlts = g.photoAlts ?? images.map(() => g.photoAlt);
+const photoAlts = images.map(() => g.photoAlt);
 ---
 
 <section id="gallery" class="section-padding" style="background: var(--bg-secondary);">
   <div class="max-w-6xl mx-auto px-4">
     <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{g.title}</h2>
-    <p class="text-center text-lg mb-10" style="color: var(--text-secondary);">{g.subtitle}</p>
+
 
     <div class="gallery-grid" id="gallery-grid">
       {images.map((src, index) => (

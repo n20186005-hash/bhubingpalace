@@ -44,16 +44,16 @@
     "faq": "问答"
   },
   "hero": {
-    "title": "蒲屏皇宫（พระตำหนักภูพิงคราชนิเวศน์ · Bhubing Palace）",
-    "subtitle": "坐落于清迈素贴山（Doi Suthep）深处的云雾之中，海拔约 1,300 米，是泰国王室于 1961 年修建的冬日避暑行宫。这里远离清迈市区的燠热，山风清凉，常年繁花似锦。宫殿群采用经典的泰北兰纳“Ruen Mu”木质高脚建筑风格，与错落有致的高山花园完美融为一体。作为泰王普密蓬（拉玛九世）与诗丽吉王后的挚爱之地，这里不仅是接待外国元首的国宾馆，更因其培育着数百种名贵玫瑰的“苏瓦里玫瑰园（Suan Suwaree）”而成为植物爱好者与旅人的高山隐秘圣地。",
-    "rating": "4.3（5,515）",
-    "reviewCount": "5,515 条评价",
-    "hours": "08:30–16:30（售票至15:30，1-3月皇室入住期间通常关闭）",
+    "title": "蒲屏皇宫（Bhubing Palace，清迈）",
+    "subtitle": "蒲屏皇宫位于清迈素贴山区的多伊布阿哈，是泰国王室赴清迈驻跸及接待贵宾的行宫。开放时可游览园林和花卉；宫殿内部可能不对公众开放。",
+    "rating": "4.3 (5,542)",
+    "reviewCount": "5,542 条评价",
+    "hours": "不同资料所列时间为 08:30–16:00 或 16:30",
     "openMaps": "Google 地图",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "legend": {
-      "quote": "蒲屏皇宫建于1961年，是坐落在素贴山上的皇家行宫，以高山园林和季节性花卉景观著称。",
-      "attribution": "— 景点简介"
+      "quote": "",
+      "attribution": ""
     },
     "tags": [
       "皇家冬宫",
@@ -71,18 +71,18 @@
     "quickFacts": [
       {
         "icon": "🌸",
-        "label": "核心看点",
-        "value": "苏瓦里玫瑰园"
+        "label": "看点",
+        "value": "玫瑰花园"
       },
       {
         "icon": "🎟️",
-        "label": "外国游客",
-        "value": "需购票(约50泰铢)"
+        "label": "门票",
+        "value": "出发前核实"
       },
       {
         "icon": "🕓",
-        "label": "开放",
-        "value": "08:30–16:30"
+        "label": "开放时间",
+        "value": "08:30–16:00 / 16:30"
       }
     ],
     "navCta": {
@@ -94,8 +94,8 @@
       "href": "#gallery"
     },
     "factsSource": {
-      "label": "开放时间与票价以清迈市政与景点现场信息为准",
-      "url": "https://www.tourismthailand.org/"
+      "label": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/attraction/bhubing-rajanives-palace"
     },
     "liveInfo": {
       "weather": "当前天气",
@@ -112,59 +112,38 @@
       "blueHourLabel": "蓝调时刻",
       "lightCaption": "光影由 Open-Meteo 实时计算"
     },
-    "ratingSource": "评分来源：Google 地图 · 2026 年 9 月",
+    "ratingSource": "Google 地图：4.3 分、5,542 条评价，核对于 2026 年 11 月 26 日；数据可能变动。",
     "imageAlt": "蒲屏皇宫主视觉图（清迈，泰国）",
     "localSubtitle": "清迈素贴山 · 皇家冬季行宫",
-    "verifyNote": "通常开放 08:30–16:30（售票处 15:30 关闭）；皇室入住期间可能暂停开放，出行前请确认。"
+    "verifyNote": "资料一般称售票至 15:30；王室活动可能导致闭园，出发前请核实。"
   },
   "quickFactsDashboard": {
     "title": "秒懂蒲屏皇宫 · 数据看板",
-    "subtitle": "用几个数字先读懂这座矗立于清迈素贴山的皇家冬宫。",
-    "architectureCard": {
-      "title": "建筑速览",
-      "height": "1,373 m",
-      "heightLabel": "海拔高度",
-      "shape": "兰纳式",
-      "shapeLabel": "建筑风格 (Ruen Mu)",
-      "gold": "柚木与混凝土",
-      "goldLabel": "主要材质"
-    },
+    "subtitle": "清迈山上的皇家行宫与花园。",
     "items": [
       {
         "icon": "🏛️",
-        "label": "皇宫 / Palace",
-        "value": "皇家冬宫",
-        "note": "1961年落成，是泰国王室成员的避暑胜地及接待外国元首（如1962年丹麦国王）的国宾馆。"
+        "label": "行宫",
+        "value": "王室驻跸",
+        "note": "为王室赴清迈驻跸和接待贵宾而建。"
       },
       {
         "icon": "🌸",
-        "label": "园林 / Garden",
-        "value": "苏瓦里玫瑰园",
-        "note": "以诗丽吉王后亲自引种的数百种名贵玫瑰闻名，高山温带气候使其常年盛开。"
-      },
-      {
-        "icon": "🏡",
-        "label": "建筑 / Architecture",
-        "value": "泰北兰纳风格",
-        "note": "主体帕普考宫（Phra Tamnak Phu Phing）采用传统的泰北兰纳式木质高脚建筑（Ruen Mu）风格。"
+        "label": "花园",
+        "value": "玫瑰与蕨类",
+        "note": "花卉随季节变化，请走游客开放的道路。"
       },
       {
         "icon": "📍",
-        "label": "地理坐标 / Coords",
-        "value": "素贴山顶",
-        "note": "位于素贴山国家公园内，海拔约 1,373 米，距清迈市区约 22 公里（需经过13公里盘山公路）。"
-      },
-      {
-        "icon": "🎟️",
-        "label": "门票 / Admission",
-        "value": "外国游客购票",
-        "note": "通常为 50 泰铢。有极其严格的着装要求（禁无袖、短裤等），入口处提供服装租赁。"
+        "label": "位置",
+        "value": "多伊布阿哈",
+        "note": "沿公路从双龙寺继续上山约 4 公里。"
       },
       {
         "icon": "🕓",
-        "label": "开放 / Hours",
-        "value": "08:30–16:30",
-        "note": "售票至 15:30。注意：每年 1 月至 3 月通常因皇室成员入住而关闭，出行前需确认。"
+        "label": "参观",
+        "value": "出发前核实",
+        "note": "王室活动可能导致闭园，宫殿内部可能限制进入。"
       }
     ]
   },
@@ -631,7 +610,7 @@
     ],
     "sourceLabel": "评分与评价来源",
     "sourceLinkLabel": "Google 地图",
-    "sourceDisclaimer": "以上评分（4.3）与评价数量（5,515）抓取自 Google 地图，更新于 2026 年 9 月；数据可能随时变动，请以 Google 地图实时信息为准。"
+    "sourceDisclaimer": "Google 地图：4.3 分、5,542 条评价，核对于 2026 年 11 月 26 日；数据可能变动。"
   },
   "mapSection": {
     "title": "如何到达",
@@ -678,7 +657,7 @@
         "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82"
       }
     ],
-    "disclaimer": "本网站是一个独立的非营利游客信息项目。我们与任何政府机构或官方组织均无隶属关系。",
+    "disclaimer": "独立游客指南，与皇宫无隶属关系。",
     "dataSource": "本站引用的景点信息，均对照考证自泰国旅游局与清迈市政公开资料，不含任何商业性推荐。",
     "dataSourceLabel": "数据源 · Data Source",
     "imageCopyright": "本网站所展示的所有图片产权及版权均归原摄影者所有。",
@@ -830,7 +809,7 @@
         "items": [
           {
             "q": "参观需要门票吗？着装有要求吗？",
-            "a": "外国游客需购买门票（约50泰铢）。着装要求极其严格：禁止穿无袖上衣、吊带、短裤、短裙、破洞裤或紧身裤。如果不符合要求，需在入口处租用沙龙或长裤。"
+            "a": "泰国国家旅游局列出泰国成人 20 泰铢、儿童 10 泰铢、外国游客 50 泰铢；价格可能变化，出发前请核实。"
           },
           {
             "q": "游览这里大概需要多长时间？",
@@ -838,15 +817,15 @@
           },
           {
             "q": "遇到恶劣天气还能去吗？",
-            "a": "可以——皇家园林为开放空间，任何天气都可前往。但平台日晒强、雨天湿滑，注意防晒防滑，穿舒适鞋、关注天气。"
+            "a": "雨天花园道路可能湿滑，出发前请查看天气与闭园公告。"
           },
           {
             "q": "有着装规定吗？现场可以租借服装吗？",
-            "a": "有。蒲屏皇宫是仍在使用的皇室住所，必须覆盖肩膀与膝盖：不可穿无袖上衣、短裤、短裙、破洞牛仔裤或过于暴露的服装。入口处可借用或租借长裤与沙笼。该规定适用于所有游客，不分国籍。"
+            "a": "请穿有袖上衣、长裤或过膝裙，避免无袖、短裤和破洞衣物。出发前确认最新规定及现场是否提供借衣服务。"
           },
           {
             "q": "蒲屏皇宫会闭园吗？",
-            "a": "会。皇室入住期间园区会闭园，多出现在凉季。开放时间为 08:30–16:30，售票处 15:30 关闭；闭园可能临时公告，上山前请先确认当日开放状态。"
+            "a": "会因王室活动暂停开放。资料所列闭园时间不同：泰国国家旅游局写 16:30，THAI DATA 引述王室机构问答为 16:00；资料称售票至 15:30。上山前请核实。"
           }
         ]
       },
@@ -1346,33 +1325,33 @@
     "title": "资料来源与数据说明",
     "subtitle": "公开说明本页信息、评分与图片的来源与核验方式。",
     "ratingLabel": "评分与评价",
-    "ratingText": "蒲屏皇宫的 Google 地图评分（4.3）与评价数量（5,515）抓取自 Google 地图，数据可能随时间变动。",
+    "ratingText": "Google 地图：4.3 分、5,542 条评价，核对于 2026 年 11 月 26 日；数据可能变动。",
     "ratingLinkLabel": "在 Google 地图查看",
     "retrievedLabel": "抓取时间",
-    "retrievedValue": "2026 年 9 月",
+    "retrievedValue": "2026-11-26",
     "updatedLabel": "页面更新",
-    "updatedValue": "2026 年 9 月",
+    "updatedValue": "2026-11-26",
     "listTitle": "官方与权威参考来源",
     "list": [
       {
-        "name": "泰国国家旅游局（TAT）",
-        "url": "https://www.tourismthailand.org/"
+        "name": "Tourism Authority of Thailand — Bhubing Rajanives Palace",
+        "url": "https://www.tourismthailand.org/attraction/bhubing-rajanives-palace"
       },
       {
-        "name": "泰国王室宫务处（Royal Office）",
-        "url": "https://www.royaloffice.th/"
+        "name": "Suthep Municipality — พระตำหนักภูพิงคราชนิเวศน์",
+        "url": "https://www.suthep.go.th/travel_view.php?cateid=1&id=42"
       },
       {
-        "name": "清迈府行政机构",
-        "url": "https://www.chiangmai.go.th/"
+        "name": "THAI DATA — พระตำหนักภูพิงคราชนิเวศน์",
+        "url": "https://thaidata.co.th/royal/bhubing-palace-history/"
       },
       {
-        "name": "泰国国家公园与野生动植物保护厅",
-        "url": "https://www.dnp.go.th/"
+        "name": "Royal Office — 15 January 2025 reopening announcement",
+        "url": "https://www.royaloffice.th/10/01/2025/เข้าชมภูพิงค์-2568/"
       }
     ],
     "imageCopyrightTitle": "图片版权说明",
-    "imageCopyrightText": "本网站所展示的所有图片产权及版权均归原摄影者所有。图片仅用于非商业性的信息展示，相关权利均归各自权利人所有。",
+    "imageCopyrightText": "现有画廊图片的原始来源及授权尚未查明。",
     "ratingSourceUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
   "visitorServices": {

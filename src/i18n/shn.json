@@ -45,15 +45,15 @@
   },
   "hero": {
     "title": "Bhubing Palace (Chiang Mai, Thailand)",
-    "subtitle": "A royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a rallying point for state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep.",
-    "rating": "4.3 (5,515)",
-    "reviewCount": "5,515 reviews",
-    "hours": "08:30–16:30 (Tickets until 15:30. Usually closed Jan–Mar during royal visits)",
+    "subtitle": "A Thai royal residence on Doi Buak Ha in the Doi Suthep mountains, built for royal stays in Chiang Mai and visiting dignitaries. When open to the public, the landscaped grounds and flower gardens are the main attraction; palace interiors may be restricted.",
+    "rating": "4.3 (5,542)",
+    "reviewCount": "5,542 reviews",
+    "hours": "Hours vary by source: 08:30–16:00 or 16:30",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "legend": {
-      "quote": "'Bhubing' is named after the royal vision (Lanna) of this place. Standing at the exact center of the city, the palace is like Chiang Mai's beating heart — for over half a century it has quietly gathered the city's noise and exploreers.",
-      "attribution": "— The origin of Bhubing Palace"
+      "quote": "",
+      "attribution": ""
     },
     "tags": [
       "Doi Suthep royal winter residence",
@@ -70,19 +70,19 @@
     },
     "quickFacts": [
       {
-        "icon": "🛕",
+        "icon": "🌸",
         "label": "Highlight",
-        "value": "Thai-style elegant spire"
+        "value": "Rose gardens"
       },
       {
         "icon": "🎟️",
-        "label": "Foreign visitors",
-        "value": "Ticket required"
+        "label": "Admission",
+        "value": "Confirm locally"
       },
       {
         "icon": "🕓",
-        "label": "Hours",
-        "value": "04:00–23:00"
+        "label": "Visiting hours",
+        "value": "08:30–16:00 / 16:30"
       }
     ],
     "navCta": {
@@ -94,8 +94,8 @@
       "href": "#gallery"
     },
     "factsSource": {
-      "label": "Hours & tickets per Chiang Mai City / on-site info",
-      "url": "https://www.tourismthailand.org/"
+      "label": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/attraction/bhubing-rajanives-palace"
     },
     "liveInfo": {
       "weather": "Current weather",
@@ -110,50 +110,38 @@
       "blueHourLabel": "Blue hour",
       "lightCaption": "Light calculated live by Open-Meteo"
     },
-    "ratingSource": "Rating source: Google Maps · September 2026",
+    "ratingSource": "Google Maps: 4.3 / 5,542 reviews, checked 26 November 2026. Figures may change.",
     "imageAlt": "Bhubing Palace — main view in Chiang Mai, Thailand",
     "localSubtitle": "Royal Winter Palace on Doi Suthep, Chiang Mai",
-    "verifyNote": "Usually open 08:30–16:30 (ticket office until 15:30). May close when the royal family is in residence — please confirm before visiting."
+    "verifyNote": "Ticket sales are generally reported to end at 15:30. Royal activities can close the grounds; confirm before travelling."
   },
   "quickFactsDashboard": {
     "title": "Bhubing Palace at a Glance · Data Board",
-    "subtitle": "A few numbers to read this royal winter residence at the heart of Chiang Mai at a glance.",
+    "subtitle": "A royal residence and mountain garden above Chiang Mai.",
     "items": [
       {
-        "icon": "🛕",
-        "label": "palace / palace",
-        "value": "Urban faith center",
-        "note": "Bhubing Palace is Chiang Mai's Doi Suthep royal landmark. Its Thai-style architecture runs from base to spire, crowned by a elegant finial — a place for locals to explore and visitors to sightsee."
-      },
-      {
-        "icon": "📿",
-        "label": "garden / garden",
-        "value": "beautiful rose gardens",
-        "note": "The palace is said to enshrine a beautiful rose gardens, sharing the same origin as Chiang Mai's other great shrine, Wat Phra That Doi Suthep — a key node of Burmese royal heritage."
-      },
-      {
         "icon": "🏛️",
-        "label": "History / History",
-        "value": "Over 60 years",
-        "note": "Believed founded during the 1961, over half a century old; in modern times it became a rallying point for the royal family's winter visits and state receptions, carrying the city's collective memory."
+        "label": "Residence",
+        "value": "Royal palace",
+        "note": "Built for royal stays in Chiang Mai and for receiving guests."
+      },
+      {
+        "icon": "🌸",
+        "label": "Gardens",
+        "value": "Roses and ferns",
+        "note": "Plantings and flowers vary by season; stay on visitor paths."
       },
       {
         "icon": "📍",
-        "label": "Coordinates / Coords",
-        "value": "about 18.81°N, 98.92°E",
-        "note": "WGS84: 18.8053, 98.8986. Plus Code: RW42+45 Chiang Mai. Address: 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand."
-      },
-      {
-        "icon": "🎟️",
-        "label": "Admission / Admission",
-        "value": "Foreign ticket",
-        "note": "Local visitors enter free; foreign visitors buy a ticket at the entrance (a few USD), subject to on-site notice."
+        "label": "Location",
+        "value": "Doi Buak Ha",
+        "note": "About 4 km beyond Wat Phra That Doi Suthep by road."
       },
       {
         "icon": "🕓",
-        "label": "Hours / Hours",
-        "value": "04:00–23:00",
-        "note": "Open from early morning to night; dawn and dusk are coolest and best for photos and quiet reflection."
+        "label": "Access",
+        "value": "Check before travel",
+        "note": "Royal activities may result in closures; palace interiors may be restricted."
       }
     ]
   },
@@ -289,26 +277,25 @@
   },
   "intro": {
     "title": "Getting to Know Bhubing Palace",
-    "description": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
+    "description": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) is a Thai royal residence on Doi Suthep, above Chiang Mai, built in 1961. Its landscaped gardens, flowering plants and mountain setting are the main public visitor experience when the grounds are open. The palace is not in Chiang Mai's city centre, and access to royal buildings and certain areas is restricted.",
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
-      "description": "Bhubing Palace sits at an open Doi Suthep junction, with no walls and the city all around. The ideal approach is rarely 'just wander by day' but to reverse-plan around the light: come at dawn for the city waking and soft spire light, or keep the platform and park to yourself on a weekday. Dense commerce and easy transit are exactly its charm.",
+      "description": "Plan a daytime trip up Doi Suthep rather than a walk from central Chiang Mai. Use the published visiting hours as a planning guide, check for royal closures before going, and follow marked routes and staff instructions inside the grounds.",
       "items": [
-        "Morning or dusk first: city light is softest, elegant spire most photogenic.",
-        "Best views are from the Suan Suwaree side and street corners.",
-        "A short walk from Chiang Mai Chiang Mai University or surrounding Doi Suthep blocks; metro/bus/taxi are all convenient.",
-        "The platform is surrounded by the city; water, restrooms, and breaks are best at nearby shops."
+        "Start your visit after the advertised morning opening; arrive with time for ticketing and entry.",
+        "Look for permitted garden paths and seasonal flowers; do not assume royal interiors are open.",
+        "Use a taxi, hired vehicle or red songthaew up the mountain; it is not a short walk from Chiang Mai University.",
+        "Wear modest clothing covering shoulders and knees, and take care on wet or sloping paths."
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "A Doi Suthep royal winter residence believed founded during the 1961, over 60 years old",
-        "is famous for its beautiful Suan Suwaree rose gardens, sharing faith with Wat Phra That Doi Suthep",
-        "Thai-style architecture from base to finial, elegant spire about high in the mountains high",
-        "A rallying point for the royal family's winter visits and state receptions, carrying city memory",
-        "Surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep"
+        "Royal mountain residence commissioned in 1961 for visits to Chiang Mai and receptions.",
+        "Landscaped grounds with rose beds, ferns and other flowering plants.",
+        "Thai royal architecture in a cooler highland setting; some buildings remain restricted.",
+        "A practical Doi Suthep excursion to combine with Wat Phra That Doi Suthep when travel and opening conditions allow."
       ]
     }
   },
@@ -707,7 +694,7 @@
     ],
     "sourceLabel": "Rating & review source",
     "sourceLinkLabel": "Google Maps",
-    "sourceDisclaimer": "The rating (4.3) and review count (5,515) were retrieved from Google Maps in September 2026 and may change at any time; please refer to Google Maps for the latest figures."
+    "sourceDisclaimer": "Google Maps: 4.3 / 5,542 reviews, checked 26 November 2026. Figures may change."
   },
   "mapSection": {
     "title": "How to Get There",
@@ -754,7 +741,7 @@
         "url": "https://www.finearts.go.th/chiangmaiarchives/view/21727-%E0%B8%AA%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82"
       }
     ],
-    "disclaimer": "This website is an independent non-profit visitor-information project. We are not affiliated with any government agency or official organization.",
+    "disclaimer": "Independent visitor guide; not affiliated with the palace.",
     "dataSource": "Information cited on this site is cross-checked against public materials from the Ministry of Hotels and Tourism and the Chiang Mai Region Government, with no commercial endorsements.",
     "dataSourceLabel": "Data Source",
     "imageCopyright": "All images displayed on this website remain the property and copyright of their original photographers.",
@@ -906,7 +893,7 @@
         "items": [
           {
             "q": "Is a ticket required?",
-            "a": "Foreign visitors must purchase a ticket (approx. 50 THB). The palace is open 08:30–16:30. Note that it is usually closed from January to March when the Royal Family is in residence."
+            "a": "The Tourism Authority of Thailand lists 20 baht for Thai adults, 10 for children and 50 for foreign visitors. These figures may have changed; confirm current prices before travelling."
           },
           {
             "q": "How long does a visit take?",
@@ -914,15 +901,15 @@
           },
           {
             "q": "Can I go in bad weather?",
-            "a": "Yes — the platform is open space, visitable in any weather. But the platform is hot in the sun and slippery in rain; take sun and slip precautions, wear comfortable shoes, and watch the weather."
+            "a": "Rain can make garden paths slippery. Check the weather and any closure notices before setting out."
           },
           {
             "q": "Is there a dress code, and can I rent clothes on site?",
-            "a": "Yes. Bhubing Palace is a working royal residence, so shoulders and knees must be covered: no sleeveless tops, shorts, short skirts, ripped jeans or revealing clothing. Sarongs and trousers can be borrowed or rented at the entrance. The rule applies to every visitor regardless of nationality."
+            "a": "Wear a sleeved top and long trousers or a skirt covering the knees. Avoid sleeveless tops, short or torn clothing. Check current rules and whether clothing is available before travel."
           },
           {
             "q": "Is Bhubing Palace ever closed to visitors?",
-            "a": "Yes. The grounds close whenever the royal family is in residence, which is most likely during the cool season. Opening hours are 08:30–16:30 with the ticket office closing at 15:30, and closures can be announced at short notice, so confirm before you travel up the mountain."
+            "a": "Yes. Public access can be suspended for royal activities. Sources differ on closing time: TAT lists 16:30, while THAI DATA reports 16:00 from the Royal Office FAQ; ticket sales are reported to end at 15:30. Confirm before travelling."
           }
         ]
       },
@@ -1404,33 +1391,33 @@
     "title": "Sources & Data Provenance",
     "subtitle": "Transparency on where the information, ratings and images on this page come from.",
     "ratingLabel": "Rating & reviews",
-    "ratingText": "The Google Maps rating (4.3) and review count (5,515) for Bhubing Palace are taken from Google Maps and may change over time.",
+    "ratingText": "Google Maps: 4.3 / 5,542 reviews, checked 26 November 2026. Figures may change.",
     "ratingLinkLabel": "View on Google Maps",
     "retrievedLabel": "Retrieved",
-    "retrievedValue": "September 2026",
+    "retrievedValue": "2026-11-26",
     "updatedLabel": "Page last updated",
-    "updatedValue": "September 2026",
+    "updatedValue": "2026-11-26",
     "listTitle": "Official & authoritative references",
     "list": [
       {
-        "name": "Tourism Authority of Thailand (TAT)",
-        "url": "https://www.tourismthailand.org/"
+        "name": "Tourism Authority of Thailand — Bhubing Rajanives Palace",
+        "url": "https://www.tourismthailand.org/attraction/bhubing-rajanives-palace"
       },
       {
-        "name": "Bureau of the Royal Household (Royal Office)",
-        "url": "https://www.royaloffice.th/"
+        "name": "Suthep Municipality — พระตำหนักภูพิงคราชนิเวศน์",
+        "url": "https://www.suthep.go.th/travel_view.php?cateid=1&id=42"
       },
       {
-        "name": "Chiang Mai Provincial Administrative Organization",
-        "url": "https://www.chiangmai.go.th/"
+        "name": "THAI DATA — พระตำหนักภูพิงคราชนิเวศน์",
+        "url": "https://thaidata.co.th/royal/bhubing-palace-history/"
       },
       {
-        "name": "Department of National Parks, Wildlife and Plant Conservation",
-        "url": "https://www.dnp.go.th/"
+        "name": "Royal Office — 15 January 2025 reopening announcement",
+        "url": "https://www.royaloffice.th/10/01/2025/เข้าชมภูพิงค์-2568/"
       }
     ],
     "imageCopyrightTitle": "Image copyright",
-    "imageCopyrightText": "All images displayed on this website remain the property and copyright of their original photographers. They are shown here for non-commercial, informational purposes only; all rights are reserved by the respective owners.",
+    "imageCopyrightText": "The provenance and licences of the existing gallery images have not yet been established.",
     "ratingSourceUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
   "visitorServices": {

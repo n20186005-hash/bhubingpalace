@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 import Header from '../components/Header.astro';
-import NoticeBanner from '../components/NoticeBanner.astro';
 import Footer from '../components/Footer.astro';
 import { getLangFromUrl, buildAlternates, htmlLangAttr, getI18n } from '../i18n/ui';
 import { ogLocale, siteConfig } from '../config';
@@ -55,7 +54,7 @@ const jsonLd = {
   geo: {
     '@type': 'GeoCoordinates',
     latitude: 18.8053,
-    longitude: 98.8986,
+    longitude: 98.9004512,
   },
   hasMap: mapsShareUrl,
   publicAccess: true,
@@ -93,7 +92,7 @@ const placeLd = {
   geo: {
     '@type': 'GeoCoordinates',
     latitude: 18.8053,
-    longitude: 98.8986,
+    longitude: 98.9004512,
   },
   telephone: '+6653294555',
   hasMap: mapsShareUrl,
@@ -190,11 +189,11 @@ const webPageLd = {
     <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
 
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>
+    {!noindex && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>}
     <script type="application/ld+json" is:inline set:html={JSON.stringify(websiteLd)}></script>
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(placeLd)}></script>
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(webPageLd)}></script>
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
+    {!noindex && <script type="application/ld+json" is:inline set:html={JSON.stringify(placeLd)}></script>}
+    {!noindex && <script type="application/ld+json" is:inline set:html={JSON.stringify(webPageLd)}></script>}
+    {!noindex && <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>}
 
     <script is:inline>
       (function () {
@@ -211,7 +210,6 @@ const webPageLd = {
   </head>
   <body class="min-h-screen">
     <Header />
-    <NoticeBanner />
     <main>
       <slot />
     </main>

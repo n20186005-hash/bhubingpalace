@@ -46,8 +46,8 @@
   "hero": {
     "title": "Bhubing Palace (Chiang Mai, Thailand)",
     "subtitle": "A royal winter residence at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand. Built in 1961, with over half a century of history, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. It is both Chiang Mai's urban landmark and royal retreat, and a rallying point for state receptions, surrounded by Suan Suwaree, Chiang Mai City Hall, and the Wat Phra That Doi Suthep.",
-    "rating": "4.3 (5,505)",
-    "reviewCount": "5,505 reviews",
+    "rating": "4.3 (5,515)",
+    "reviewCount": "5,515 reviews",
     "hours": "08:30–16:30 (Tickets until 15:30. Usually closed Jan–Mar during royal visits)",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
@@ -707,7 +707,7 @@
     ],
     "sourceLabel": "Rating & review source",
     "sourceLinkLabel": "Google Maps",
-    "sourceDisclaimer": "The rating (4.3) and review count (5,505) were retrieved from Google Maps in September 2026 and may change at any time; please refer to Google Maps for the latest figures."
+    "sourceDisclaimer": "The rating (4.3) and review count (5,515) were retrieved from Google Maps in September 2026 and may change at any time; please refer to Google Maps for the latest figures."
   },
   "mapSection": {
     "title": "How to Get There",
@@ -1404,7 +1404,7 @@
     "title": "Sources & Data Provenance",
     "subtitle": "Transparency on where the information, ratings and images on this page come from.",
     "ratingLabel": "Rating & reviews",
-    "ratingText": "The Google Maps rating (4.3) and review count (5,505) for Bhubing Palace are taken from Google Maps and may change over time.",
+    "ratingText": "The Google Maps rating (4.3) and review count (5,515) for Bhubing Palace are taken from Google Maps and may change over time.",
     "ratingLinkLabel": "View on Google Maps",
     "retrievedLabel": "Retrieved",
     "retrievedValue": "September 2026",
@@ -1767,22 +1767,22 @@
             "text": "Head up Highway 1004 and stay ahead of commuter and coach traffic."
           },
           {
-            "time": "07:30",
+            "time": "08:30",
             "title": "Arrive at the grounds",
             "text": "Go straight onto the main walkway at opening; start with the rose garden and highland flowers."
           },
           {
-            "time": "08:30",
+            "time": "09:15",
             "title": "Aquatic plant area",
             "text": "Ponds and fern beds — light and footfall are at their friendliest now."
           },
           {
-            "time": "09:15",
+            "time": "10:00",
             "title": "Viewing terrace",
             "text": "Look over the valley mist and the city, then rest a while."
           },
           {
-            "time": "10:00",
+            "time": "10:45",
             "title": "Descend to Doi Suthep",
             "text": "About 4 km down to Wat Phra That Doi Suthep, closing the half-day loop."
           }
@@ -1805,7 +1805,7 @@
             "text": "An early start dodges both the heat and the coach groups."
           },
           {
-            "time": "07:15",
+            "time": "08:30",
             "title": "Hilltop grounds · first half",
             "text": "Work through rose garden → aquatic area → fern and moss beds."
           },

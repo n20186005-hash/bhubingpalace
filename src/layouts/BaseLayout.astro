@@ -83,7 +83,7 @@ const jsonLd = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.3',
-    reviewCount: '5505',
+    reviewCount: '5515',
     bestRating: '5',
     worstRating: '1',
   },
@@ -101,7 +101,7 @@ const websiteLd = {
   url: siteConfig.baseUrl,
   name: attractionName,
   inLanguage: htmlLang,
-  publisher: { '@id': `${siteConfig.baseUrl}/#attraction` },
+  // The website is an independent guide, not published by the attraction itself.
 };
 
 const placeLd = {

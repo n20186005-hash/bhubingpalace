@@ -46,14 +46,14 @@
   "hero": {
     "title": "Bhubing Palace (Chiang Mai, Thailand)",
     "subtitle": "Located high up in the mist of Doi Suthep mountain in Chiang Mai at an altitude of about 1,300 meters, Bhubing Palace was built in 1961 as a royal winter retreat. Far from the city heat, it features traditional Northern Thai Lanna-style (Ruen Mu) architecture integrated with lush highland gardens. As a favored retreat of King Rama IX and Queen Sirikit, it is famous for the 'Suan Suwaree' rose garden and serves as a royal guesthouse for foreign dignitaries.",
-    "rating": "4.3 (5,505)",
-    "reviewCount": "5,505 reviews",
+    "rating": "4.3 (5,515)",
+    "reviewCount": "5,515 reviews",
     "hours": "08:30–16:30 (Tickets until 15:30. Usually closed Jan-Mar during royal visits)",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "legend": {
-      "quote": "'Bhubing' is named after the royal vision (Lanna) of this place. Standing at the exact center of the city, the palace is like Chiang Mai's beating heart — for over half a century it has quietly gathered the city's noise and exploreers.",
-      "attribution": "— The origin of Bhubing Palace"
+      "quote": "A royal mountain residence with landscaped gardens on Doi Suthep, built in 1961 and visited during scheduled public opening periods.",
+      "attribution": "— Site overview"
     },
     "tags": [
       "Royal Winter Palace",
@@ -209,8 +209,8 @@
     ]
   },
   "complianceGuide": {
-    "title": "Bhubing Palace · Etiquette & Religious-site Manners",
-    "subtitle": "This is both a visitor's Doi Suthep landmark and a religious site where visitors explore. Following these rules is double respect for history, others, and faith.",
+    "title": "Royal residence visitor etiquette",
+    "subtitle": "Respect dress requirements, signposted access limits, plants and other visitors. Bhubing Palace is a royal residence, not a city-centre religious monument.",
     "rules": [
       {
         "badge": "🔇",
@@ -298,25 +298,25 @@
   },
   "intro": {
     "title": "Getting to Know Bhubing Palace",
-    "description": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai, Thailand — a royal winter residence at the heart of the city. Believed founded during the 1961 over 60 years ago, it is famous for its beautiful Suan Suwaree rose gardens. It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it has long been a city center where visitors explore, travelers sightsee, and citizens gather — one of Chiang Mai's city cards of 'city, history, and faith'.",
+    "description": "Bhubing Palace (พระตำหนักภูพิงคราชนิเวศน์) is a Thai royal residence on Doi Suthep, above Chiang Mai, built in 1961. Its landscaped gardens, flowering plants and mountain setting are the main public visitor experience when the grounds are open. The palace is not in Chiang Mai's city centre, and access to royal buildings and certain areas is restricted.",
     "visitGuide": {
       "title": "Visitor Guide",
       "eyebrow": "Practical Planning",
-      "description": "Bhubing Palace sits at an open Doi Suthep junction, with no walls and the city all around. The ideal approach is rarely 'just wander by day' but to reverse-plan around the light: come at dawn for the city waking and soft spire light, or keep the platform and park to yourself on a weekday. Dense commerce and easy transit are exactly its charm.",
+      "description": "Plan a daytime trip up Doi Suthep rather than a walk from central Chiang Mai. Use the published visiting hours as a planning guide, check for royal closures before going, and follow marked routes and staff instructions inside the grounds.",
       "items": [
-        "Morning or dusk first: city light is softest, elegant spire most photogenic.",
-        "Best views are from the Suan Suwaree side and street corners.",
-        "A short walk from Chiang Mai Chiang Mai University or surrounding Doi Suthep blocks; metro/bus/taxi are all convenient.",
-        "The platform is surrounded by the city; water, restrooms, and breaks are best at nearby shops."
+        "Start your visit after the advertised morning opening; arrive with time for ticketing and entry.",
+        "Look for permitted garden paths and seasonal flowers; do not assume royal interiors are open.",
+        "Use a taxi, hired vehicle or red songthaew up the mountain; it is not a short walk from Chiang Mai University.",
+        "Wear modest clothing covering shoulders and knees, and take care on wet or sloping paths."
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "【Royal Winter Palace】 Built in 1961 by King Bhumibol (Rama IX), it serves as a winter retreat and a guesthouse for state visitors, such as King Frederick IX of Denmark in 1962.",
-        "【Suan Suwaree Rose Garden】 Famous for hundreds of rose varieties introduced by Queen Sirikit, blooming year-round in the cool mountain climate.",
-        "【Lanna Architecture】 The main buildings, like Phra Tamnak Phu Phing, feature traditional Northern Thai Lanna stilt-house (Ruen Mu) designs.",
-        "【Mountain Retreat】 Situated at ~1,373m elevation, the temperature here is consistently 5-10°C cooler than downtown Chiang Mai."
+        "Royal mountain residence commissioned in 1961 for visits to Chiang Mai and receptions.",
+        "Landscaped grounds with rose beds, ferns and other flowering plants.",
+        "Thai royal architecture in a cooler highland setting; some buildings remain restricted.",
+        "A practical Doi Suthep excursion to combine with Wat Phra That Doi Suthep when travel and opening conditions allow."
       ]
     }
   },
@@ -516,8 +516,8 @@
     }
   },
   "officialManagement": {
-    "title": "About this city palace",
-    "text": "Bhubing Palace stands at the junction of Bhubing Palace Road and Sriwichai Road in Doi Suthep Chiang Mai — a royal winter residence believed founded during the 1961. Enshrining a beautiful rose gardens, It features traditional Thai architecture and sits high in the cool mountains. Maintained by the Royal Household Bureau, it is a center where citizens explore, travelers sightsee, and the city gathers — one of Chiang Mai's city cards of 'city, history, and faith'."
+    "title": "Management and visitor access",
+    "text": "Bhubing Palace is a royal residence managed by the Bureau of the Royal Household. When public entry is permitted, visitors follow designated paths and dress requirements. Palace interiors and some royal areas are not open to general visitors. The published visiting schedule may change for royal use or maintenance."
   },
   "humanities": {
     "title": "People & Place: From Urban Coordinate to Collective Memory",
@@ -720,7 +720,7 @@
     ],
     "sourceLabel": "Rating & review source",
     "sourceLinkLabel": "Google Maps",
-    "sourceDisclaimer": "The rating (4.3) and review count (5,505) were retrieved from Google Maps in September 2026 and may change at any time; please refer to Google Maps for the latest figures."
+    "sourceDisclaimer": "The rating (4.3) and review count (5,515) were retrieved from Google Maps in September 2026 and may change at any time; please refer to Google Maps for the latest figures."
   },
   "mapSection": {
     "title": "How to Get There",
@@ -1382,7 +1382,7 @@
   },
   "entity": {
     "title": "About Bhubing Palace",
-    "intro": "Welcome to Bhubing Palace, the royal winter residence widely recognized as Chiang Mai's central highland palace. Located in the heart of Chiang Mai, Chiang Mai Province, Thailand, this destination serves as a primary hub for travelers exploring the Doi Suthep region and the northern highlands.",
+    "intro": "Bhubing Palace is a royal residence and garden destination on Doi Suthep in Suthep, Mueang Chiang Mai, Thailand. It is outside the downtown area and reached by the mountain road. Visitors primarily come for the gardens and the nearby Doi Suthep sights.",
     "hierarchyLabel": "Geographic hierarchy",
     "hierarchy": [
       "Bhubing Palace",
@@ -1421,7 +1421,7 @@
     "title": "Sources & Data Provenance",
     "subtitle": "Transparency on where the information, ratings and images on this page come from.",
     "ratingLabel": "Rating & reviews",
-    "ratingText": "The Google Maps rating (4.3) and review count (5,505) for Bhubing Palace are taken from Google Maps and may change over time.",
+    "ratingText": "The Google Maps rating (4.3) and review count (5,515) for Bhubing Palace are taken from Google Maps and may change over time.",
     "ratingLinkLabel": "View on Google Maps",
     "retrievedLabel": "Retrieved",
     "retrievedValue": "September 2026",
@@ -1784,22 +1784,22 @@
             "text": "Head up Highway 1004 and stay ahead of commuter and coach traffic."
           },
           {
-            "time": "07:30",
+            "time": "08:30",
             "title": "Arrive at the grounds",
             "text": "Go straight onto the main walkway at opening; start with the rose garden and highland flowers."
           },
           {
-            "time": "08:30",
+            "time": "09:15",
             "title": "Aquatic plant area",
             "text": "Ponds and fern beds — light and footfall are at their friendliest now."
           },
           {
-            "time": "09:15",
+            "time": "10:00",
             "title": "Viewing terrace",
             "text": "Look over the valley mist and the city, then rest a while."
           },
           {
-            "time": "10:00",
+            "time": "10:45",
             "title": "Descend to Doi Suthep",
             "text": "About 4 km down to Wat Phra That Doi Suthep, closing the half-day loop."
           }
@@ -1822,7 +1822,7 @@
             "text": "An early start dodges both the heat and the coach groups."
           },
           {
-            "time": "07:15",
+            "time": "08:30",
             "title": "Hilltop grounds · first half",
             "text": "Work through rose garden → aquatic area → fern and moss beds."
           },

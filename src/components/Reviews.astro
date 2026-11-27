@@ -3,6 +3,7 @@ import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const r = messages.reviews;
 const h = messages.hero;
+const ratingValue = String(h.rating).match(/^\d+(?:\.\d+)?/)?.[0] ?? '4.3';
 ---
 
 <section id="reviews" class="section-padding" style="background: var(--bg-primary);">
@@ -11,9 +12,9 @@ const h = messages.hero;
     <p class="text-center text-base mb-8" style="color: var(--text-secondary);">{r.declaration}</p>
 
     <div class="rounded-2xl p-8 border text-center max-w-xl mx-auto" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
-      <div class="text-4xl font-bold mb-1" style="color: var(--accent);">{h.rating}</div>
+      <div class="text-4xl font-bold mb-1" style="color: var(--accent);">{ratingValue}</div>
       <div class="text-base" style="color: var(--text-secondary);">{h.reviewCount}</div>
-      <div class="flex justify-center gap-0.5 text-2xl my-3" style="color: var(--accent);" aria-label="5 out of 5">★★★★★</div>
+      <div class="flex justify-center gap-0.5 text-2xl my-3" style="color: var(--accent);" aria-label={`${ratingValue} out of 5`}>★★★★★</div>
       <a
         href={r.mapsUrl}
         target="_blank"

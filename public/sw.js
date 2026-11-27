@@ -4,7 +4,7 @@
    - same-origin static assets: cache-first with background revalidation
    - cross-origin requests (e.g. weather, maps embeds): passthrough
 */
-const CACHE = 'bhubing-palace-v1';
+const CACHE = 'bhubing-palace-v2';
 const PRECACHE_URLS = [
   '/manifest.webmanifest',
   '/icons/icon-192.png',
@@ -26,7 +26,7 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))))
+      .then((keys) => Promise.all(keys.filter((key) => key.startsWith('bhubing-palace-') && key !== CACHE).map((key) => caches.delete(key))))
       .then(() => self.clients.claim())
   );
 });
@@ -44,11 +44,13 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       fetch(request)
         .then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE).then((cache) => cache.put(request, copy));
+          if (response.ok) {
+            const copy = response.clone();
+            return caches.open(CACHE).then((cache) => cache.put(request, copy)).then(() => response, () => response);
+          }
           return response;
         })
-        .catch(() => caches.match(request).then((cached) => cached || caches.match('/en/')))
+        .catch(() => caches.match(request).then((cached) => cached || Response.error()))
     );
     return;
   }

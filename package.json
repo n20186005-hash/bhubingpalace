@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "check": "astro check",
     "deploy": "astro build && wrangler deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "test:sw": "node scripts/test-service-worker.cjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.13",

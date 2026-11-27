@@ -1324,23 +1324,23 @@
     "events": [
       {
         "year": "1961",
-        "title": "Foundation",
-        "desc": "King Bhumibol Adulyadej (Rama IX) ordered the construction of a winter retreat on Doi Suthep."
+        "title": "Construction",
+        "desc": "King Bhumibol Adulyadej commissioned the residence for royal visits to Chiang Mai."
       },
       {
         "year": "1962",
-        "title": "First State Guests",
-        "desc": "Hosted King Frederick IX and Queen Ingrid of Denmark, beginning its role as a state guesthouse."
+        "title": "Royal guests",
+        "desc": "The residence received King Frederik IX and Queen Ingrid of Denmark."
       },
       {
-        "year": "1990s",
-        "title": "Suan Suwaree Rose Garden",
-        "desc": "Queen Sirikit led the introduction of hundreds of rare roses, creating the magnificent garden seen today."
+        "year": "2023",
+        "title": "Renovation closure",
+        "desc": "The Bureau of the Royal Household announced closure for renovation from 24 March 2023."
       },
       {
-        "year": "Present",
-        "title": "Botanical Conservation",
-        "desc": "Open to the public as a highland botanical treasure when the Royal Family is not in residence."
+        "year": "2025",
+        "title": "Reopening",
+        "desc": "The Bureau announced public reopening from 15 January 2025 for exterior areas. Check current notices before visiting."
       }
     ]
   },
@@ -1362,7 +1362,7 @@
     ],
     "mapsLabel": "Open in Google Maps",
     "locationTitle": "Location & How to Visit Bhubing Palace in Chiang Mai",
-    "locationText": "Bhubing Palace stands at 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand (Plus Code RW42+45), roughly 1,300 m above sea level on Doi Suthep mountain and about 4 km uphill from Wat Phra That Doi Suthep. From central Chiang Mai it is a 30–40 minute drive along Highway 1004 (Huay Kaew Road) by songthaew, car or taxi. Tickets are sold until 15:30, and the palace normally closes to visitors during royal residences, usually from January to March.",
+    "locationText": "Bhubing Palace is on Doi Buak Ha in Suthep, Mueang Chiang Mai. Suthep Municipality places it about 4 km by road beyond Wat Phra That Doi Suthep. Take a vehicle up the mountain, and check public opening and closures before travelling.",
     "landmarksTitle": "Landmarks & Attractions Around Bhubing Palace",
     "landmarksIntro": "When visiting Bhubing Palace, travelers can easily explore the surrounding historical landmarks and points of interest, including Wat Phra That Doi Suthep and Doi Pui Hmong Village.",
     "landmarks": [
@@ -1384,7 +1384,7 @@
       }
     ],
     "historyTitle": "History & Significance of Bhubing Palace",
-    "historyText": "Bhubing Palace was built in 1961 by order of King Bhumibol Adulyadej (Rama IX) as a winter residence for the Thai royal family and a guesthouse for visiting heads of state. Named after Phu Ping, the traditional guardian spirit of the mountain, it is celebrated for its Lanna-style 'Ruen Mu' wooden pavilions and the Suwaree Rose Garden. It remains an active royal residence that opens to the public whenever the royal family is not in residence.",
+    "historyText": "King Bhumibol Adulyadej commissioned the residence in 1961 for royal stays in Chiang Mai and the reception of guests. The royal grounds include buildings and landscaped gardens; access to some areas is restricted.",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
   "sources": {

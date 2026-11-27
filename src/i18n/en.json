@@ -194,12 +194,12 @@
       {
         "badge": "🔇",
         "title": "Quiet & avoid peak times",
-        "text": "The palace is a place of practice and exploreer. Lower your voice and don't play music aloud. Leave space for the fountain, the birdsong, and those who pause here."
+        "text": "Keep voices low and follow staff instructions in the royal grounds."
       },
       {
         "badge": "🪞",
         "title": "Platform manners",
-        "text": "Thai royal buildings have extremely strict dress codes. If your attire is non-compliant, you must rent clothing at the entrance.",
+        "text": "Wear a sleeved top and long trousers or a skirt covering the knees. Check current rules and clothing availability before travelling.",
         "visualEtiquette": {
           "allowedTitle": "Allowed",
           "prohibitedTitle": "Strictly Prohibited",
@@ -219,12 +219,12 @@
       {
         "badge": "🚮",
         "title": "Take your trash with you",
-        "text": "Bins on the platform are limited. Bring a small trash bag and take everything with you when you leave — cigarette butts, plastics, and food scraps — keeping the palace and surroundings clean."
+        "text": "Take your litter away and use any bins provided."
       },
       {
         "badge": "🌱",
-        "title": "Protect heritage & urban environment",
-        "text": "Bhubing Palace and the surrounding colonial buildings are public urban heritage. Don't carve or step on them, and don't throw things onto the platform, keeping this city heart safe and alive."
+        "title": "Protect the grounds",
+        "text": "Stay on visitor paths, respect restricted areas and do not damage buildings or plants."
       }
     ]
   },
@@ -301,197 +301,65 @@
   },
   "transportSection": {
     "title": "Transport & Arrival Guide",
-    "subtitle": "Consolidating arrival in Chiang Mai, in-city transfers, walking, parking, and nearby links for a clearer Bhubing Palace plan.",
-    "overviewTitle": "After arriving in Chiang Mai",
-    "overviewText": "Bhubing Palace is on the slopes of Doi Suthep, northwest of Chiang Mai — a royal winter residence, not a city-center monument. The easiest public transit is to fly to Chiang Mai International Airport (CNX), then take a taxi or Grab about 30–45 minutes up the mountain to Doi Suthep. From the base of Doi Suthep it is a short drive up the winding road to the palace; from the drop-off you walk in to the entrance.",
-    "overviewText2": "Parking at the palace is limited, especially on weekends and during the cool (Nov–Feb) season. Plan to arrive early, or take a round-trip songthaew (red truck) up Doi Suthep and avoid driving up the mountain yourself.",
-    "arrivalTitle": "Remember before departure",
+    "subtitle": "Plan the mountain journey from Chiang Mai, including a return ride.",
+    "overviewTitle": "Reaching Doi Buak Ha",
+    "overviewText": "Bhubing Palace lies on Doi Buak Ha in the Doi Suthep mountains, about 4 km beyond Wat Phra That Doi Suthep by road. Take a vehicle up the winding mountain road; the palace is not a short walk from Chiang Mai University or the city centre.",
+    "overviewText2": "A taxi, hired car or red songthaew can take you uphill. Agree on the destination, fare and return arrangements before departing; service and availability may vary.",
+    "arrivalTitle": "Before you leave",
     "arrivalItems": [
-      "The palace is on Doi Suthep, about a 30–45 min drive from central Chiang Mai — allow extra time in the cool season.",
-      "Admission applies to all visitors (Thai nationals 20 THB, children 10 THB, foreigners 50 THB). The grounds close at 16:30, so plan a daytime visit.",
-      "Doi Suthep is crowded on weekends and holidays; arrive early. On-site parking is limited."
+      "Check whether the grounds are open on your intended day, including any royal closure.",
+      "Allow time for the mountain road, ticketing and the return journey.",
+      "Wear suitable clothing and shoes for sloping garden paths."
     ],
     "modes": [
       {
-        "label": "Flight + taxi (to Chiang Mai)",
-        "icon": "✈️",
-        "title": "Public transit to Chiang Mai",
-        "description": "Easiest for most travelers: fly to Chiang Mai International Airport (CNX), then taxi or Grab into Doi Suthep — the classic route to Bhubing Palace.",
-        "details": [
-          "Taxi/Grab from airport to Doi Suthep about 30–45 min (by traffic).",
-          "After arrival, walk or taxi to Bhubing Palace about 5–15 min.",
-          "Use Grab or similar local apps for transparent pricing and easy communication."
-        ],
-        "steps": [
-          {
-            "n": "1",
-            "t": "Fly to Chiang Mai International Airport (CNX)."
-          },
-          {
-            "n": "2",
-            "t": "Take a taxi or Grab to Doi Suthep."
-          },
-          {
-            "n": "3",
-            "t": "Walk to the Bhubing Palace platform."
-          }
-        ]
-      },
-      {
-        "label": "Taxi / Grab (to palace)",
+        "label": "Taxi or hired car",
         "icon": "🚕",
-        "title": "In-city to the palace",
-        "description": "Flexible and convenient; set the destination to 'Bhubing Palace' — drivers know this city coordinate, easy from any Doi Suthep hotel.",
+        "title": "Direct from Chiang Mai",
+        "description": "Set Bhubing Palace as the destination and agree on pickup, fare and return arrangements before the trip.",
         "details": [
-          "Taxi from Doi Suthep hotels to Bhubing Palace about 5–20 min.",
-          "Grab pricing is transparent; use a map app for real-time view.",
-          "Doi Suthep congests at peak; allow buffer time."
-        ],
-        "steps": [
-          {
-            "n": "1",
-            "t": "Call a car via Grab or similar."
-          },
-          {
-            "n": "2",
-            "t": "Tell the driver 'Bhubing Palace'."
-          },
-          {
-            "n": "3",
-            "t": "Get off at the junction, walk to the platform."
-          }
+          "The route follows the mountain road past Wat Phra That Doi Suthep.",
+          "Allow extra time for weather, traffic and stops.",
+          "Ask your driver about waiting or a return pickup."
         ]
       },
       {
-        "label": "Songthaew (Red Truck) up Doi Suthep",
-        "icon": "🚉",
-        "title": "The local shared ride",
-        "description": "From central Chiang Mai or the base of Doi Suthep, shared red songthaews run up the mountain. Ask to be dropped near Bhubing Palace, then it is a short walk to the entrance.",
+        "label": "Red songthaew",
+        "icon": "🚙",
+        "title": "Shared or chartered ride",
+        "description": "The Tourism Authority of Thailand describes red pickup services to Doi Suthep, Bhubing Palace and Doi Pui village.",
         "details": [
-          "Songthaews gather near the base of Doi Suthep and in central Chiang Mai.",
-          "Fares are per person; agree on the price before boarding.",
-          "Mornings and weekdays are less crowded."
-        ],
-        "steps": [
-          {
-            "n": "1",
-            "t": "Catch a red songthaew heading up Doi Suthep."
-          },
-          {
-            "n": "2",
-            "t": "Ask the driver to stop at Bhubing Palace."
-          },
-          {
-            "n": "3",
-            "t": "Walk from the drop-off to the entrance."
-          }
+          "Confirm that the driver will go beyond the temple to the palace.",
+          "Agree on the fare and whether the vehicle will wait or return for you.",
+          "Shared services may depend on passenger demand."
         ]
       },
       {
-        "label": "Driving (parking / mall)",
+        "label": "Self-drive",
         "icon": "🅿️",
-        "title": "Via Doi Suthep · nearby parking",
-        "description": "Good with seniors/children or lots of luggage; the mountain road to the palace is narrow with limited parking, so an early arrival helps.",
+        "title": "Mountain road",
+        "description": "Follow the road past the temple towards the palace. Expect bends and changes in visibility, especially in rain or mist.",
         "details": [
-          "Set navigation to 'Bhubing Palace' or 'Bhubing Palace Road, Chiang Mai'.",
-          "On-site parking is limited and fills early; roadside stopping is restricted.",
-          "Doi Suthep is busy; drive slowly and park properly."
-        ],
-        "steps": [
-          {
-            "n": "1",
-            "t": "Navigate to 'Bhubing Palace'."
-          },
-          {
-            "n": "2",
-            "t": "Park at a nearby mall, then walk in."
-          },
-          {
-            "n": "3",
-            "t": "Avoid the 11:00–19:00 peak to save parking time."
-          }
-        ]
-      },
-      {
-        "label": "Walk (Doi Suthep streets)",
-        "icon": "🚶",
-        "title": "From park to palace",
-        "description": "If you're already at Suan Suwaree or Doi Suthep streets, walking is the most natural way to observe the city and palace.",
-        "details": [
-          "About a 5–15 min walk from the park or City Hall to the platform.",
-          "The palace road winds through the forest of Doi Suthep; from the entrance it is a short walk to the gardens.",
-          "Flat paths; wear comfortable shoes and watch children and belongings."
+          "Use the palace map link for the destination.",
+          "Follow signs and staff directions for parking; check availability on arrival.",
+          "Do not stop on bends or block the road."
         ]
       }
     ],
-    "parking": {
-      "title": "Parking & Nearby Overview",
-      "note": "Bhubing Palace is in the city core with no dedicated large lot. Below are the main options; rates and availability vary by time — please follow on-site signs.",
-      "colOption": "Parking option",
-      "colDistance": "Distance",
-      "colPrice": "Price",
-      "options": [
-        {
-          "name": "Palace on-site parking",
-          "distance": "at the entrance",
-          "price": "Limited; included with admission"
-        },
-        {
-          "name": "Nearby hotel/office parking",
-          "distance": "about 200–600 m",
-          "price": "Public / commercial, more spaces but tight at peak"
-        },
-        {
-          "name": "Roadside temporary",
-          "distance": "about 50–200 m",
-          "price": "Short stop only, restricted and congested"
-        },
-        {
-          "name": "Base of Doi Suthep parking",
-          "distance": "about 5–10 km (then songthaew up)",
-          "price": "Public lots, then ride up"
-        }
-      ],
-      "disclaimer": "Roads near the palace congest on holidays and clear days; don't occupy bus or fire lanes for long. EV chargers are scarce near the palace — plan ahead."
-    },
+    "parking": null,
     "driverFaqTitle": "Transport FAQ",
-    "driverFaq": [
-      {
-        "q": "Is there parking near Bhubing Palace?",
-        "a": "There is limited parking near the palace entrance. It is highly recommended to take a Rod Daeng (Red Truck) to avoid mountain parking issues."
-      },
-      {
-        "q": "What is the nearest parking?",
-        "a": "On-site parking is limited and fills early. The base of Doi Suthep has larger public lots, then take a songthaew up the mountain."
-      },
-      {
-        "q": "Is there roadside parking nearby?",
-        "a": "Little. Roads are narrow and congested; don't park roadside long — use proper parking."
-      },
-      {
-        "q": "Is driving recommended?",
-        "a": "Unless parking is essential, no. Doi Suthep congests; a songthaew or ride-hailing is smoother. If driving, use the on-site lot or park at the base and ride up."
-      },
-      {
-        "q": "Do you recommend public transport?",
-        "a": "Strongly. After flying to Chiang Mai, take a taxi/Grab to Doi Suthep, then walk or short ride about 5–15 min to the platform. Address: Bhubing Palace Road × Sriwichai Road, Chiang Mai 11141, Thailand."
-      },
-      {
-        "q": "What is the best route?",
-        "a": "For stability and ease, ride-hailing (Grab) remains optimal; once Doi Suthep, walk or short transfer. If driving is unavoidable, treat parking and transfer as part of the trip."
-      }
-    ],
+    "driverFaq": [],
     "localTipsTitle": "Practical visiting tips",
     "localTips": [
-      "Mornings and dusk remain golden; set arrival about 60 minutes before sunset for the best light on the elegant spire and colonial buildings.",
-      "Weekends and clear days draw crowds; with kids or gear, allow buffer and avoid peaks.",
-      "Best pair Bhubing Palace with Suan Suwaree, Chiang Mai City Hall, and Bogyoke Market; a single stop underestimates its urban value."
+      "The palace is approximately 4 km by road beyond Wat Phra That Doi Suthep, according to Suthep Municipality.",
+      "Arrange the return journey before going uphill; do not assume a vehicle will be waiting at the gate.",
+      "Check the day’s opening and closure announcements before departure."
     ],
     "mapsCta": "View map & route",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9",
     "bestTime": {
-      "title": "Best time to arrive",
-      "text": "Bhubing Palace is reachable by day, but what truly sets the photo ceiling is the dawn city waking and the dusk light window. Arrive about 60 minutes before sunset; if weather isn't good for photos, shift focus to platform exploreer or a surrounding street stroll."
+      "title": "Plan a daytime visit",
+      "text": "The gardens have limited visiting hours and may close for royal activities. Check the latest notice and allow time before the ticket office closes."
     }
   },
   "officialManagement": {
@@ -629,7 +497,7 @@
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "From the elegant spire and Thai-style architecture to Suan Suwaree and the colonial buildings — see the visual beauty of Bhubing Palace.",
+    "subtitle": "Explore the palace grounds and gardens in photographs.",
     "photoAlt": "Bhubing Palace (Chiang Mai, Thailand)",
     "photoAlts": [
       "Panorama of Bhubing Palace, elegant spire and Doi Suthep in one frame.",
@@ -866,7 +734,7 @@
           },
           {
             "q": "Are wheelchairs or strollers allowed?",
-            "a": "Bhubing Palace has a flat platform; wheelchairs and strollers can reach most areas via the main path. But the Doi Suthep junction is busy — stay on the platform with company."
+            "a": "The grounds include slopes and steps. Check access and current assistance directly with the venue before planning a wheelchair or stroller visit."
           },
           {
             "q": "Are there restrooms or food inside?",
@@ -874,7 +742,7 @@
           },
           {
             "q": "Is there exchange or an ATM nearby?",
-            "a": "The palace is located high on Doi Suthep mountain. There are NO ATMs or exchange counters nearby. Please prepare sufficient Thai Baht cash in Chiang Mai city before heading up."
+            "a": "Arrange cash or payment needs in Chiang Mai before travelling uphill; services at the palace may change."
           }
         ]
       },
@@ -924,7 +792,7 @@
         "items": [
           {
             "q": "What else is worth visiting nearby?",
-            "a": "From Bhubing Palace you can link Suan Suwaree, Chiang Mai City Hall, the Wat Phra That Doi Suthep, and Bogyoke Aung San Market, even extending to Wat Phra That Doi Suthep 3 km away, into a half-day 'palace—park—city' cultural route."
+            "a": "Wat Phra That Doi Suthep lies about 4 km down the mountain road. Doi Pui village is another possible stop; confirm access and transport before setting out."
           },
           {
             "q": "How do I combine Bhubing Palace with the Monk's Trail hike?",
@@ -1216,54 +1084,39 @@
   },
   "lodging": {
     "title": "Lodging Guide: Stay Close, or Stay Convenient",
-    "subtitle": "Chiang Mai is a city where 'river, lake, and colonial town' coexist. We don't recommend specific hotels but help you parse two lodging patterns to choose what fits.",
-    "scenarioTitle": "Two choices, how to choose",
+    "subtitle": "Choose a Chiang Mai base that suits the rest of your trip, then plan a vehicle for the mountain journey.",
+    "scenarioTitle": "Where to base yourself",
     "options": [
       {
-        "icon": "🛕",
-        "name": "Doi Suthep (next to palace)",
-        "role": "Closest to palace & city",
-        "highlight": "Staying Doi Suthep puts you a short distance from Bhubing Palace, the elegant spire at dawn ideal for travelers focused on 'city stroll + palace' with high convenience needs.",
-        "commute": "Commute: to the platform about 5–15 min walk. Walking easy, good for dawn Doi Suthep.",
+        "icon": "🏙️",
+        "name": "Old City",
+        "role": "Temples and city exploring",
+        "highlight": "A central base for walking between historic temples, restaurants and the old city gates. Arrange a car or songthaew to reach the palace.",
+        "commute": "Allow for the uphill road and confirm your return transport.",
         "points": [
-          "To palace 5–15 min walk, most convenient.",
-          "City, snacks, and shrines extremely rich.",
-          "More choices, usually better value."
+          "Useful for a wider Chiang Mai itinerary.",
+          "Check the pickup point and fare with your driver."
         ]
       },
       {
         "icon": "☕",
-        "name": "Bogyoke / City Hall area",
-        "role": "Best for food & hub",
-        "highlight": "Staying in the Bogyoke / City Hall area puts markets, restaurants, and cafe streets at your door — ideal for 'Doi Suthep + transfer' travelers who head to Bhubing Palace by day.",
-        "commute": "Commute: walk about 5–15 minutes. Good for self-drivers or independent travelers wanting absolute convenience.",
+        "name": "Nimman / Huay Kaew",
+        "role": "West of the Old City",
+        "highlight": "A base near cafes and the western approach to Doi Suthep, with vehicle access to the mountain road.",
+        "commute": "The palace is on the mountain, not a short city walk.",
         "points": [
-          "Markets and cafes at hand, good for transfers.",
-          "Food, cafes, night markets extremely rich.",
-          "To Bhubing Palace by walk or short ride about 5–15 minutes."
-        ]
-      },
-      {
-        "icon": "🌉",
-        "name": "Chiang Mai River / port area",
-        "role": "Best for Wat Phra That Doi Suthep link",
-        "highlight": "One of Chiang Mai's commercial and passenger hubs. If your trip is not limited to Bhubing Palace and you plan to visit Wat Phra That Doi Suthep, staying here as a transfer is most efficient.",
-        "commute": "Commute: about 15–25 minutes to Bhubing Palace. Good for transfers.",
-        "points": [
-          "Transport hub at hand, good for transfers.",
-          "River and colonial heritage experience.",
-          "To Bhubing Palace by taxi about 15–25 minutes."
+          "Compare the exact hotel location and transport options.",
+          "Allow extra time in rain, mist or heavy traffic."
         ]
       }
     ],
     "peakTitle": "Peak-season warning",
-    "peak": "Chiang Mai's cool season (Nov–Feb) and holidays tighten rooms and raise prices as tourists flood in. Book weeks ahead; if booking near holidays, expand the range to surrounding areas, then travel by taxi or car.",
+    "peak": "During holidays and the cooler travel season, compare availability and cancellation terms before booking.",
     "tipsTitle": "Lodging tips",
     "tips": [
-      "For dawn palace shots: prefer Doi Suthep, walk to the platform at dawn.",
-      "For convenience and food: choose Bogyoke / City Hall, walk and dine at hand.",
-      "Before booking, confirm breakfast, pool, and shuttle (key for self-drivers).",
-      "Peak seasons and holidays need advance planning to avoid no rooms or high prices."
+      "Check the property’s actual address and pickup access.",
+      "Confirm whether your driver will wait or return for you.",
+      "Check the palace opening and any royal closures before booking a day trip."
     ]
   },
   "downloads": {
@@ -1333,23 +1186,23 @@
     "events": [
       {
         "year": "1961",
-        "title": "Foundation",
-        "desc": "King Bhumibol Adulyadej (Rama IX) ordered the construction of a winter retreat on Doi Suthep."
+        "title": "Construction",
+        "desc": "King Bhumibol Adulyadej commissioned the residence for royal visits to Chiang Mai."
       },
       {
         "year": "1962",
-        "title": "First State Guests",
-        "desc": "Hosted King Frederick IX and Queen Ingrid of Denmark, beginning its role as a state guesthouse."
+        "title": "Royal guests",
+        "desc": "The residence received King Frederik IX and Queen Ingrid of Denmark."
       },
       {
-        "year": "1990s",
-        "title": "Suan Suwaree Rose Garden",
-        "desc": "Queen Sirikit led the introduction of hundreds of rare roses, creating the magnificent garden seen today."
+        "year": "2023",
+        "title": "Renovation closure",
+        "desc": "The Bureau of the Royal Household announced closure for renovation from 24 March 2023."
       },
       {
-        "year": "Present",
-        "title": "Botanical Conservation",
-        "desc": "Open to the public as a highland botanical treasure when the Royal Family is not in residence."
+        "year": "2025",
+        "title": "Reopening",
+        "desc": "The Bureau announced public reopening from 15 January 2025 for exterior areas. Check current notices before visiting."
       }
     ]
   },
@@ -1371,7 +1224,7 @@
     ],
     "mapsLabel": "Open in Google Maps",
     "locationTitle": "Location & How to Visit Bhubing Palace in Chiang Mai",
-    "locationText": "Bhubing Palace stands at 1 Moo 12 Sriwichai Alley, Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand (Plus Code RW42+45), roughly 1,300 m above sea level on Doi Suthep mountain and about 4 km uphill from Wat Phra That Doi Suthep. From central Chiang Mai it is a 30–40 minute drive along Highway 1004 (Huay Kaew Road) by songthaew, car or taxi. Tickets are sold until 15:30, and the palace normally closes to visitors during royal residences, usually from January to March.",
+    "locationText": "Bhubing Palace is on Doi Buak Ha in Suthep, Mueang Chiang Mai. Suthep Municipality places it about 4 km by road beyond Wat Phra That Doi Suthep. Take a vehicle up the mountain, and check public opening and closures before travelling.",
     "landmarksTitle": "Landmarks & Attractions Around Bhubing Palace",
     "landmarksIntro": "When visiting Bhubing Palace, travelers can easily explore the surrounding historical landmarks and points of interest, including Wat Phra That Doi Suthep and Doi Pui Hmong Village.",
     "landmarks": [
@@ -1393,7 +1246,7 @@
       }
     ],
     "historyTitle": "History & Significance of Bhubing Palace",
-    "historyText": "Bhubing Palace was built in 1961 by order of King Bhumibol Adulyadej (Rama IX) as a winter residence for the Thai royal family and a guesthouse for visiting heads of state. Named after Phu Ping, the traditional guardian spirit of the mountain, it is celebrated for its Lanna-style 'Ruen Mu' wooden pavilions and the Suwaree Rose Garden. It remains an active royal residence that opens to the public whenever the royal family is not in residence.",
+    "historyText": "King Bhumibol Adulyadej commissioned the residence in 1961 for royal stays in Chiang Mai and the reception of guests. The royal grounds include buildings and landscaped gardens; access to some areas is restricted.",
     "mapsUrl": "https://maps.app.goo.gl/n4pFykP5ncS7gfcE9"
   },
   "sources": {
